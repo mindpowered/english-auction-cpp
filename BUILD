@@ -24,6 +24,6 @@ cc_import(
 genrule(
   name = 'make_libenglishauction_a',
   outs = ["libenglishauction.a"],
-  cmd = "export HOME=/root && haxelib setup /root/haxelib && (cd $$(dirname $(location Build.xml)); haxelib run hxcpp Build.xml) && mv $$(dirname $(location Build.xml))/liboutput.a $@ && $(location strip.sh) $@",
+  cmd = "export HOME=/root && haxelib setup /root/haxelib && (cd $$(dirname $(location Build.xml)); haxelib run hxcpp Build.xml) && mv $$(dirname $(location Build.xml))/liboutput.a $@ && chmod u+x $(location strip.sh) && $(location strip.sh) $@",
   tools = glob(["*.xml", "*.txt", "*.h", "src/**", "include/**", "strip.sh"]),
 )

@@ -42,7 +42,12 @@
    <file name="${HXCPP}/src/hx/NoFiles.cpp" unless="HXCPP_DEBUGGER" />
   <file name="src/__resources__.cpp">
   </file>
-</files>
+<file name="src/__boot_englishauction.cpp">
+   <depend name="include/haxe/StackItem.h" />
+   <depend name="include/ValueType.h" />
+   <depend name="include/englishauction/EnglishAuction.h" />
+  </file>
+  </files>
 <files id="__lib__">
 <compilerflag value="-Iinclude" />
   <file name="src/__lib__.cpp">
