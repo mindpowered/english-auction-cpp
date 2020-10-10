@@ -5,12 +5,29 @@
 #define INCLUDED_16d41c6fc5b8bf5d
 #include "maglev/MagLev.h"
 #endif
+#ifndef INCLUDED_Date
+#include <Date.h>
+#endif
+#ifndef INCLUDED_Std
+#include <Std.h>
+#endif
 #ifndef INCLUDED_englishauction_EnglishAuction
 #include <englishauction/EnglishAuction.h>
 #endif
+#ifndef INCLUDED_haxe_IMap
+#include <haxe/IMap.h>
+#endif
+#ifndef INCLUDED_haxe_ds_StringMap
+#include <haxe/ds/StringMap.h>
+#endif
 
 HX_DEFINE_STACK_FRAME(_hx_pos_f704f8914f7b4676_14_new,"englishauction.EnglishAuction","new",0x16125e00,"englishauction.EnglishAuction.new","englishauction/EnglishAuction.hx",14,0xd6cb504f)
-HX_LOCAL_STACK_FRAME(_hx_pos_f704f8914f7b4676_20_registerMyMethods,"englishauction.EnglishAuction","registerMyMethods",0xd389d723,"englishauction.EnglishAuction.registerMyMethods","englishauction/EnglishAuction.hx",20,0xd6cb504f)
+HX_LOCAL_STACK_FRAME(_hx_pos_f704f8914f7b4676_21_registerMyMethods,"englishauction.EnglishAuction","registerMyMethods",0xd389d723,"englishauction.EnglishAuction.registerMyMethods","englishauction/EnglishAuction.hx",21,0xd6cb504f)
+HX_LOCAL_STACK_FRAME(_hx_pos_f704f8914f7b4676_25_registerMyMethods,"englishauction.EnglishAuction","registerMyMethods",0xd389d723,"englishauction.EnglishAuction.registerMyMethods","englishauction/EnglishAuction.hx",25,0xd6cb504f)
+HX_LOCAL_STACK_FRAME(_hx_pos_f704f8914f7b4676_36_registerMyMethods,"englishauction.EnglishAuction","registerMyMethods",0xd389d723,"englishauction.EnglishAuction.registerMyMethods","englishauction/EnglishAuction.hx",36,0xd6cb504f)
+HX_LOCAL_STACK_FRAME(_hx_pos_f704f8914f7b4676_47_registerMyMethods,"englishauction.EnglishAuction","registerMyMethods",0xd389d723,"englishauction.EnglishAuction.registerMyMethods","englishauction/EnglishAuction.hx",47,0xd6cb504f)
+HX_LOCAL_STACK_FRAME(_hx_pos_f704f8914f7b4676_59_registerMyMethods,"englishauction.EnglishAuction","registerMyMethods",0xd389d723,"englishauction.EnglishAuction.registerMyMethods","englishauction/EnglishAuction.hx",59,0xd6cb504f)
+HX_LOCAL_STACK_FRAME(_hx_pos_f704f8914f7b4676_19_registerMyMethods,"englishauction.EnglishAuction","registerMyMethods",0xd389d723,"englishauction.EnglishAuction.registerMyMethods","englishauction/EnglishAuction.hx",19,0xd6cb504f)
 HX_LOCAL_STACK_FRAME(_hx_pos_f704f8914f7b4676_11_boot,"englishauction.EnglishAuction","boot",0x3218e292,"englishauction.EnglishAuction.boot","englishauction/EnglishAuction.hx",11,0xd6cb504f)
 namespace englishauction{
 
@@ -38,14 +55,85 @@ bool EnglishAuction_obj::_hx_isInstanceOf(int inClassId) {
 void EnglishAuction_obj::registerMyMethods(){
             		HX_BEGIN_LOCAL_FUNC_S0(::hx::LocalFunc,_hx_Closure_0) HXARGC(1)
             		 ::Dynamic _hx_run(::cpp::VirtualArray args){
-            			HX_STACKFRAME(&_hx_pos_f704f8914f7b4676_20_registerMyMethods)
-HXLINE(  21)			::String ret = HX_("idhere",4b,1d,96,d4);
-HXLINE(  22)			return ret;
+            			HX_STACKFRAME(&_hx_pos_f704f8914f7b4676_21_registerMyMethods)
+HXLINE(  22)			::String ret = HX_("idhere",4b,1d,96,d4);
+HXLINE(  23)			return ret;
             		}
             		HX_END_LOCAL_FUNC1(return)
 
-            	HX_STACKFRAME(&_hx_pos_f704f8914f7b4676_20_registerMyMethods)
-HXDLIN(  20)		this->maglev->_hx_register(HX_("EnglishAuction.Create",17,3d,e9,16), ::Dynamic(new _hx_Closure_0()));
+            		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_1, ::maglev::MagLev,bus) HXARGC(1)
+            		 ::Dynamic _hx_run(::cpp::VirtualArray args){
+            			HX_STACKFRAME(&_hx_pos_f704f8914f7b4676_25_registerMyMethods)
+HXLINE(  26)			::String id = ( (::String)(args->__get(0)) );
+HXLINE(  27)			 ::haxe::ds::StringMap auction = ( ( ::haxe::ds::StringMap)(bus->call(HX_("Persistence.Get",c7,c3,56,12),::cpp::VirtualArray_obj::__new(3)->init(0,HX_("Auction",23,9a,5c,a4))->init(1,HX_("FindById",8b,c2,68,6d))->init(2,::Array_obj< ::String >::__new(1)->init(0,id)))) );
+HXLINE(  28)			Float start = ( (Float)(0) );
+HXLINE(  29)			if (::Std_obj::isOfType(auction->get(HX_("start",62,74,0b,84)),( ( ::Dynamic)(::hx::ClassOf< ::String >()) ))) {
+HXLINE(  30)				start = ::Date_obj::fromString(( (::String)(auction->get(HX_("start",62,74,0b,84))) ))->getTime();
+            			}
+            			else {
+HXLINE(  32)				start = ( (Float)(auction->get(HX_("start",62,74,0b,84))) );
+            			}
+HXLINE(  34)			return start;
+            		}
+            		HX_END_LOCAL_FUNC1(return)
+
+            		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_2, ::maglev::MagLev,bus) HXARGC(1)
+            		 ::Dynamic _hx_run(::cpp::VirtualArray args){
+            			HX_STACKFRAME(&_hx_pos_f704f8914f7b4676_36_registerMyMethods)
+HXLINE(  37)			::String id = ( (::String)(args->__get(0)) );
+HXLINE(  38)			 ::haxe::ds::StringMap auction = ( ( ::haxe::ds::StringMap)(bus->call(HX_("Persistence.Get",c7,c3,56,12),::cpp::VirtualArray_obj::__new(3)->init(0,HX_("Auction",23,9a,5c,a4))->init(1,HX_("FindById",8b,c2,68,6d))->init(2,::Array_obj< ::String >::__new(1)->init(0,id)))) );
+HXLINE(  39)			Float end = ( (Float)(0) );
+HXLINE(  40)			if (::Std_obj::isOfType(auction->get(HX_("end",db,03,4d,00)),( ( ::Dynamic)(::hx::ClassOf< ::String >()) ))) {
+HXLINE(  41)				end = ::Date_obj::fromString(( (::String)(auction->get(HX_("end",db,03,4d,00))) ))->getTime();
+            			}
+            			else {
+HXLINE(  43)				end = ( (Float)(auction->get(HX_("end",db,03,4d,00))) );
+            			}
+HXLINE(  45)			return end;
+            		}
+            		HX_END_LOCAL_FUNC1(return)
+
+            		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_3, ::maglev::MagLev,bus) HXARGC(1)
+            		 ::Dynamic _hx_run(::cpp::VirtualArray args){
+            			HX_STACKFRAME(&_hx_pos_f704f8914f7b4676_47_registerMyMethods)
+HXLINE(  48)			::String id = ( (::String)(args->__get(0)) );
+HXLINE(  49)			 ::haxe::ds::StringMap auction = ( ( ::haxe::ds::StringMap)(bus->call(HX_("Persistence.Get",c7,c3,56,12),::cpp::VirtualArray_obj::__new(3)->init(0,HX_("Auction",23,9a,5c,a4))->init(1,HX_("FindById",8b,c2,68,6d))->init(2,::Array_obj< ::String >::__new(1)->init(0,id)))) );
+HXLINE(  50)			Float start = ( (Float)(0) );
+HXLINE(  51)			if (::Std_obj::isOfType(auction->get(HX_("start",62,74,0b,84)),( ( ::Dynamic)(::hx::ClassOf< ::String >()) ))) {
+HXLINE(  52)				start = ::Date_obj::fromString(( (::String)(auction->get(HX_("start",62,74,0b,84))) ))->getTime();
+            			}
+            			else {
+HXLINE(  54)				start = ( (Float)(auction->get(HX_("start",62,74,0b,84))) );
+            			}
+HXLINE(  56)			Float now = ::Date_obj::now()->getTime();
+HXLINE(  57)			return (start <= now);
+            		}
+            		HX_END_LOCAL_FUNC1(return)
+
+            		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_4, ::maglev::MagLev,bus) HXARGC(1)
+            		 ::Dynamic _hx_run(::cpp::VirtualArray args){
+            			HX_STACKFRAME(&_hx_pos_f704f8914f7b4676_59_registerMyMethods)
+HXLINE(  60)			::String id = ( (::String)(args->__get(0)) );
+HXLINE(  61)			 ::haxe::ds::StringMap auction = ( ( ::haxe::ds::StringMap)(bus->call(HX_("Persistence.Get",c7,c3,56,12),::cpp::VirtualArray_obj::__new(3)->init(0,HX_("Auction",23,9a,5c,a4))->init(1,HX_("FindById",8b,c2,68,6d))->init(2,::Array_obj< ::String >::__new(1)->init(0,id)))) );
+HXLINE(  62)			Float end = ( (Float)(0) );
+HXLINE(  63)			if (::Std_obj::isOfType(auction->get(HX_("end",db,03,4d,00)),( ( ::Dynamic)(::hx::ClassOf< ::String >()) ))) {
+HXLINE(  64)				end = ::Date_obj::fromString(( (::String)(auction->get(HX_("end",db,03,4d,00))) ))->getTime();
+            			}
+            			else {
+HXLINE(  66)				end = ( (Float)(auction->get(HX_("end",db,03,4d,00))) );
+            			}
+HXLINE(  68)			Float now = ::Date_obj::now()->getTime();
+HXLINE(  69)			return (now > end);
+            		}
+            		HX_END_LOCAL_FUNC1(return)
+
+            	HX_STACKFRAME(&_hx_pos_f704f8914f7b4676_19_registerMyMethods)
+HXLINE(  20)		 ::maglev::MagLev bus = this->maglev;
+HXLINE(  21)		this->maglev->_hx_register(HX_("EnglishAuction.Create",17,3d,e9,16), ::Dynamic(new _hx_Closure_0()));
+HXLINE(  25)		this->maglev->_hx_register(HX_("EnglishAuction.GetStart",c7,56,72,49), ::Dynamic(new _hx_Closure_1(bus)));
+HXLINE(  36)		this->maglev->_hx_register(HX_("EnglishAuction.GetEnd",00,13,f6,3d), ::Dynamic(new _hx_Closure_2(bus)));
+HXLINE(  47)		this->maglev->_hx_register(HX_("EnglishAuction.HasStarted",a2,90,1d,87), ::Dynamic(new _hx_Closure_3(bus)));
+HXLINE(  59)		this->maglev->_hx_register(HX_("EnglishAuction.HasEnded",1b,66,62,62), ::Dynamic(new _hx_Closure_4(bus)));
             	}
 
 

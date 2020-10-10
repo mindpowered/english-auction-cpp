@@ -3,7 +3,11 @@
 <files id="haxe">
 <compilerflag value="-Iinclude" />
   <file name="src/englishauction/EnglishAuction.cpp">
+   <depend name="include/Date.h" />
+   <depend name="include/Std.h" />
    <depend name="include/englishauction/EnglishAuction.h" />
+   <depend name="include/haxe/IMap.h" />
+   <depend name="include/haxe/ds/StringMap.h" />
   </file>
   <file name="src/Type.cpp">
    <depend name="include/Reflect.h" />
@@ -31,6 +35,11 @@
   </file>
   <file name="src/_EnumValue/EnumValue_Impl_.cpp">
    <depend name="include/_EnumValue/EnumValue_Impl_.h" />
+  </file>
+  <file name="src/Date.cpp">
+   <depend name="include/Date.h" />
+   <depend name="include/Std.h" />
+   <depend name="include/haxe/Exception.h" />
   </file>
   <file name="src/__boot__.cpp">
    <depend name="include/haxe/StackItem.h" />

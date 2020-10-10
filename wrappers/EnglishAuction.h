@@ -24,9 +24,10 @@ public:
 	 * @param end end time of auction
 	 * @param startingPrice starting price of auction
 	 * @param reservePrice reserve price for the auction (0 = none)
+	 * @param priceIncrement price increments for bids in the auction
 	 * @return {string} auctionId
 	*/
-	std::string Create(std::string start, std::string end, double startingPrice, double reservePrice) {
+	std::string Create(std::string start, std::string end, double startingPrice, double reservePrice, double priceIncrement) {
 		::maglev::MagLevCpp bus = ::maglev::MagLevCpp::getInstance("default");
 		std::vector<::maglev::CppAny> myargs;
 		::maglev::CppAny param0;
@@ -39,83 +40,56 @@ public:
 		myargs.push_back(param2);
 		//????
 		myargs.push_back(param3);
+		//????
+		myargs.push_back(param4);
 		::maglev::CppAny ret = bus->call("EnglishAuction.Create", myargs);
 		return ret;
 	}
 
 	/*!
-	 * Bid in an auction
-	 * @param auctionId auction id to bid in
-	 * @param userId user id that's bidding
-	 * @param price bid price
-	 * @return {bool} true on success, false on failure
+	 * Get the start of an auction
+	 * Will return a timestamp in milliseconds
+	 * @param auctionId auction id
+	 * @return {number} start of auction
 	*/
-	bool Bid(std::string auctionId, std::string userId, double price) {
+	double GetStart(std::string auctionId) {
 		::maglev::MagLevCpp bus = ::maglev::MagLevCpp::getInstance("default");
 		std::vector<::maglev::CppAny> myargs;
 		::maglev::CppAny param0;
 		param0.setStdString(auctionId);
 		myargs.push_back(param0);
-		::maglev::CppAny param1;
-		param1.setStdString(userId);
-		myargs.push_back(param1);
-		//????
-		myargs.push_back(param2);
-		::maglev::CppAny ret = bus->call("EnglishAuction.Bid", myargs);
+		::maglev::CppAny ret = bus->call("EnglishAuction.GetStart", myargs);
 		return ret;
 	}
 
 	/*!
-	 * Automatically bid against others in an auction (up to the specified amount)
-	 * @param auctionId auction id to bid in
-	 * @param userId user id that's bidding
-	 * @param price bid price
-	 * @return {bool} true on success, false on failure
+	 * Check if auction has ended
+	 * @param auctionId auction id
+	 * @return {number} true if auction has ended, false otherwise
 	*/
-	bool AutoBid(std::string auctionId, std::string userId, double price) {
+	double GetEnd(std::string auctionId) {
 		::maglev::MagLevCpp bus = ::maglev::MagLevCpp::getInstance("default");
 		std::vector<::maglev::CppAny> myargs;
 		::maglev::CppAny param0;
 		param0.setStdString(auctionId);
 		myargs.push_back(param0);
-		::maglev::CppAny param1;
-		param1.setStdString(userId);
-		myargs.push_back(param1);
-		//????
-		myargs.push_back(param2);
-		::maglev::CppAny ret = bus->call("EnglishAuction.AutoBid", myargs);
+		::maglev::CppAny ret = bus->call("EnglishAuction.GetEnd", myargs);
 		return ret;
 	}
 
 	/*!
-	 * Force an auction to close and specify the winning bid.
-	 * @param auctionId auction id to bid in
-	 * @param userId user id that's bidding
-	 * @param price bid price
-	 * @return {bool} true on success, false on failure
+	 * Check if an auction has started yet
+	 * @param auctionId auction id
+	 * @return {number} true if auction started, false otherwise
 	*/
-	bool ForceClose(std::string auctionId, std::string userId, double price) {
+	double HasStarted(std::string auctionId) {
 		::maglev::MagLevCpp bus = ::maglev::MagLevCpp::getInstance("default");
 		std::vector<::maglev::CppAny> myargs;
 		::maglev::CppAny param0;
 		param0.setStdString(auctionId);
 		myargs.push_back(param0);
-		::maglev::CppAny param1;
-		param1.setStdString(userId);
-		myargs.push_back(param1);
-		//????
-		myargs.push_back(param2);
-		::maglev::CppAny ret = bus->call("EnglishAuction.ForceClose", myargs);
+		::maglev::CppAny ret = bus->call("EnglishAuction.HasStarted", myargs);
 		return ret;
-	}
-
-	/*!
-	 * TBD
-	*/
-	void Status() {
-		::maglev::MagLevCpp bus = ::maglev::MagLevCpp::getInstance("default");
-		std::vector<::maglev::CppAny> myargs;
-		bus->call("EnglishAuction.Status", args);
 	}
 
 };
