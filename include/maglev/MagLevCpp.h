@@ -19,8 +19,8 @@
 #include "hx/StdString.h"
 #endif
 HX_DECLARE_CLASS1(maglev,CppAny)
-HX_DECLARE_CLASS1(maglev,MagLev)
 HX_DECLARE_CLASS1(maglev,MagLevCpp)
+HX_DECLARE_CLASS1(maglev,MagLevOld)
 
 namespace maglev{
 
@@ -35,13 +35,13 @@ class HXCPP_CLASS_ATTRIBUTES MagLevCpp_obj : public ::hx::Object
 	public:
 		enum { _hx_ClassId = 0x7fdd21fb };
 
-		void __construct( ::maglev::MagLev maglev);
+		void __construct( ::maglev::MagLevOld maglev);
 		inline void *operator new(size_t inSize, bool inContainer=true,const char *inName="maglev.MagLevCpp")
 			{ return ::hx::Object::operator new(inSize,inContainer,inName); }
 		inline void *operator new(size_t inSize, int extra)
 			{ return ::hx::Object::operator new(inSize+extra,true,"maglev.MagLevCpp"); }
-		static ::hx::ObjectPtr< MagLevCpp_obj > __new( ::maglev::MagLev maglev);
-		static ::hx::ObjectPtr< MagLevCpp_obj > __alloc(::hx::Ctx *_hx_ctx, ::maglev::MagLev maglev);
+		static ::hx::ObjectPtr< MagLevCpp_obj > __new( ::maglev::MagLevOld maglev);
+		static ::hx::ObjectPtr< MagLevCpp_obj > __alloc(::hx::Ctx *_hx_ctx, ::maglev::MagLevOld maglev);
 		static void * _hx_vtable;
 		static Dynamic __CreateEmpty();
 		static Dynamic __Create(::hx::DynamicArray inArgs);
@@ -59,7 +59,7 @@ class HXCPP_CLASS_ATTRIBUTES MagLevCpp_obj : public ::hx::Object
 
 		static  ::maglev::MagLevCpp getInstance( hx::StdString cppKey);
 
-		 ::maglev::MagLev maglev;
+		 ::maglev::MagLevOld maglev;
 		void _hx_register( hx::StdString cppMethod, std::function<CppAny(std::vector<CppAny>)> cppCallback);
 
 		 ::maglev::CppAny call( hx::StdString cppMethod, std::vector<CppAny> cppArgs);

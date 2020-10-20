@@ -9,6 +9,10 @@
 HX_DECLARE_CLASS1(haxe,IMap)
 HX_DECLARE_CLASS2(haxe,ds,StringMap)
 HX_DECLARE_CLASS1(maglev,MagLev)
+HX_DECLARE_CLASS1(maglev,MagLevAny)
+HX_DECLARE_CLASS1(maglev,MagLevArray)
+HX_DECLARE_CLASS1(maglev,MagLevFunction)
+HX_DECLARE_CLASS1(maglev,MagLevResult)
 
 namespace maglev{
 
@@ -54,16 +58,16 @@ class HXCPP_CLASS_ATTRIBUTES MagLev_obj : public ::hx::Object
 
 		 ::haxe::ds::StringMap _methods;
 		 ::haxe::ds::StringMap _listeners;
-		void _hx_register(::String method, ::Dynamic callback);
+		void _hx_register(::String method, ::maglev::MagLevFunction callback);
 		::Dynamic _hx_register_dyn();
 
-		 ::Dynamic call(::String method,::cpp::VirtualArray args);
+		 ::maglev::MagLevResult call(::String method, ::maglev::MagLevArray args);
 		::Dynamic call_dyn();
 
-		void listen(::String event, ::Dynamic callback);
+		void listen(::String event, ::maglev::MagLevFunction callback);
 		::Dynamic listen_dyn();
 
-		void emit(::String event,::cpp::VirtualArray args);
+		void emit(::String event, ::maglev::MagLevArray args);
 		::Dynamic emit_dyn();
 
 };

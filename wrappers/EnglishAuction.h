@@ -65,9 +65,9 @@ public:
 	/*!
 	 * Check if auction has ended
 	 * @param auctionId auction id
-	 * @return {number} true if auction has ended, false otherwise
+	 * @return {bool} true if auction has ended, false otherwise
 	*/
-	double GetEnd(std::string auctionId) {
+	bool GetEnd(std::string auctionId) {
 		::maglev::MagLevCpp bus = ::maglev::MagLevCpp::getInstance("default");
 		std::vector<::maglev::CppAny> myargs;
 		::maglev::CppAny param0;
@@ -80,15 +80,83 @@ public:
 	/*!
 	 * Check if an auction has started yet
 	 * @param auctionId auction id
-	 * @return {number} true if auction started, false otherwise
+	 * @return {bool} true if auction started, false otherwise
 	*/
-	double HasStarted(std::string auctionId) {
+	bool HasStarted(std::string auctionId) {
 		::maglev::MagLevCpp bus = ::maglev::MagLevCpp::getInstance("default");
 		std::vector<::maglev::CppAny> myargs;
 		::maglev::CppAny param0;
 		param0.setStdString(auctionId);
 		myargs.push_back(param0);
 		::maglev::CppAny ret = bus->call("EnglishAuction.HasStarted", myargs);
+		return ret;
+	}
+
+	/*!
+	 * Create a bid in an auction
+	 * @param auctionId auction id
+	 * @param userId user id
+	 * @param price price bud
+	*/
+	void Bid(std::string auctionId, std::string userId, double price) {
+		::maglev::MagLevCpp bus = ::maglev::MagLevCpp::getInstance("default");
+		std::vector<::maglev::CppAny> myargs;
+		::maglev::CppAny param0;
+		param0.setStdString(auctionId);
+		myargs.push_back(param0);
+		::maglev::CppAny param1;
+		param1.setStdString(userId);
+		myargs.push_back(param1);
+		//????
+		myargs.push_back(param2);
+		bus->call("EnglishAuction.Bid", args);
+	}
+
+	/*!
+	 * Get the highest bidder in an auction
+	 * @param auctionId auction id
+	 * @return {mixed} 
+	*/
+	::maglev::CppAny GetHighestBidder(std::string auctionId) {
+		::maglev::MagLevCpp bus = ::maglev::MagLevCpp::getInstance("default");
+		std::vector<::maglev::CppAny> myargs;
+		::maglev::CppAny param0;
+		param0.setStdString(auctionId);
+		myargs.push_back(param0);
+		::maglev::CppAny ret = bus->call("EnglishAuction.GetHighestBidder", myargs);
+		return ret;
+	}
+
+	/*!
+	 * Get the highest bids in an auction
+	 * @param auctionId auction id
+	 * @param numBids max number of highest bids to return
+	 * @return {array} Highest bids for the specified auction
+	*/
+	std::vector<::maglev::CppAny> GetHighestBids(std::string auctionId, double numBids) {
+		::maglev::MagLevCpp bus = ::maglev::MagLevCpp::getInstance("default");
+		std::vector<::maglev::CppAny> myargs;
+		::maglev::CppAny param0;
+		param0.setStdString(auctionId);
+		myargs.push_back(param0);
+		//????
+		myargs.push_back(param1);
+		::maglev::CppAny ret = bus->call("EnglishAuction.GetHighestBids", myargs);
+		return ret;
+	}
+
+	/*!
+	 * Get the number of bids in an auction
+	 * @param auctionId auction id
+	 * @return {number} Number of bids placed in the specified auction
+	*/
+	double GetNumberOfBids(std::string auctionId) {
+		::maglev::MagLevCpp bus = ::maglev::MagLevCpp::getInstance("default");
+		std::vector<::maglev::CppAny> myargs;
+		::maglev::CppAny param0;
+		param0.setStdString(auctionId);
+		myargs.push_back(param0);
+		::maglev::CppAny ret = bus->call("EnglishAuction.GetNumberOfBids", myargs);
 		return ret;
 	}
 

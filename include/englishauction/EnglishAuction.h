@@ -10,6 +10,10 @@
 #define INCLUDED_16d41c6fc5b8bf5d
 #include "maglev/MagLev.h"
 #endif
+#ifndef INCLUDED_869a921fcf5bba54
+#define INCLUDED_869a921fcf5bba54
+#include "maglev/MagLevAny.h"
+#endif
 HX_DECLARE_CLASS1(englishauction,EnglishAuction)
 
 namespace englishauction{
@@ -52,6 +56,12 @@ class HXCPP_CLASS_ATTRIBUTES EnglishAuction_obj : public ::hx::Object
 		 ::maglev::MagLev maglev;
 		void registerMyMethods();
 		::Dynamic registerMyMethods_dyn();
+
+		 ::Dynamic convertToHaxe( ::maglev::MagLevAny x);
+		::Dynamic convertToHaxe_dyn();
+
+		 ::maglev::MagLevAny convertToMagLev( ::Dynamic x);
+		::Dynamic convertToMagLev_dyn();
 
 };
 

@@ -4,8 +4,10 @@
 <compilerflag value="-Iinclude" />
   <file name="src/englishauction/EnglishAuction.cpp">
    <depend name="include/Date.h" />
+   <depend name="include/Reflect.h" />
    <depend name="include/Std.h" />
    <depend name="include/englishauction/EnglishAuction.h" />
+   <depend name="include/haxe/Exception.h" />
    <depend name="include/haxe/IMap.h" />
    <depend name="include/haxe/ds/StringMap.h" />
   </file>
