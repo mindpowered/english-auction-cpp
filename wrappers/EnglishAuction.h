@@ -175,5 +175,68 @@ public:
 		return ret;
 	}
 
+	/*!
+	 * Get the reserve price for the specified auction
+	 * @param auctionId auction id
+	 * @return {number} Reserve price
+	*/
+	double GetReservePrice(std::string auctionId) {
+		::maglev::MagLevCpp bus = ::maglev::MagLevCpp::getInstance("default");
+		std::vector<::maglev::CppAny> myargs;
+		::maglev::CppAny param0;
+		param0.setStdString(auctionId);
+		myargs.push_back(param0);
+		::maglev::CppAny ret = bus->call("EnglishAuction.GetReservePrice", myargs);
+		return ret;
+	}
+
+	/*!
+	 * Get the starting price for the specified auction
+	 * @param auctionId auction id
+	 * @return {number} Starting price
+	*/
+	double GetStartingPrice(std::string auctionId) {
+		::maglev::MagLevCpp bus = ::maglev::MagLevCpp::getInstance("default");
+		std::vector<::maglev::CppAny> myargs;
+		::maglev::CppAny param0;
+		param0.setStdString(auctionId);
+		myargs.push_back(param0);
+		::maglev::CppAny ret = bus->call("EnglishAuction.GetStartingPrice", myargs);
+		return ret;
+	}
+
+	/*!
+	 * Get the time remaining for the specified auction
+	 * @param auctionId auction id
+	 * @param now current unix timestamp
+	 * @return {number} Time remaining in seconds
+	*/
+	double CalcTimeRemaining(std::string auctionId, double now) {
+		::maglev::MagLevCpp bus = ::maglev::MagLevCpp::getInstance("default");
+		std::vector<::maglev::CppAny> myargs;
+		::maglev::CppAny param0;
+		param0.setStdString(auctionId);
+		myargs.push_back(param0);
+		//????
+		myargs.push_back(param1);
+		::maglev::CppAny ret = bus->call("EnglishAuction.CalcTimeRemaining", myargs);
+		return ret;
+	}
+
+	/*!
+	 * Get the minimum next bid for the specified auction
+	 * @param auctionId auction id
+	 * @return {number} Minimum bid price
+	*/
+	double CalcMinimumBid(std::string auctionId) {
+		::maglev::MagLevCpp bus = ::maglev::MagLevCpp::getInstance("default");
+		std::vector<::maglev::CppAny> myargs;
+		::maglev::CppAny param0;
+		param0.setStdString(auctionId);
+		myargs.push_back(param0);
+		::maglev::CppAny ret = bus->call("EnglishAuction.CalcMinimumBid", myargs);
+		return ret;
+	}
+
 };
 
