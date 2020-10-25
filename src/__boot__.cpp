@@ -70,6 +70,18 @@
 #ifndef INCLUDED_haxe__CallStack_CallStack_Impl_
 #include <haxe/_CallStack/CallStack_Impl_.h>
 #endif
+#ifndef INCLUDED_englishauction_BidRepository
+#include <englishauction/BidRepository.h>
+#endif
+#ifndef INCLUDED_englishauction_BidModel
+#include <englishauction/BidModel.h>
+#endif
+#ifndef INCLUDED_englishauction_AuctionRepository
+#include <englishauction/AuctionRepository.h>
+#endif
+#ifndef INCLUDED_englishauction_AuctionModel
+#include <englishauction/AuctionModel.h>
+#endif
 #ifndef INCLUDED_Type
 #include <Type.h>
 #endif
@@ -121,6 +133,10 @@ __files__boot();
 ::haxe::Exception_obj::__register();
 ::haxe::IMap_obj::__register();
 ::haxe::_CallStack::CallStack_Impl__obj::__register();
+::englishauction::BidRepository_obj::__register();
+::englishauction::BidModel_obj::__register();
+::englishauction::AuctionRepository_obj::__register();
+::englishauction::AuctionModel_obj::__register();
 ::Type_obj::__register();
 ::StringBuf_obj::__register();
 ::Std_obj::__register();

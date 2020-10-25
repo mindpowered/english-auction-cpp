@@ -160,5 +160,20 @@ public:
 		return ret;
 	}
 
+	/*!
+	 * Get the price increment for the specified auction
+	 * @param auctionId auction id
+	 * @return {number} Price increment
+	*/
+	double GetPriceIncrement(std::string auctionId) {
+		::maglev::MagLevCpp bus = ::maglev::MagLevCpp::getInstance("default");
+		std::vector<::maglev::CppAny> myargs;
+		::maglev::CppAny param0;
+		param0.setStdString(auctionId);
+		myargs.push_back(param0);
+		::maglev::CppAny ret = bus->call("EnglishAuction.GetPriceIncrement", myargs);
+		return ret;
+	}
+
 };
 

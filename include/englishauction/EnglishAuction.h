@@ -14,6 +14,8 @@
 #define INCLUDED_869a921fcf5bba54
 #include "maglev/MagLevAny.h"
 #endif
+HX_DECLARE_CLASS1(englishauction,AuctionRepository)
+HX_DECLARE_CLASS1(englishauction,BidRepository)
 HX_DECLARE_CLASS1(englishauction,EnglishAuction)
 
 namespace englishauction{
@@ -54,6 +56,8 @@ class HXCPP_CLASS_ATTRIBUTES EnglishAuction_obj : public ::hx::Object
 		static void __boot();
 		static  ::Dynamic __meta__;
 		 ::maglev::MagLev maglev;
+		 ::englishauction::AuctionRepository auctionRepo;
+		 ::englishauction::BidRepository bidRepo;
 		void registerMyMethods();
 		::Dynamic registerMyMethods_dyn();
 

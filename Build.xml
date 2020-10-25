@@ -6,10 +6,29 @@
    <depend name="include/Date.h" />
    <depend name="include/Reflect.h" />
    <depend name="include/Std.h" />
+   <depend name="include/englishauction/AuctionModel.h" />
+   <depend name="include/englishauction/AuctionRepository.h" />
+   <depend name="include/englishauction/BidRepository.h" />
    <depend name="include/englishauction/EnglishAuction.h" />
    <depend name="include/haxe/Exception.h" />
    <depend name="include/haxe/IMap.h" />
    <depend name="include/haxe/ds/StringMap.h" />
+  </file>
+  <file name="src/englishauction/BidRepository.cpp">
+   <depend name="include/englishauction/BidModel.h" />
+   <depend name="include/englishauction/BidRepository.h" />
+  </file>
+  <file name="src/englishauction/BidModel.cpp">
+   <depend name="include/englishauction/BidModel.h" />
+  </file>
+  <file name="src/englishauction/AuctionRepository.cpp">
+   <depend name="include/Std.h" />
+   <depend name="include/englishauction/AuctionModel.h" />
+   <depend name="include/englishauction/AuctionRepository.h" />
+   <depend name="include/haxe/Exception.h" />
+  </file>
+  <file name="src/englishauction/AuctionModel.cpp">
+   <depend name="include/englishauction/AuctionModel.h" />
   </file>
   <file name="src/Type.cpp">
    <depend name="include/Reflect.h" />

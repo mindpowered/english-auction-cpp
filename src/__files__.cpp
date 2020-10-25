@@ -28,6 +28,10 @@ const char *__hxcpp_all_files[] = {
 "/opt/haxe/std/haxe/iterators/ArrayKeyValueIterator.hx",
 "/opt/haxe/std/haxe/iterators/HashMapKeyValueIterator.hx",
 "/opt/haxe/std/haxe/iterators/MapKeyValueIterator.hx",
+"englishauction/AuctionModel.hx",
+"englishauction/AuctionRepository.hx",
+"englishauction/BidModel.hx",
+"englishauction/BidRepository.hx",
 "englishauction/EnglishAuction.hx",
 #endif
  0 };
@@ -58,6 +62,10 @@ const char *__hxcpp_all_files_fullpath[] = {
 "/opt/haxe/std/haxe/iterators/ArrayKeyValueIterator.hx",
 "/opt/haxe/std/haxe/iterators/HashMapKeyValueIterator.hx",
 "/opt/haxe/std/haxe/iterators/MapKeyValueIterator.hx",
+"/my-component/src/englishauction/AuctionModel.hx",
+"/my-component/src/englishauction/AuctionRepository.hx",
+"/my-component/src/englishauction/BidModel.hx",
+"/my-component/src/englishauction/BidRepository.hx",
 "/my-component/src/englishauction/EnglishAuction.hx",
 #endif
  0 };
@@ -71,6 +79,10 @@ const char *__hxcpp_all_classes[] = {
 "Std",
 "StringBuf",
 "Type",
+"englishauction.AuctionModel",
+"englishauction.AuctionRepository",
+"englishauction.BidModel",
+"englishauction.BidRepository",
 "englishauction.EnglishAuction",
 "haxe._CallStack.CallStack_Impl_",
 "haxe.Exception",
