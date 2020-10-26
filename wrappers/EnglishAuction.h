@@ -238,5 +238,36 @@ public:
 		return ret;
 	}
 
+	/*!
+	 * Get a list of auctions based on their end time
+	 * @param endfrom end from
+	 * @param endto end to
+	 * @param page 
+	 * @param perpage number of auctions per page
+	 * @param sort field to sort by
+	 * @param asc ascending (true) or descending (false)
+	 * @return {array} List of auctions ending in the specified period
+	*/
+	std::vector<::maglev::CppAny> GetAuctionsEnding(double endfrom, double endto, double page, double perpage, std::string sort, bool asc) {
+		::maglev::MagLevCpp bus = ::maglev::MagLevCpp::getInstance("default");
+		std::vector<::maglev::CppAny> myargs;
+		//????
+		myargs.push_back(param0);
+		//????
+		myargs.push_back(param1);
+		//????
+		myargs.push_back(param2);
+		//????
+		myargs.push_back(param3);
+		::maglev::CppAny param4;
+		param4.setStdString(sort);
+		myargs.push_back(param4);
+		::maglev::CppAny param5;
+		param5.setBool(asc);
+		myargs.push_back(param5);
+		::maglev::CppAny ret = bus->call("EnglishAuction.GetAuctionsEnding", myargs);
+		return ret;
+	}
+
 };
 
