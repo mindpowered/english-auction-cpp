@@ -64,6 +64,9 @@ class HXCPP_CLASS_ATTRIBUTES BidRepository_obj : public ::hx::Object
 		int GetNumberOfBids(::String auctionId);
 		::Dynamic GetNumberOfBids_dyn();
 
+		::Array< ::Dynamic> GetHighestBids(::String auctionId,int numBids);
+		::Dynamic GetHighestBids_dyn();
+
 };
 
 } // end namespace englishauction

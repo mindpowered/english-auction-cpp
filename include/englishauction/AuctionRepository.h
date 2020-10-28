@@ -64,6 +64,12 @@ class HXCPP_CLASS_ATTRIBUTES AuctionRepository_obj : public ::hx::Object
 		::Array< ::Dynamic> FindAuctionsEnding(int endfrom,int endto,int page,int perpage,::String sort,bool asc);
 		::Dynamic FindAuctionsEnding_dyn();
 
+		::Array< ::Dynamic> FindAuctionsStarting(int startfrom,int startto,int page,int perpage,::String sort,bool asc);
+		::Dynamic FindAuctionsStarting_dyn();
+
+		::Array< ::Dynamic> FindOpenAuctions(int page,int perpage,::String sort,bool asc);
+		::Dynamic FindOpenAuctions_dyn();
+
 };
 
 } // end namespace englishauction

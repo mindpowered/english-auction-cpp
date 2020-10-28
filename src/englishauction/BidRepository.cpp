@@ -17,6 +17,10 @@
 #define INCLUDED_95fa5e9194badcf5
 #include "maglev/MagLevNumber.h"
 #endif
+#ifndef INCLUDED_f4da16f85a617f60
+#define INCLUDED_f4da16f85a617f60
+#include "maglev/MagLevObject.h"
+#endif
 #ifndef INCLUDED_65acb6100057af6e
 #define INCLUDED_65acb6100057af6e
 #include "maglev/MagLevResult.h"
@@ -38,6 +42,7 @@ HX_LOCAL_STACK_FRAME(_hx_pos_15d4c0743c64d545_17_Edit,"englishauction.BidReposit
 HX_LOCAL_STACK_FRAME(_hx_pos_15d4c0743c64d545_21_Remove,"englishauction.BidRepository","Remove",0x011a9aa6,"englishauction.BidRepository.Remove","englishauction/BidRepository.hx",21,0xf18aee53)
 HX_LOCAL_STACK_FRAME(_hx_pos_15d4c0743c64d545_27_FindById,"englishauction.BidRepository","FindById",0x578ee14d,"englishauction.BidRepository.FindById","englishauction/BidRepository.hx",27,0xf18aee53)
 HX_LOCAL_STACK_FRAME(_hx_pos_15d4c0743c64d545_30_GetNumberOfBids,"englishauction.BidRepository","GetNumberOfBids",0x6428848a,"englishauction.BidRepository.GetNumberOfBids","englishauction/BidRepository.hx",30,0xf18aee53)
+HX_LOCAL_STACK_FRAME(_hx_pos_15d4c0743c64d545_43_GetHighestBids,"englishauction.BidRepository","GetHighestBids",0xf1bc98c6,"englishauction.BidRepository.GetHighestBids","englishauction/BidRepository.hx",43,0xf18aee53)
 namespace englishauction{
 
 void BidRepository_obj::__construct( ::maglev::MagLev bus){
@@ -106,6 +111,40 @@ HXLINE(  40)		return count;
 
 HX_DEFINE_DYNAMIC_FUNC1(BidRepository_obj,GetNumberOfBids,return )
 
+::Array< ::Dynamic> BidRepository_obj::GetHighestBids(::String auctionId,int numBids){
+            	HX_GC_STACKFRAME(&_hx_pos_15d4c0743c64d545_43_GetHighestBids)
+HXLINE(  44)		 ::maglev::MagLevArray myargs = ::maglev::MagLevArray_obj::create();
+HXLINE(  45)		myargs->push(::maglev::MagLevString_obj::fromString(auctionId));
+HXLINE(  46)		myargs->push(::maglev::MagLevNumber_obj::fromInt(numBids));
+HXLINE(  47)		 ::maglev::MagLevArray myargs2 = ::maglev::MagLevArray_obj::create();
+HXLINE(  48)		myargs2->push(::maglev::MagLevString_obj::fromString(HX_("EnglishAuction.Bid",c2,d3,e1,19)));
+HXLINE(  49)		myargs2->push(::maglev::MagLevString_obj::fromString(HX_("FindByHighestPriceForAuction",0f,c3,2f,00)));
+HXLINE(  50)		myargs2->push(myargs);
+HXLINE(  51)		 ::maglev::MagLevResult res = this->bus->call(HX_("Persistence.Get",c7,c3,56,12),myargs2);
+HXLINE(  52)		 ::maglev::MagLevArray arr = ::hx::TCast<  ::maglev::MagLevArray >::cast(res->getResult());
+HXLINE(  53)		::Array< ::Dynamic> bids = ::Array_obj< ::Dynamic>::__new();
+HXLINE(  54)		int i = 0;
+HXLINE(  55)		while((i < arr->size())){
+HXLINE(  56)			 ::englishauction::BidModel model =  ::englishauction::BidModel_obj::__alloc( HX_CTX );
+HXLINE(  57)			 ::maglev::MagLevObject resobj = ::hx::TCast<  ::maglev::MagLevObject >::cast(arr->get(i));
+HXLINE(  58)			model->id = ::hx::TCast<  ::maglev::MagLevString >::cast(resobj->get(HX_("bidId",f8,61,f8,b2)))->getString();
+HXLINE(  59)			if (resobj->exists(HX_("auctionId",fe,08,7f,46))) {
+HXLINE(  60)				model->auctionId = ::hx::TCast<  ::maglev::MagLevString >::cast(resobj->get(HX_("auctionId",fe,08,7f,46)))->getString();
+            			}
+            			else {
+HXLINE(  62)				model->auctionId = auctionId;
+            			}
+HXLINE(  64)			model->userId = ::hx::TCast<  ::maglev::MagLevString >::cast(resobj->get(HX_("userId",06,3b,ef,41)))->getString();
+HXLINE(  65)			model->amount = ::hx::TCast<  ::maglev::MagLevNumber >::cast(resobj->get(HX_("price",89,4e,8b,c8)))->getFloat();
+HXLINE(  66)			bids->push(model);
+HXLINE(  67)			i = (i + 1);
+            		}
+HXLINE(  69)		return bids;
+            	}
+
+
+HX_DEFINE_DYNAMIC_FUNC2(BidRepository_obj,GetHighestBids,return )
+
 
 ::hx::ObjectPtr< BidRepository_obj > BidRepository_obj::__new( ::maglev::MagLev bus) {
 	::hx::ObjectPtr< BidRepository_obj > __this = new BidRepository_obj();
@@ -152,6 +191,9 @@ void BidRepository_obj::__Visit(HX_VISIT_PARAMS)
 	case 8:
 		if (HX_FIELD_EQ(inName,"FindById") ) { return ::hx::Val( FindById_dyn() ); }
 		break;
+	case 14:
+		if (HX_FIELD_EQ(inName,"GetHighestBids") ) { return ::hx::Val( GetHighestBids_dyn() ); }
+		break;
 	case 15:
 		if (HX_FIELD_EQ(inName,"GetNumberOfBids") ) { return ::hx::Val( GetNumberOfBids_dyn() ); }
 	}
@@ -188,6 +230,7 @@ static ::String BidRepository_obj_sMemberFields[] = {
 	HX_("Remove",64,10,1d,39),
 	HX_("FindById",8b,c2,68,6d),
 	HX_("GetNumberOfBids",0c,67,f4,db),
+	HX_("GetHighestBids",84,fc,e7,df),
 	::String(null()) };
 
 ::hx::Class BidRepository_obj::__mClass;

@@ -8,6 +8,7 @@
    <depend name="include/Std.h" />
    <depend name="include/englishauction/AuctionModel.h" />
    <depend name="include/englishauction/AuctionRepository.h" />
+   <depend name="include/englishauction/BidModel.h" />
    <depend name="include/englishauction/BidRepository.h" />
    <depend name="include/englishauction/EnglishAuction.h" />
    <depend name="include/haxe/Exception.h" />

@@ -59,7 +59,9 @@ HX_LOCAL_STACK_FRAME(_hx_pos_2c69b47eb41d373d_13_Add,"englishauction.AuctionRepo
 HX_LOCAL_STACK_FRAME(_hx_pos_2c69b47eb41d373d_17_Edit,"englishauction.AuctionRepository","Edit",0x6faae2a6,"englishauction.AuctionRepository.Edit","englishauction/AuctionRepository.hx",17,0xd2c1570d)
 HX_LOCAL_STACK_FRAME(_hx_pos_2c69b47eb41d373d_21_Remove,"englishauction.AuctionRepository","Remove",0xa2d113e0,"englishauction.AuctionRepository.Remove","englishauction/AuctionRepository.hx",21,0xd2c1570d)
 HX_LOCAL_STACK_FRAME(_hx_pos_2c69b47eb41d373d_25_FindById,"englishauction.AuctionRepository","FindById",0xaec19d07,"englishauction.AuctionRepository.FindById","englishauction/AuctionRepository.hx",25,0xd2c1570d)
-HX_LOCAL_STACK_FRAME(_hx_pos_2c69b47eb41d373d_48_FindAuctionsEnding,"englishauction.AuctionRepository","FindAuctionsEnding",0x9fab848c,"englishauction.AuctionRepository.FindAuctionsEnding","englishauction/AuctionRepository.hx",48,0xd2c1570d)
+HX_LOCAL_STACK_FRAME(_hx_pos_2c69b47eb41d373d_50_FindAuctionsEnding,"englishauction.AuctionRepository","FindAuctionsEnding",0x9fab848c,"englishauction.AuctionRepository.FindAuctionsEnding","englishauction/AuctionRepository.hx",50,0xd2c1570d)
+HX_LOCAL_STACK_FRAME(_hx_pos_2c69b47eb41d373d_81_FindAuctionsStarting,"englishauction.AuctionRepository","FindAuctionsStarting",0x9ec415a5,"englishauction.AuctionRepository.FindAuctionsStarting","englishauction/AuctionRepository.hx",81,0xd2c1570d)
+HX_LOCAL_STACK_FRAME(_hx_pos_2c69b47eb41d373d_112_FindOpenAuctions,"englishauction.AuctionRepository","FindOpenAuctions",0xeae4c32f,"englishauction.AuctionRepository.FindOpenAuctions","englishauction/AuctionRepository.hx",112,0xd2c1570d)
 namespace englishauction{
 
 void AuctionRepository_obj::__construct( ::maglev::MagLev bus){
@@ -108,62 +110,132 @@ HX_DEFINE_DYNAMIC_FUNC1(AuctionRepository_obj,Remove,(void))
 HXLINE(  26)		 ::maglev::MagLevArray myargs = ::maglev::MagLevArray_obj::create();
 HXLINE(  27)		myargs->push(::maglev::MagLevString_obj::fromString(HX_("EnglishAuction.Auction",c8,f3,cc,ba)));
 HXLINE(  28)		myargs->push(::maglev::MagLevString_obj::fromString(HX_("FindById",8b,c2,68,6d)));
-HXLINE(  29)		myargs->push(::maglev::MagLevString_obj::fromString(auctionId));
-HXLINE(  30)		 ::maglev::MagLevResult res = this->bus->call(HX_("Persistence.Get",c7,c3,56,12),myargs);
-HXLINE(  31)		if (res->isError()) {
-HXLINE(  32)			HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(res->getError()->getMessage()));
+HXLINE(  29)		 ::maglev::MagLevArray myargs2 = ::maglev::MagLevArray_obj::create();
+HXLINE(  30)		myargs2->push(::maglev::MagLevString_obj::fromString(auctionId));
+HXLINE(  31)		myargs->push(myargs2);
+HXLINE(  32)		 ::maglev::MagLevResult res = this->bus->call(HX_("Persistence.Get",c7,c3,56,12),myargs);
+HXLINE(  33)		if (res->isError()) {
+HXLINE(  34)			HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(res->getError()->getMessage()));
             		}
-HXLINE(  34)		if (::Std_obj::isOfType(res->getResult(),( ( ::Dynamic)(::hx::ClassOf< ::maglev::MagLevNull >()) ))) {
-HXLINE(  35)			return null();
+HXLINE(  36)		if (::Std_obj::isOfType(res->getResult(),( ( ::Dynamic)(::hx::ClassOf< ::maglev::MagLevNull >()) ))) {
+HXLINE(  37)			return null();
             		}
-HXLINE(  37)		 ::maglev::MagLevObject resobj = ::hx::TCast<  ::maglev::MagLevObject >::cast(res->getResult());
-HXLINE(  38)		 ::englishauction::AuctionModel model =  ::englishauction::AuctionModel_obj::__alloc( HX_CTX );
-HXLINE(  39)		model->id = ::hx::TCast<  ::maglev::MagLevString >::cast(resobj->get(HX_("auctionId",fe,08,7f,46)))->getString();
-HXLINE(  40)		model->start = ::hx::TCast<  ::maglev::MagLevNumber >::cast(resobj->get(HX_("start",62,74,0b,84)))->getInt();
-HXLINE(  41)		model->end = ::hx::TCast<  ::maglev::MagLevNumber >::cast(resobj->get(HX_("end",db,03,4d,00)))->getInt();
-HXLINE(  42)		model->startingPrice = ::hx::TCast<  ::maglev::MagLevNumber >::cast(resobj->get(HX_("startingPrice",a9,64,6e,09)))->getFloat();
-HXLINE(  43)		model->reservePrice = ::hx::TCast<  ::maglev::MagLevNumber >::cast(resobj->get(HX_("reservePrice",ad,26,d1,1a)))->getFloat();
-HXLINE(  44)		model->priceIncrement = ::hx::TCast<  ::maglev::MagLevNumber >::cast(resobj->get(HX_("priceIncrement",66,fe,46,ba)))->getFloat();
-HXLINE(  45)		return model;
+HXLINE(  39)		 ::maglev::MagLevObject resobj = ::hx::TCast<  ::maglev::MagLevObject >::cast(res->getResult());
+HXLINE(  40)		 ::englishauction::AuctionModel model =  ::englishauction::AuctionModel_obj::__alloc( HX_CTX );
+HXLINE(  41)		model->id = ::hx::TCast<  ::maglev::MagLevString >::cast(resobj->get(HX_("auctionId",fe,08,7f,46)))->getString();
+HXLINE(  42)		model->start = ::hx::TCast<  ::maglev::MagLevNumber >::cast(resobj->get(HX_("start",62,74,0b,84)))->getInt();
+HXLINE(  43)		model->end = ::hx::TCast<  ::maglev::MagLevNumber >::cast(resobj->get(HX_("end",db,03,4d,00)))->getInt();
+HXLINE(  44)		model->startingPrice = ::hx::TCast<  ::maglev::MagLevNumber >::cast(resobj->get(HX_("startingPrice",a9,64,6e,09)))->getFloat();
+HXLINE(  45)		model->reservePrice = ::hx::TCast<  ::maglev::MagLevNumber >::cast(resobj->get(HX_("reservePrice",ad,26,d1,1a)))->getFloat();
+HXLINE(  46)		model->priceIncrement = ::hx::TCast<  ::maglev::MagLevNumber >::cast(resobj->get(HX_("priceIncrement",66,fe,46,ba)))->getFloat();
+HXLINE(  47)		return model;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(AuctionRepository_obj,FindById,return )
 
 ::Array< ::Dynamic> AuctionRepository_obj::FindAuctionsEnding(int endfrom,int endto,int page,int perpage,::String sort,bool asc){
-            	HX_GC_STACKFRAME(&_hx_pos_2c69b47eb41d373d_48_FindAuctionsEnding)
-HXLINE(  49)		::Array< ::Dynamic> auctions = ::Array_obj< ::Dynamic>::__new();
-HXLINE(  50)		 ::maglev::MagLevArray myargs = ::maglev::MagLevArray_obj::create();
-HXLINE(  51)		myargs->push(::maglev::MagLevString_obj::fromString(HX_("EnglishAuction.Auction",c8,f3,cc,ba)));
-HXLINE(  52)		myargs->push(::maglev::MagLevString_obj::fromString(HX_("FindEnding",20,5d,8d,1a)));
-HXLINE(  53)		 ::maglev::MagLevArray myargs2 = ::maglev::MagLevArray_obj::create();
-HXLINE(  54)		myargs2->push(::maglev::MagLevNumber_obj::fromInt(endfrom));
-HXLINE(  55)		myargs2->push(::maglev::MagLevNumber_obj::fromInt(endto));
-HXLINE(  56)		myargs2->push(::maglev::MagLevNumber_obj::fromInt(page));
-HXLINE(  57)		myargs2->push(::maglev::MagLevNumber_obj::fromInt(perpage));
-HXLINE(  58)		myargs2->push(::maglev::MagLevString_obj::fromString(sort));
-HXLINE(  59)		myargs2->push(::maglev::MagLevBoolean_obj::fromBool(asc));
-HXLINE(  60)		myargs->push(myargs2);
-HXLINE(  61)		 ::maglev::MagLevResult res = this->bus->call(HX_("Persistence.Get",c7,c3,56,12),myargs);
-HXLINE(  62)		 ::maglev::MagLevArray arr = ::hx::TCast<  ::maglev::MagLevArray >::cast(res->getResult());
-HXLINE(  63)		int i = 0;
-HXLINE(  64)		while((i < arr->size())){
-HXLINE(  65)			 ::englishauction::AuctionModel model =  ::englishauction::AuctionModel_obj::__alloc( HX_CTX );
-HXLINE(  66)			 ::maglev::MagLevObject resobj = ::hx::TCast<  ::maglev::MagLevObject >::cast(arr->get(i));
-HXLINE(  67)			model->id = ::hx::TCast<  ::maglev::MagLevString >::cast(resobj->get(HX_("auctionId",fe,08,7f,46)))->getString();
-HXLINE(  68)			model->start = ::hx::TCast<  ::maglev::MagLevNumber >::cast(resobj->get(HX_("start",62,74,0b,84)))->getInt();
-HXLINE(  69)			model->end = ::hx::TCast<  ::maglev::MagLevNumber >::cast(resobj->get(HX_("end",db,03,4d,00)))->getInt();
-HXLINE(  70)			model->startingPrice = ::hx::TCast<  ::maglev::MagLevNumber >::cast(resobj->get(HX_("startingPrice",a9,64,6e,09)))->getFloat();
-HXLINE(  71)			model->reservePrice = ::hx::TCast<  ::maglev::MagLevNumber >::cast(resobj->get(HX_("reservePrice",ad,26,d1,1a)))->getFloat();
-HXLINE(  72)			model->priceIncrement = ::hx::TCast<  ::maglev::MagLevNumber >::cast(resobj->get(HX_("priceIncrement",66,fe,46,ba)))->getFloat();
-HXLINE(  73)			auctions->push(model);
-HXLINE(  74)			i = (i + 1);
+            	HX_GC_STACKFRAME(&_hx_pos_2c69b47eb41d373d_50_FindAuctionsEnding)
+HXLINE(  51)		::Array< ::Dynamic> auctions = ::Array_obj< ::Dynamic>::__new();
+HXLINE(  52)		 ::maglev::MagLevArray myargs = ::maglev::MagLevArray_obj::create();
+HXLINE(  53)		myargs->push(::maglev::MagLevString_obj::fromString(HX_("EnglishAuction.Auction",c8,f3,cc,ba)));
+HXLINE(  54)		myargs->push(::maglev::MagLevString_obj::fromString(HX_("FindEnding",20,5d,8d,1a)));
+HXLINE(  55)		 ::maglev::MagLevArray myargs2 = ::maglev::MagLevArray_obj::create();
+HXLINE(  56)		myargs2->push(::maglev::MagLevNumber_obj::fromInt(endfrom));
+HXLINE(  57)		myargs2->push(::maglev::MagLevNumber_obj::fromInt(endto));
+HXLINE(  58)		myargs2->push(::maglev::MagLevNumber_obj::fromInt(page));
+HXLINE(  59)		myargs2->push(::maglev::MagLevNumber_obj::fromInt(perpage));
+HXLINE(  60)		myargs2->push(::maglev::MagLevString_obj::fromString(sort));
+HXLINE(  61)		myargs2->push(::maglev::MagLevBoolean_obj::fromBool(asc));
+HXLINE(  62)		myargs->push(myargs2);
+HXLINE(  63)		 ::maglev::MagLevResult res = this->bus->call(HX_("Persistence.Get",c7,c3,56,12),myargs);
+HXLINE(  64)		 ::maglev::MagLevArray arr = ::hx::TCast<  ::maglev::MagLevArray >::cast(res->getResult());
+HXLINE(  65)		int i = 0;
+HXLINE(  66)		while((i < arr->size())){
+HXLINE(  67)			 ::englishauction::AuctionModel model =  ::englishauction::AuctionModel_obj::__alloc( HX_CTX );
+HXLINE(  68)			 ::maglev::MagLevObject resobj = ::hx::TCast<  ::maglev::MagLevObject >::cast(arr->get(i));
+HXLINE(  69)			model->id = ::hx::TCast<  ::maglev::MagLevString >::cast(resobj->get(HX_("auctionId",fe,08,7f,46)))->getString();
+HXLINE(  70)			model->start = ::hx::TCast<  ::maglev::MagLevNumber >::cast(resobj->get(HX_("start",62,74,0b,84)))->getInt();
+HXLINE(  71)			model->end = ::hx::TCast<  ::maglev::MagLevNumber >::cast(resobj->get(HX_("end",db,03,4d,00)))->getInt();
+HXLINE(  72)			model->startingPrice = ::hx::TCast<  ::maglev::MagLevNumber >::cast(resobj->get(HX_("startingPrice",a9,64,6e,09)))->getFloat();
+HXLINE(  73)			model->reservePrice = ::hx::TCast<  ::maglev::MagLevNumber >::cast(resobj->get(HX_("reservePrice",ad,26,d1,1a)))->getFloat();
+HXLINE(  74)			model->priceIncrement = ::hx::TCast<  ::maglev::MagLevNumber >::cast(resobj->get(HX_("priceIncrement",66,fe,46,ba)))->getFloat();
+HXLINE(  75)			auctions->push(model);
+HXLINE(  76)			i = (i + 1);
             		}
-HXLINE(  76)		return auctions;
+HXLINE(  78)		return auctions;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC6(AuctionRepository_obj,FindAuctionsEnding,return )
+
+::Array< ::Dynamic> AuctionRepository_obj::FindAuctionsStarting(int startfrom,int startto,int page,int perpage,::String sort,bool asc){
+            	HX_GC_STACKFRAME(&_hx_pos_2c69b47eb41d373d_81_FindAuctionsStarting)
+HXLINE(  82)		::Array< ::Dynamic> auctions = ::Array_obj< ::Dynamic>::__new();
+HXLINE(  83)		 ::maglev::MagLevArray myargs = ::maglev::MagLevArray_obj::create();
+HXLINE(  84)		myargs->push(::maglev::MagLevString_obj::fromString(HX_("EnglishAuction.Auction",c8,f3,cc,ba)));
+HXLINE(  85)		myargs->push(::maglev::MagLevString_obj::fromString(HX_("FindStarting",39,3b,3c,f8)));
+HXLINE(  86)		 ::maglev::MagLevArray myargs2 = ::maglev::MagLevArray_obj::create();
+HXLINE(  87)		myargs2->push(::maglev::MagLevNumber_obj::fromInt(startfrom));
+HXLINE(  88)		myargs2->push(::maglev::MagLevNumber_obj::fromInt(startto));
+HXLINE(  89)		myargs2->push(::maglev::MagLevNumber_obj::fromInt(page));
+HXLINE(  90)		myargs2->push(::maglev::MagLevNumber_obj::fromInt(perpage));
+HXLINE(  91)		myargs2->push(::maglev::MagLevString_obj::fromString(sort));
+HXLINE(  92)		myargs2->push(::maglev::MagLevBoolean_obj::fromBool(asc));
+HXLINE(  93)		myargs->push(myargs2);
+HXLINE(  94)		 ::maglev::MagLevResult res = this->bus->call(HX_("Persistence.Get",c7,c3,56,12),myargs);
+HXLINE(  95)		 ::maglev::MagLevArray arr = ::hx::TCast<  ::maglev::MagLevArray >::cast(res->getResult());
+HXLINE(  96)		int i = 0;
+HXLINE(  97)		while((i < arr->size())){
+HXLINE(  98)			 ::englishauction::AuctionModel model =  ::englishauction::AuctionModel_obj::__alloc( HX_CTX );
+HXLINE(  99)			 ::maglev::MagLevObject resobj = ::hx::TCast<  ::maglev::MagLevObject >::cast(arr->get(i));
+HXLINE( 100)			model->id = ::hx::TCast<  ::maglev::MagLevString >::cast(resobj->get(HX_("auctionId",fe,08,7f,46)))->getString();
+HXLINE( 101)			model->start = ::hx::TCast<  ::maglev::MagLevNumber >::cast(resobj->get(HX_("start",62,74,0b,84)))->getInt();
+HXLINE( 102)			model->end = ::hx::TCast<  ::maglev::MagLevNumber >::cast(resobj->get(HX_("end",db,03,4d,00)))->getInt();
+HXLINE( 103)			model->startingPrice = ::hx::TCast<  ::maglev::MagLevNumber >::cast(resobj->get(HX_("startingPrice",a9,64,6e,09)))->getFloat();
+HXLINE( 104)			model->reservePrice = ::hx::TCast<  ::maglev::MagLevNumber >::cast(resobj->get(HX_("reservePrice",ad,26,d1,1a)))->getFloat();
+HXLINE( 105)			model->priceIncrement = ::hx::TCast<  ::maglev::MagLevNumber >::cast(resobj->get(HX_("priceIncrement",66,fe,46,ba)))->getFloat();
+HXLINE( 106)			auctions->push(model);
+HXLINE( 107)			i = (i + 1);
+            		}
+HXLINE( 109)		return auctions;
+            	}
+
+
+HX_DEFINE_DYNAMIC_FUNC6(AuctionRepository_obj,FindAuctionsStarting,return )
+
+::Array< ::Dynamic> AuctionRepository_obj::FindOpenAuctions(int page,int perpage,::String sort,bool asc){
+            	HX_GC_STACKFRAME(&_hx_pos_2c69b47eb41d373d_112_FindOpenAuctions)
+HXLINE( 113)		::Array< ::Dynamic> auctions = ::Array_obj< ::Dynamic>::__new();
+HXLINE( 114)		 ::maglev::MagLevArray myargs = ::maglev::MagLevArray_obj::create();
+HXLINE( 115)		myargs->push(::maglev::MagLevString_obj::fromString(HX_("EnglishAuction.Auction",c8,f3,cc,ba)));
+HXLINE( 116)		myargs->push(::maglev::MagLevString_obj::fromString(HX_("FindOpen",c3,cc,f9,75)));
+HXLINE( 117)		 ::maglev::MagLevArray myargs2 = ::maglev::MagLevArray_obj::create();
+HXLINE( 118)		myargs2->push(::maglev::MagLevNumber_obj::fromInt(page));
+HXLINE( 119)		myargs2->push(::maglev::MagLevNumber_obj::fromInt(perpage));
+HXLINE( 120)		myargs2->push(::maglev::MagLevString_obj::fromString(sort));
+HXLINE( 121)		myargs2->push(::maglev::MagLevBoolean_obj::fromBool(asc));
+HXLINE( 122)		myargs->push(myargs2);
+HXLINE( 123)		 ::maglev::MagLevResult res = this->bus->call(HX_("Persistence.Get",c7,c3,56,12),myargs);
+HXLINE( 124)		 ::maglev::MagLevArray arr = ::hx::TCast<  ::maglev::MagLevArray >::cast(res->getResult());
+HXLINE( 125)		int i = 0;
+HXLINE( 126)		while((i < arr->size())){
+HXLINE( 127)			 ::englishauction::AuctionModel model =  ::englishauction::AuctionModel_obj::__alloc( HX_CTX );
+HXLINE( 128)			 ::maglev::MagLevObject resobj = ::hx::TCast<  ::maglev::MagLevObject >::cast(arr->get(i));
+HXLINE( 129)			model->id = ::hx::TCast<  ::maglev::MagLevString >::cast(resobj->get(HX_("auctionId",fe,08,7f,46)))->getString();
+HXLINE( 130)			model->start = ::hx::TCast<  ::maglev::MagLevNumber >::cast(resobj->get(HX_("start",62,74,0b,84)))->getInt();
+HXLINE( 131)			model->end = ::hx::TCast<  ::maglev::MagLevNumber >::cast(resobj->get(HX_("end",db,03,4d,00)))->getInt();
+HXLINE( 132)			model->startingPrice = ::hx::TCast<  ::maglev::MagLevNumber >::cast(resobj->get(HX_("startingPrice",a9,64,6e,09)))->getFloat();
+HXLINE( 133)			model->reservePrice = ::hx::TCast<  ::maglev::MagLevNumber >::cast(resobj->get(HX_("reservePrice",ad,26,d1,1a)))->getFloat();
+HXLINE( 134)			model->priceIncrement = ::hx::TCast<  ::maglev::MagLevNumber >::cast(resobj->get(HX_("priceIncrement",66,fe,46,ba)))->getFloat();
+HXLINE( 135)			auctions->push(model);
+HXLINE( 136)			i = (i + 1);
+            		}
+HXLINE( 138)		return auctions;
+            	}
+
+
+HX_DEFINE_DYNAMIC_FUNC4(AuctionRepository_obj,FindOpenAuctions,return )
 
 
 ::hx::ObjectPtr< AuctionRepository_obj > AuctionRepository_obj::__new( ::maglev::MagLev bus) {
@@ -211,8 +283,14 @@ void AuctionRepository_obj::__Visit(HX_VISIT_PARAMS)
 	case 8:
 		if (HX_FIELD_EQ(inName,"FindById") ) { return ::hx::Val( FindById_dyn() ); }
 		break;
+	case 16:
+		if (HX_FIELD_EQ(inName,"FindOpenAuctions") ) { return ::hx::Val( FindOpenAuctions_dyn() ); }
+		break;
 	case 18:
 		if (HX_FIELD_EQ(inName,"FindAuctionsEnding") ) { return ::hx::Val( FindAuctionsEnding_dyn() ); }
+		break;
+	case 20:
+		if (HX_FIELD_EQ(inName,"FindAuctionsStarting") ) { return ::hx::Val( FindAuctionsStarting_dyn() ); }
 	}
 	return super::__Field(inName,inCallProp);
 }
@@ -247,6 +325,8 @@ static ::String AuctionRepository_obj_sMemberFields[] = {
 	HX_("Remove",64,10,1d,39),
 	HX_("FindById",8b,c2,68,6d),
 	HX_("FindAuctionsEnding",10,37,42,6d),
+	HX_("FindAuctionsStarting",29,71,4f,05),
+	HX_("FindOpenAuctions",b3,0c,33,d1),
 	::String(null()) };
 
 ::hx::Class AuctionRepository_obj::__mClass;
