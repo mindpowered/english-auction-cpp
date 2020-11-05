@@ -28,7 +28,7 @@ public:
 	 * @return {string} auctionId
 	*/
 	std::string Create(std::string start, std::string end, double startingPrice, double reservePrice, double priceIncrement) {
-		::maglev::MagLevCpp bus = ::maglev::MagLevCpp::getInstance("default");
+		::maglev::MagLevCpp bus = ::maglev::MagLevCpp::getInstance("englishauction");
 		std::vector<::maglev::CppAny> myargs;
 		::maglev::CppAny param0;
 		param0.setStdString(start);
@@ -53,7 +53,7 @@ public:
 	 * @return {number} start of auction
 	*/
 	double GetStart(std::string auctionId) {
-		::maglev::MagLevCpp bus = ::maglev::MagLevCpp::getInstance("default");
+		::maglev::MagLevCpp bus = ::maglev::MagLevCpp::getInstance("englishauction");
 		std::vector<::maglev::CppAny> myargs;
 		::maglev::CppAny param0;
 		param0.setStdString(auctionId);
@@ -68,7 +68,7 @@ public:
 	 * @return {bool} true if auction has ended, false otherwise
 	*/
 	bool GetEnd(std::string auctionId) {
-		::maglev::MagLevCpp bus = ::maglev::MagLevCpp::getInstance("default");
+		::maglev::MagLevCpp bus = ::maglev::MagLevCpp::getInstance("englishauction");
 		std::vector<::maglev::CppAny> myargs;
 		::maglev::CppAny param0;
 		param0.setStdString(auctionId);
@@ -83,7 +83,7 @@ public:
 	 * @return {bool} true if auction started, false otherwise
 	*/
 	bool HasStarted(std::string auctionId) {
-		::maglev::MagLevCpp bus = ::maglev::MagLevCpp::getInstance("default");
+		::maglev::MagLevCpp bus = ::maglev::MagLevCpp::getInstance("englishauction");
 		std::vector<::maglev::CppAny> myargs;
 		::maglev::CppAny param0;
 		param0.setStdString(auctionId);
@@ -99,7 +99,7 @@ public:
 	 * @param price price bud
 	*/
 	void Bid(std::string auctionId, std::string userId, double price) {
-		::maglev::MagLevCpp bus = ::maglev::MagLevCpp::getInstance("default");
+		::maglev::MagLevCpp bus = ::maglev::MagLevCpp::getInstance("englishauction");
 		std::vector<::maglev::CppAny> myargs;
 		::maglev::CppAny param0;
 		param0.setStdString(auctionId);
@@ -118,7 +118,7 @@ public:
 	 * @return {mixed} 
 	*/
 	::maglev::CppAny GetHighestBidder(std::string auctionId) {
-		::maglev::MagLevCpp bus = ::maglev::MagLevCpp::getInstance("default");
+		::maglev::MagLevCpp bus = ::maglev::MagLevCpp::getInstance("englishauction");
 		std::vector<::maglev::CppAny> myargs;
 		::maglev::CppAny param0;
 		param0.setStdString(auctionId);
@@ -134,7 +134,7 @@ public:
 	 * @return {array} Highest bids for the specified auction
 	*/
 	std::vector<::maglev::CppAny> GetHighestBids(std::string auctionId, double numBids) {
-		::maglev::MagLevCpp bus = ::maglev::MagLevCpp::getInstance("default");
+		::maglev::MagLevCpp bus = ::maglev::MagLevCpp::getInstance("englishauction");
 		std::vector<::maglev::CppAny> myargs;
 		::maglev::CppAny param0;
 		param0.setStdString(auctionId);
@@ -151,7 +151,7 @@ public:
 	 * @return {number} Number of bids placed in the specified auction
 	*/
 	double GetNumberOfBids(std::string auctionId) {
-		::maglev::MagLevCpp bus = ::maglev::MagLevCpp::getInstance("default");
+		::maglev::MagLevCpp bus = ::maglev::MagLevCpp::getInstance("englishauction");
 		std::vector<::maglev::CppAny> myargs;
 		::maglev::CppAny param0;
 		param0.setStdString(auctionId);
@@ -166,7 +166,7 @@ public:
 	 * @return {number} Price increment
 	*/
 	double GetPriceIncrement(std::string auctionId) {
-		::maglev::MagLevCpp bus = ::maglev::MagLevCpp::getInstance("default");
+		::maglev::MagLevCpp bus = ::maglev::MagLevCpp::getInstance("englishauction");
 		std::vector<::maglev::CppAny> myargs;
 		::maglev::CppAny param0;
 		param0.setStdString(auctionId);
@@ -181,7 +181,7 @@ public:
 	 * @return {number} Reserve price
 	*/
 	double GetReservePrice(std::string auctionId) {
-		::maglev::MagLevCpp bus = ::maglev::MagLevCpp::getInstance("default");
+		::maglev::MagLevCpp bus = ::maglev::MagLevCpp::getInstance("englishauction");
 		std::vector<::maglev::CppAny> myargs;
 		::maglev::CppAny param0;
 		param0.setStdString(auctionId);
@@ -196,7 +196,7 @@ public:
 	 * @return {number} Starting price
 	*/
 	double GetStartingPrice(std::string auctionId) {
-		::maglev::MagLevCpp bus = ::maglev::MagLevCpp::getInstance("default");
+		::maglev::MagLevCpp bus = ::maglev::MagLevCpp::getInstance("englishauction");
 		std::vector<::maglev::CppAny> myargs;
 		::maglev::CppAny param0;
 		param0.setStdString(auctionId);
@@ -212,7 +212,7 @@ public:
 	 * @return {number} Time remaining in seconds
 	*/
 	double CalcTimeRemaining(std::string auctionId, double now) {
-		::maglev::MagLevCpp bus = ::maglev::MagLevCpp::getInstance("default");
+		::maglev::MagLevCpp bus = ::maglev::MagLevCpp::getInstance("englishauction");
 		std::vector<::maglev::CppAny> myargs;
 		::maglev::CppAny param0;
 		param0.setStdString(auctionId);
@@ -229,7 +229,7 @@ public:
 	 * @return {number} Minimum bid price
 	*/
 	double CalcMinimumBid(std::string auctionId) {
-		::maglev::MagLevCpp bus = ::maglev::MagLevCpp::getInstance("default");
+		::maglev::MagLevCpp bus = ::maglev::MagLevCpp::getInstance("englishauction");
 		std::vector<::maglev::CppAny> myargs;
 		::maglev::CppAny param0;
 		param0.setStdString(auctionId);
@@ -249,7 +249,7 @@ public:
 	 * @return {array} List of auctions ending in the specified period
 	*/
 	std::vector<::maglev::CppAny> GetAuctionsEnding(double endfrom, double endto, double page, double perpage, std::string sort, bool asc) {
-		::maglev::MagLevCpp bus = ::maglev::MagLevCpp::getInstance("default");
+		::maglev::MagLevCpp bus = ::maglev::MagLevCpp::getInstance("englishauction");
 		std::vector<::maglev::CppAny> myargs;
 		//????
 		myargs.push_back(param0);
@@ -280,7 +280,7 @@ public:
 	 * @return {array} List of auctions starting in the specified period
 	*/
 	std::vector<::maglev::CppAny> GetAuctionsStarting(double startfrom, double startto, double page, double perpage, std::string sort, bool asc) {
-		::maglev::MagLevCpp bus = ::maglev::MagLevCpp::getInstance("default");
+		::maglev::MagLevCpp bus = ::maglev::MagLevCpp::getInstance("englishauction");
 		std::vector<::maglev::CppAny> myargs;
 		//????
 		myargs.push_back(param0);
@@ -309,7 +309,7 @@ public:
 	 * @return {array} List of open auctions
 	*/
 	std::vector<::maglev::CppAny> GetOpenAuctions(double page, double perpage, std::string sort, bool asc) {
-		::maglev::MagLevCpp bus = ::maglev::MagLevCpp::getInstance("default");
+		::maglev::MagLevCpp bus = ::maglev::MagLevCpp::getInstance("englishauction");
 		std::vector<::maglev::CppAny> myargs;
 		//????
 		myargs.push_back(param0);
