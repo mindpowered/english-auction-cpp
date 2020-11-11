@@ -42,7 +42,7 @@ HX_LOCAL_STACK_FRAME(_hx_pos_15d4c0743c64d545_17_Edit,"englishauction.BidReposit
 HX_LOCAL_STACK_FRAME(_hx_pos_15d4c0743c64d545_21_Remove,"englishauction.BidRepository","Remove",0x011a9aa6,"englishauction.BidRepository.Remove","englishauction/BidRepository.hx",21,0xf18aee53)
 HX_LOCAL_STACK_FRAME(_hx_pos_15d4c0743c64d545_27_FindById,"englishauction.BidRepository","FindById",0x578ee14d,"englishauction.BidRepository.FindById","englishauction/BidRepository.hx",27,0xf18aee53)
 HX_LOCAL_STACK_FRAME(_hx_pos_15d4c0743c64d545_30_GetNumberOfBids,"englishauction.BidRepository","GetNumberOfBids",0x6428848a,"englishauction.BidRepository.GetNumberOfBids","englishauction/BidRepository.hx",30,0xf18aee53)
-HX_LOCAL_STACK_FRAME(_hx_pos_15d4c0743c64d545_43_GetHighestBids,"englishauction.BidRepository","GetHighestBids",0xf1bc98c6,"englishauction.BidRepository.GetHighestBids","englishauction/BidRepository.hx",43,0xf18aee53)
+HX_LOCAL_STACK_FRAME(_hx_pos_15d4c0743c64d545_45_GetHighestBids,"englishauction.BidRepository","GetHighestBids",0xf1bc98c6,"englishauction.BidRepository.GetHighestBids","englishauction/BidRepository.hx",45,0xf18aee53)
 namespace englishauction{
 
 void BidRepository_obj::__construct( ::maglev::MagLev bus){
@@ -99,47 +99,49 @@ int BidRepository_obj::GetNumberOfBids(::String auctionId){
 HXLINE(  31)		 ::maglev::MagLevArray pargs = ::maglev::MagLevArray_obj::create();
 HXLINE(  32)		pargs->push(::maglev::MagLevString_obj::fromString(HX_("EnglishAuction.Bid",c2,d3,e1,19)));
 HXLINE(  33)		pargs->push(::maglev::MagLevString_obj::fromString(HX_("CountForAuction",c9,bf,e1,14)));
-HXLINE(  34)		pargs->push(::maglev::MagLevString_obj::fromString(auctionId));
-HXLINE(  35)		 ::maglev::MagLevResult ret = this->bus->call(HX_("Persistence.Get",c7,c3,56,12),pargs);
-HXLINE(  36)		int count = 0;
-HXLINE(  37)		if (!(ret->isError())) {
-HXLINE(  38)			count = ::hx::TCast<  ::maglev::MagLevNumber >::cast(ret->getResult())->getInt();
+HXLINE(  34)		 ::maglev::MagLevArray parr = ::maglev::MagLevArray_obj::create();
+HXLINE(  35)		parr->push(::maglev::MagLevString_obj::fromString(auctionId));
+HXLINE(  36)		pargs->push(parr);
+HXLINE(  37)		 ::maglev::MagLevResult ret = this->bus->call(HX_("Persistence.Get",c7,c3,56,12),pargs);
+HXLINE(  38)		int count = 0;
+HXLINE(  39)		if (!(ret->isError())) {
+HXLINE(  40)			count = ::hx::TCast<  ::maglev::MagLevNumber >::cast(ret->getResult())->getInt();
             		}
-HXLINE(  40)		return count;
+HXLINE(  42)		return count;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(BidRepository_obj,GetNumberOfBids,return )
 
 ::Array< ::Dynamic> BidRepository_obj::GetHighestBids(::String auctionId,int numBids){
-            	HX_GC_STACKFRAME(&_hx_pos_15d4c0743c64d545_43_GetHighestBids)
-HXLINE(  44)		 ::maglev::MagLevArray myargs = ::maglev::MagLevArray_obj::create();
-HXLINE(  45)		myargs->push(::maglev::MagLevString_obj::fromString(auctionId));
-HXLINE(  46)		myargs->push(::maglev::MagLevNumber_obj::fromInt(numBids));
-HXLINE(  47)		 ::maglev::MagLevArray myargs2 = ::maglev::MagLevArray_obj::create();
-HXLINE(  48)		myargs2->push(::maglev::MagLevString_obj::fromString(HX_("EnglishAuction.Bid",c2,d3,e1,19)));
-HXLINE(  49)		myargs2->push(::maglev::MagLevString_obj::fromString(HX_("FindByHighestPriceForAuction",0f,c3,2f,00)));
-HXLINE(  50)		myargs2->push(myargs);
-HXLINE(  51)		 ::maglev::MagLevResult res = this->bus->call(HX_("Persistence.Get",c7,c3,56,12),myargs2);
-HXLINE(  52)		 ::maglev::MagLevArray arr = ::hx::TCast<  ::maglev::MagLevArray >::cast(res->getResult());
-HXLINE(  53)		::Array< ::Dynamic> bids = ::Array_obj< ::Dynamic>::__new();
-HXLINE(  54)		int i = 0;
-HXLINE(  55)		while((i < arr->size())){
-HXLINE(  56)			 ::englishauction::BidModel model =  ::englishauction::BidModel_obj::__alloc( HX_CTX );
-HXLINE(  57)			 ::maglev::MagLevObject resobj = ::hx::TCast<  ::maglev::MagLevObject >::cast(arr->get(i));
-HXLINE(  58)			model->id = ::hx::TCast<  ::maglev::MagLevString >::cast(resobj->get(HX_("bidId",f8,61,f8,b2)))->getString();
-HXLINE(  59)			if (resobj->exists(HX_("auctionId",fe,08,7f,46))) {
-HXLINE(  60)				model->auctionId = ::hx::TCast<  ::maglev::MagLevString >::cast(resobj->get(HX_("auctionId",fe,08,7f,46)))->getString();
+            	HX_GC_STACKFRAME(&_hx_pos_15d4c0743c64d545_45_GetHighestBids)
+HXLINE(  46)		 ::maglev::MagLevArray myargs = ::maglev::MagLevArray_obj::create();
+HXLINE(  47)		myargs->push(::maglev::MagLevString_obj::fromString(auctionId));
+HXLINE(  48)		myargs->push(::maglev::MagLevNumber_obj::fromInt(numBids));
+HXLINE(  49)		 ::maglev::MagLevArray myargs2 = ::maglev::MagLevArray_obj::create();
+HXLINE(  50)		myargs2->push(::maglev::MagLevString_obj::fromString(HX_("EnglishAuction.Bid",c2,d3,e1,19)));
+HXLINE(  51)		myargs2->push(::maglev::MagLevString_obj::fromString(HX_("FindByHighestPriceForAuction",0f,c3,2f,00)));
+HXLINE(  52)		myargs2->push(myargs);
+HXLINE(  53)		 ::maglev::MagLevResult res = this->bus->call(HX_("Persistence.Get",c7,c3,56,12),myargs2);
+HXLINE(  54)		 ::maglev::MagLevArray arr = ::hx::TCast<  ::maglev::MagLevArray >::cast(res->getResult());
+HXLINE(  55)		::Array< ::Dynamic> bids = ::Array_obj< ::Dynamic>::__new();
+HXLINE(  56)		int i = 0;
+HXLINE(  57)		while((i < arr->size())){
+HXLINE(  58)			 ::englishauction::BidModel model =  ::englishauction::BidModel_obj::__alloc( HX_CTX );
+HXLINE(  59)			 ::maglev::MagLevObject resobj = ::hx::TCast<  ::maglev::MagLevObject >::cast(arr->get(i));
+HXLINE(  60)			model->id = ::hx::TCast<  ::maglev::MagLevString >::cast(resobj->get(HX_("bidId",f8,61,f8,b2)))->getString();
+HXLINE(  61)			if (resobj->exists(HX_("auctionId",fe,08,7f,46))) {
+HXLINE(  62)				model->auctionId = ::hx::TCast<  ::maglev::MagLevString >::cast(resobj->get(HX_("auctionId",fe,08,7f,46)))->getString();
             			}
             			else {
-HXLINE(  62)				model->auctionId = auctionId;
+HXLINE(  64)				model->auctionId = auctionId;
             			}
-HXLINE(  64)			model->userId = ::hx::TCast<  ::maglev::MagLevString >::cast(resobj->get(HX_("userId",06,3b,ef,41)))->getString();
-HXLINE(  65)			model->amount = ::hx::TCast<  ::maglev::MagLevNumber >::cast(resobj->get(HX_("price",89,4e,8b,c8)))->getFloat();
-HXLINE(  66)			bids->push(model);
-HXLINE(  67)			i = (i + 1);
+HXLINE(  66)			model->userId = ::hx::TCast<  ::maglev::MagLevString >::cast(resobj->get(HX_("userId",06,3b,ef,41)))->getString();
+HXLINE(  67)			model->amount = ::hx::TCast<  ::maglev::MagLevNumber >::cast(resobj->get(HX_("price",89,4e,8b,c8)))->getFloat();
+HXLINE(  68)			bids->push(model);
+HXLINE(  69)			i = (i + 1);
             		}
-HXLINE(  69)		return bids;
+HXLINE(  71)		return bids;
             	}
 
 

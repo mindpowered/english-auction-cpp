@@ -86,26 +86,26 @@
 HX_DEFINE_STACK_FRAME(_hx_pos_f704f8914f7b4676_16_new,"englishauction.EnglishAuction","new",0x16125e00,"englishauction.EnglishAuction.new","englishauction/EnglishAuction.hx",16,0xd6cb504f)
 HX_LOCAL_STACK_FRAME(_hx_pos_f704f8914f7b4676_25_registerMyMethods,"englishauction.EnglishAuction","registerMyMethods",0xd389d723,"englishauction.EnglishAuction.registerMyMethods","englishauction/EnglishAuction.hx",25,0xd6cb504f)
 HX_LOCAL_STACK_FRAME(_hx_pos_f704f8914f7b4676_47_registerMyMethods,"englishauction.EnglishAuction","registerMyMethods",0xd389d723,"englishauction.EnglishAuction.registerMyMethods","englishauction/EnglishAuction.hx",47,0xd6cb504f)
-HX_LOCAL_STACK_FRAME(_hx_pos_f704f8914f7b4676_70_registerMyMethods,"englishauction.EnglishAuction","registerMyMethods",0xd389d723,"englishauction.EnglishAuction.registerMyMethods","englishauction/EnglishAuction.hx",70,0xd6cb504f)
-HX_LOCAL_STACK_FRAME(_hx_pos_f704f8914f7b4676_93_registerMyMethods,"englishauction.EnglishAuction","registerMyMethods",0xd389d723,"englishauction.EnglishAuction.registerMyMethods","englishauction/EnglishAuction.hx",93,0xd6cb504f)
-HX_LOCAL_STACK_FRAME(_hx_pos_f704f8914f7b4676_117_registerMyMethods,"englishauction.EnglishAuction","registerMyMethods",0xd389d723,"englishauction.EnglishAuction.registerMyMethods","englishauction/EnglishAuction.hx",117,0xd6cb504f)
-HX_LOCAL_STACK_FRAME(_hx_pos_f704f8914f7b4676_141_registerMyMethods,"englishauction.EnglishAuction","registerMyMethods",0xd389d723,"englishauction.EnglishAuction.registerMyMethods","englishauction/EnglishAuction.hx",141,0xd6cb504f)
-HX_LOCAL_STACK_FRAME(_hx_pos_f704f8914f7b4676_156_registerMyMethods,"englishauction.EnglishAuction","registerMyMethods",0xd389d723,"englishauction.EnglishAuction.registerMyMethods","englishauction/EnglishAuction.hx",156,0xd6cb504f)
-HX_LOCAL_STACK_FRAME(_hx_pos_f704f8914f7b4676_185_registerMyMethods,"englishauction.EnglishAuction","registerMyMethods",0xd389d723,"englishauction.EnglishAuction.registerMyMethods","englishauction/EnglishAuction.hx",185,0xd6cb504f)
-HX_LOCAL_STACK_FRAME(_hx_pos_f704f8914f7b4676_217_registerMyMethods,"englishauction.EnglishAuction","registerMyMethods",0xd389d723,"englishauction.EnglishAuction.registerMyMethods","englishauction/EnglishAuction.hx",217,0xd6cb504f)
-HX_LOCAL_STACK_FRAME(_hx_pos_f704f8914f7b4676_222_registerMyMethods,"englishauction.EnglishAuction","registerMyMethods",0xd389d723,"englishauction.EnglishAuction.registerMyMethods","englishauction/EnglishAuction.hx",222,0xd6cb504f)
-HX_LOCAL_STACK_FRAME(_hx_pos_f704f8914f7b4676_233_registerMyMethods,"englishauction.EnglishAuction","registerMyMethods",0xd389d723,"englishauction.EnglishAuction.registerMyMethods","englishauction/EnglishAuction.hx",233,0xd6cb504f)
-HX_LOCAL_STACK_FRAME(_hx_pos_f704f8914f7b4676_244_registerMyMethods,"englishauction.EnglishAuction","registerMyMethods",0xd389d723,"englishauction.EnglishAuction.registerMyMethods","englishauction/EnglishAuction.hx",244,0xd6cb504f)
-HX_LOCAL_STACK_FRAME(_hx_pos_f704f8914f7b4676_255_registerMyMethods,"englishauction.EnglishAuction","registerMyMethods",0xd389d723,"englishauction.EnglishAuction.registerMyMethods","englishauction/EnglishAuction.hx",255,0xd6cb504f)
-HX_LOCAL_STACK_FRAME(_hx_pos_f704f8914f7b4676_266_registerMyMethods,"englishauction.EnglishAuction","registerMyMethods",0xd389d723,"englishauction.EnglishAuction.registerMyMethods","englishauction/EnglishAuction.hx",266,0xd6cb504f)
-HX_LOCAL_STACK_FRAME(_hx_pos_f704f8914f7b4676_286_registerMyMethods,"englishauction.EnglishAuction","registerMyMethods",0xd389d723,"englishauction.EnglishAuction.registerMyMethods","englishauction/EnglishAuction.hx",286,0xd6cb504f)
-HX_LOCAL_STACK_FRAME(_hx_pos_f704f8914f7b4676_306_registerMyMethods,"englishauction.EnglishAuction","registerMyMethods",0xd389d723,"englishauction.EnglishAuction.registerMyMethods","englishauction/EnglishAuction.hx",306,0xd6cb504f)
-HX_LOCAL_STACK_FRAME(_hx_pos_f704f8914f7b4676_327_registerMyMethods,"englishauction.EnglishAuction","registerMyMethods",0xd389d723,"englishauction.EnglishAuction.registerMyMethods","englishauction/EnglishAuction.hx",327,0xd6cb504f)
-HX_LOCAL_STACK_FRAME(_hx_pos_f704f8914f7b4676_348_registerMyMethods,"englishauction.EnglishAuction","registerMyMethods",0xd389d723,"englishauction.EnglishAuction.registerMyMethods","englishauction/EnglishAuction.hx",348,0xd6cb504f)
+HX_LOCAL_STACK_FRAME(_hx_pos_f704f8914f7b4676_72_registerMyMethods,"englishauction.EnglishAuction","registerMyMethods",0xd389d723,"englishauction.EnglishAuction.registerMyMethods","englishauction/EnglishAuction.hx",72,0xd6cb504f)
+HX_LOCAL_STACK_FRAME(_hx_pos_f704f8914f7b4676_97_registerMyMethods,"englishauction.EnglishAuction","registerMyMethods",0xd389d723,"englishauction.EnglishAuction.registerMyMethods","englishauction/EnglishAuction.hx",97,0xd6cb504f)
+HX_LOCAL_STACK_FRAME(_hx_pos_f704f8914f7b4676_123_registerMyMethods,"englishauction.EnglishAuction","registerMyMethods",0xd389d723,"englishauction.EnglishAuction.registerMyMethods","englishauction/EnglishAuction.hx",123,0xd6cb504f)
+HX_LOCAL_STACK_FRAME(_hx_pos_f704f8914f7b4676_149_registerMyMethods,"englishauction.EnglishAuction","registerMyMethods",0xd389d723,"englishauction.EnglishAuction.registerMyMethods","englishauction/EnglishAuction.hx",149,0xd6cb504f)
+HX_LOCAL_STACK_FRAME(_hx_pos_f704f8914f7b4676_166_registerMyMethods,"englishauction.EnglishAuction","registerMyMethods",0xd389d723,"englishauction.EnglishAuction.registerMyMethods","englishauction/EnglishAuction.hx",166,0xd6cb504f)
+HX_LOCAL_STACK_FRAME(_hx_pos_f704f8914f7b4676_195_registerMyMethods,"englishauction.EnglishAuction","registerMyMethods",0xd389d723,"englishauction.EnglishAuction.registerMyMethods","englishauction/EnglishAuction.hx",195,0xd6cb504f)
+HX_LOCAL_STACK_FRAME(_hx_pos_f704f8914f7b4676_227_registerMyMethods,"englishauction.EnglishAuction","registerMyMethods",0xd389d723,"englishauction.EnglishAuction.registerMyMethods","englishauction/EnglishAuction.hx",227,0xd6cb504f)
+HX_LOCAL_STACK_FRAME(_hx_pos_f704f8914f7b4676_232_registerMyMethods,"englishauction.EnglishAuction","registerMyMethods",0xd389d723,"englishauction.EnglishAuction.registerMyMethods","englishauction/EnglishAuction.hx",232,0xd6cb504f)
+HX_LOCAL_STACK_FRAME(_hx_pos_f704f8914f7b4676_243_registerMyMethods,"englishauction.EnglishAuction","registerMyMethods",0xd389d723,"englishauction.EnglishAuction.registerMyMethods","englishauction/EnglishAuction.hx",243,0xd6cb504f)
+HX_LOCAL_STACK_FRAME(_hx_pos_f704f8914f7b4676_254_registerMyMethods,"englishauction.EnglishAuction","registerMyMethods",0xd389d723,"englishauction.EnglishAuction.registerMyMethods","englishauction/EnglishAuction.hx",254,0xd6cb504f)
+HX_LOCAL_STACK_FRAME(_hx_pos_f704f8914f7b4676_265_registerMyMethods,"englishauction.EnglishAuction","registerMyMethods",0xd389d723,"englishauction.EnglishAuction.registerMyMethods","englishauction/EnglishAuction.hx",265,0xd6cb504f)
+HX_LOCAL_STACK_FRAME(_hx_pos_f704f8914f7b4676_276_registerMyMethods,"englishauction.EnglishAuction","registerMyMethods",0xd389d723,"englishauction.EnglishAuction.registerMyMethods","englishauction/EnglishAuction.hx",276,0xd6cb504f)
+HX_LOCAL_STACK_FRAME(_hx_pos_f704f8914f7b4676_296_registerMyMethods,"englishauction.EnglishAuction","registerMyMethods",0xd389d723,"englishauction.EnglishAuction.registerMyMethods","englishauction/EnglishAuction.hx",296,0xd6cb504f)
+HX_LOCAL_STACK_FRAME(_hx_pos_f704f8914f7b4676_316_registerMyMethods,"englishauction.EnglishAuction","registerMyMethods",0xd389d723,"englishauction.EnglishAuction.registerMyMethods","englishauction/EnglishAuction.hx",316,0xd6cb504f)
+HX_LOCAL_STACK_FRAME(_hx_pos_f704f8914f7b4676_337_registerMyMethods,"englishauction.EnglishAuction","registerMyMethods",0xd389d723,"englishauction.EnglishAuction.registerMyMethods","englishauction/EnglishAuction.hx",337,0xd6cb504f)
+HX_LOCAL_STACK_FRAME(_hx_pos_f704f8914f7b4676_358_registerMyMethods,"englishauction.EnglishAuction","registerMyMethods",0xd389d723,"englishauction.EnglishAuction.registerMyMethods","englishauction/EnglishAuction.hx",358,0xd6cb504f)
 HX_LOCAL_STACK_FRAME(_hx_pos_f704f8914f7b4676_23_registerMyMethods,"englishauction.EnglishAuction","registerMyMethods",0xd389d723,"englishauction.EnglishAuction.registerMyMethods","englishauction/EnglishAuction.hx",23,0xd6cb504f)
-HX_LOCAL_STACK_FRAME(_hx_pos_f704f8914f7b4676_376_auctionModelToMagLevObject,"englishauction.EnglishAuction","auctionModelToMagLevObject",0x1c14daea,"englishauction.EnglishAuction.auctionModelToMagLevObject","englishauction/EnglishAuction.hx",376,0xd6cb504f)
-HX_LOCAL_STACK_FRAME(_hx_pos_f704f8914f7b4676_388_convertToHaxe,"englishauction.EnglishAuction","convertToHaxe",0xb16f5f34,"englishauction.EnglishAuction.convertToHaxe","englishauction/EnglishAuction.hx",388,0xd6cb504f)
-HX_LOCAL_STACK_FRAME(_hx_pos_f704f8914f7b4676_429_convertToMagLev,"englishauction.EnglishAuction","convertToMagLev",0x67e62198,"englishauction.EnglishAuction.convertToMagLev","englishauction/EnglishAuction.hx",429,0xd6cb504f)
+HX_LOCAL_STACK_FRAME(_hx_pos_f704f8914f7b4676_386_auctionModelToMagLevObject,"englishauction.EnglishAuction","auctionModelToMagLevObject",0x1c14daea,"englishauction.EnglishAuction.auctionModelToMagLevObject","englishauction/EnglishAuction.hx",386,0xd6cb504f)
+HX_LOCAL_STACK_FRAME(_hx_pos_f704f8914f7b4676_398_convertToHaxe,"englishauction.EnglishAuction","convertToHaxe",0xb16f5f34,"englishauction.EnglishAuction.convertToHaxe","englishauction/EnglishAuction.hx",398,0xd6cb504f)
+HX_LOCAL_STACK_FRAME(_hx_pos_f704f8914f7b4676_439_convertToMagLev,"englishauction.EnglishAuction","convertToMagLev",0x67e62198,"englishauction.EnglishAuction.convertToMagLev","englishauction/EnglishAuction.hx",439,0xd6cb504f)
 HX_LOCAL_STACK_FRAME(_hx_pos_f704f8914f7b4676_11_boot,"englishauction.EnglishAuction","boot",0x3218e292,"englishauction.EnglishAuction.boot","englishauction/EnglishAuction.hx",11,0xd6cb504f)
 namespace englishauction{
 
@@ -152,7 +152,7 @@ HXLINE(  39)			myargs->push(::maglev::MagLevString_obj::fromString(HX_("EnglishA
 HXLINE(  40)			myargs->push(::maglev::MagLevString_obj::fromString(HX_("CreateNew",a4,86,b4,eb)));
 HXLINE(  41)			 ::maglev::MagLevArray myarr = ::maglev::MagLevArray_obj::create();
 HXLINE(  42)			myarr->push(obj);
-HXLINE(  43)			myargs->push(obj);
+HXLINE(  43)			myargs->push(myarr);
 HXLINE(  44)			 ::maglev::MagLevResult res = _gthis->maglev->call(HX_("Persistence.Mutate",f5,04,66,8c),myargs);
 HXLINE(  45)			return res;
             		}
@@ -165,438 +165,448 @@ HXLINE(  48)			 ::maglev::MagLevString id = ::hx::TCast<  ::maglev::MagLevString
 HXLINE(  49)			 ::maglev::MagLevArray myargs = ::maglev::MagLevArray_obj::create();
 HXLINE(  50)			myargs->push(::maglev::MagLevString_obj::fromString(HX_("EnglishAuction.Auction",c8,f3,cc,ba)));
 HXLINE(  51)			myargs->push(::maglev::MagLevString_obj::fromString(HX_("FindById",8b,c2,68,6d)));
-HXLINE(  52)			myargs->push(id);
-HXLINE(  53)			 ::maglev::MagLevResult res = bus->call(HX_("Persistence.Get",c7,c3,56,12),myargs);
-HXLINE(  54)			if (res->isError()) {
-HXLINE(  54)				return res;
+HXLINE(  52)			 ::maglev::MagLevArray myarr = ::maglev::MagLevArray_obj::create();
+HXLINE(  53)			myarr->push(id);
+HXLINE(  54)			myargs->push(myarr);
+HXLINE(  55)			 ::maglev::MagLevResult res = bus->call(HX_("Persistence.Get",c7,c3,56,12),myargs);
+HXLINE(  56)			if (res->isError()) {
+HXLINE(  56)				return res;
             			}
-HXLINE(  55)			 ::maglev::MagLevObject resobj = ( ( ::maglev::MagLevObject)(res->getResult()) );
-HXLINE(  56)			Float start = ( (Float)(0) );
-HXLINE(  57)			if (::Std_obj::isOfType(resobj->get(HX_("start",62,74,0b,84)),( ( ::Dynamic)(::hx::ClassOf< ::maglev::MagLevString >()) ))) {
-HXLINE(  58)				 ::maglev::MagLevString y = ::hx::TCast<  ::maglev::MagLevString >::cast(resobj->get(HX_("start",62,74,0b,84)));
-HXLINE(  59)				start = ::Date_obj::fromString(y->getString())->getTime();
+HXLINE(  57)			 ::maglev::MagLevObject resobj = ( ( ::maglev::MagLevObject)(res->getResult()) );
+HXLINE(  58)			Float start = ( (Float)(0) );
+HXLINE(  59)			if (::Std_obj::isOfType(resobj->get(HX_("start",62,74,0b,84)),( ( ::Dynamic)(::hx::ClassOf< ::maglev::MagLevString >()) ))) {
+HXLINE(  60)				 ::maglev::MagLevString y = ::hx::TCast<  ::maglev::MagLevString >::cast(resobj->get(HX_("start",62,74,0b,84)));
+HXLINE(  61)				start = ::Date_obj::fromString(y->getString())->getTime();
             			}
             			else {
-HXLINE(  60)				if (::Std_obj::isOfType(resobj->get(HX_("start",62,74,0b,84)),( ( ::Dynamic)(::hx::ClassOf< ::maglev::MagLevNumber >()) ))) {
-HXLINE(  61)					 ::maglev::MagLevNumber y = ::hx::TCast<  ::maglev::MagLevNumber >::cast(resobj->get(HX_("start",62,74,0b,84)));
-HXLINE(  62)					start = y->getFloat();
+HXLINE(  62)				if (::Std_obj::isOfType(resobj->get(HX_("start",62,74,0b,84)),( ( ::Dynamic)(::hx::ClassOf< ::maglev::MagLevNumber >()) ))) {
+HXLINE(  63)					 ::maglev::MagLevNumber y = ::hx::TCast<  ::maglev::MagLevNumber >::cast(resobj->get(HX_("start",62,74,0b,84)));
+HXLINE(  64)					start = y->getFloat();
             				}
             				else {
-HXLINE(  64)					 ::maglev::MagLevError error = ::maglev::MagLevError_obj::create(0,HX_("persistence getter did not return object with start as number or string",a0,2c,5d,68),::maglev::MagLevNull_obj::create());
-HXLINE(  65)					return ::maglev::MagLevResult_obj::fromError(error);
+HXLINE(  66)					 ::maglev::MagLevError error = ::maglev::MagLevError_obj::create(0,HX_("persistence getter did not return object with start as number or string",a0,2c,5d,68),::maglev::MagLevNull_obj::create());
+HXLINE(  67)					return ::maglev::MagLevResult_obj::fromError(error);
             				}
             			}
-HXLINE(  67)			Float result = start;
-HXLINE(  68)			return ::maglev::MagLevResult_obj::fromResult(::maglev::MagLevNumber_obj::fromFloat(result));
+HXLINE(  69)			Float result = start;
+HXLINE(  70)			return ::maglev::MagLevResult_obj::fromResult(::maglev::MagLevNumber_obj::fromFloat(result));
             		}
             		HX_END_LOCAL_FUNC1(return)
 
             		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_2, ::maglev::MagLev,bus) HXARGC(1)
             		 ::maglev::MagLevResult _hx_run( ::maglev::MagLevArray args){
-            			HX_STACKFRAME(&_hx_pos_f704f8914f7b4676_70_registerMyMethods)
-HXLINE(  71)			 ::maglev::MagLevString id = ::hx::TCast<  ::maglev::MagLevString >::cast(args->get(0));
-HXLINE(  72)			 ::maglev::MagLevArray myargs = ::maglev::MagLevArray_obj::create();
-HXLINE(  73)			myargs->push(::maglev::MagLevString_obj::fromString(HX_("EnglishAuction.Auction",c8,f3,cc,ba)));
-HXLINE(  74)			myargs->push(::maglev::MagLevString_obj::fromString(HX_("FindById",8b,c2,68,6d)));
-HXLINE(  75)			myargs->push(id);
-HXLINE(  76)			 ::maglev::MagLevResult res = bus->call(HX_("Persistence.Get",c7,c3,56,12),myargs);
-HXLINE(  77)			if (res->isError()) {
-HXLINE(  77)				return res;
+            			HX_STACKFRAME(&_hx_pos_f704f8914f7b4676_72_registerMyMethods)
+HXLINE(  73)			 ::maglev::MagLevString id = ::hx::TCast<  ::maglev::MagLevString >::cast(args->get(0));
+HXLINE(  74)			 ::maglev::MagLevArray myargs = ::maglev::MagLevArray_obj::create();
+HXLINE(  75)			myargs->push(::maglev::MagLevString_obj::fromString(HX_("EnglishAuction.Auction",c8,f3,cc,ba)));
+HXLINE(  76)			myargs->push(::maglev::MagLevString_obj::fromString(HX_("FindById",8b,c2,68,6d)));
+HXLINE(  77)			 ::maglev::MagLevArray myarr = ::maglev::MagLevArray_obj::create();
+HXLINE(  78)			myarr->push(id);
+HXLINE(  79)			myargs->push(myarr);
+HXLINE(  80)			 ::maglev::MagLevResult res = bus->call(HX_("Persistence.Get",c7,c3,56,12),myargs);
+HXLINE(  81)			if (res->isError()) {
+HXLINE(  81)				return res;
             			}
-HXLINE(  78)			 ::maglev::MagLevObject resobj = ( ( ::maglev::MagLevObject)(res->getResult()) );
-HXLINE(  79)			Float end = ( (Float)(0) );
-HXLINE(  80)			if (::Std_obj::isOfType(resobj->get(HX_("end",db,03,4d,00)),( ( ::Dynamic)(::hx::ClassOf< ::maglev::MagLevString >()) ))) {
-HXLINE(  81)				 ::maglev::MagLevString y = ::hx::TCast<  ::maglev::MagLevString >::cast(resobj->get(HX_("end",db,03,4d,00)));
-HXLINE(  82)				end = ::Date_obj::fromString(y->getString())->getTime();
+HXLINE(  82)			 ::maglev::MagLevObject resobj = ( ( ::maglev::MagLevObject)(res->getResult()) );
+HXLINE(  83)			Float end = ( (Float)(0) );
+HXLINE(  84)			if (::Std_obj::isOfType(resobj->get(HX_("end",db,03,4d,00)),( ( ::Dynamic)(::hx::ClassOf< ::maglev::MagLevString >()) ))) {
+HXLINE(  85)				 ::maglev::MagLevString y = ::hx::TCast<  ::maglev::MagLevString >::cast(resobj->get(HX_("end",db,03,4d,00)));
+HXLINE(  86)				end = ::Date_obj::fromString(y->getString())->getTime();
             			}
             			else {
-HXLINE(  83)				if (::Std_obj::isOfType(resobj->get(HX_("end",db,03,4d,00)),( ( ::Dynamic)(::hx::ClassOf< ::maglev::MagLevNumber >()) ))) {
-HXLINE(  84)					 ::maglev::MagLevNumber y = ::hx::TCast<  ::maglev::MagLevNumber >::cast(resobj->get(HX_("end",db,03,4d,00)));
-HXLINE(  85)					end = y->getFloat();
+HXLINE(  87)				if (::Std_obj::isOfType(resobj->get(HX_("end",db,03,4d,00)),( ( ::Dynamic)(::hx::ClassOf< ::maglev::MagLevNumber >()) ))) {
+HXLINE(  88)					 ::maglev::MagLevNumber y = ::hx::TCast<  ::maglev::MagLevNumber >::cast(resobj->get(HX_("end",db,03,4d,00)));
+HXLINE(  89)					end = y->getFloat();
             				}
             				else {
-HXLINE(  87)					 ::maglev::MagLevError error = ::maglev::MagLevError_obj::create(0,HX_("persistence getter did not return object with end as number or string",59,36,24,34),::maglev::MagLevNull_obj::create());
-HXLINE(  88)					return ::maglev::MagLevResult_obj::fromError(error);
+HXLINE(  91)					 ::maglev::MagLevError error = ::maglev::MagLevError_obj::create(0,HX_("persistence getter did not return object with end as number or string",59,36,24,34),::maglev::MagLevNull_obj::create());
+HXLINE(  92)					return ::maglev::MagLevResult_obj::fromError(error);
             				}
             			}
-HXLINE(  90)			Float result = end;
-HXLINE(  91)			return ::maglev::MagLevResult_obj::fromResult(::maglev::MagLevNumber_obj::fromFloat(result));
+HXLINE(  94)			Float result = end;
+HXLINE(  95)			return ::maglev::MagLevResult_obj::fromResult(::maglev::MagLevNumber_obj::fromFloat(result));
             		}
             		HX_END_LOCAL_FUNC1(return)
 
             		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_3, ::maglev::MagLev,bus) HXARGC(1)
             		 ::maglev::MagLevResult _hx_run( ::maglev::MagLevArray args){
-            			HX_STACKFRAME(&_hx_pos_f704f8914f7b4676_93_registerMyMethods)
-HXLINE(  94)			 ::maglev::MagLevString id = ::hx::TCast<  ::maglev::MagLevString >::cast(args->get(0));
-HXLINE(  95)			 ::maglev::MagLevArray myargs = ::maglev::MagLevArray_obj::create();
-HXLINE(  96)			myargs->push(::maglev::MagLevString_obj::fromString(HX_("EnglishAuction.Auction",c8,f3,cc,ba)));
-HXLINE(  97)			myargs->push(::maglev::MagLevString_obj::fromString(HX_("FindById",8b,c2,68,6d)));
-HXLINE(  98)			myargs->push(id);
-HXLINE(  99)			 ::maglev::MagLevResult res = bus->call(HX_("Persistence.Get",c7,c3,56,12),myargs);
-HXLINE( 100)			if (res->isError()) {
-HXLINE( 100)				return res;
+            			HX_STACKFRAME(&_hx_pos_f704f8914f7b4676_97_registerMyMethods)
+HXLINE(  98)			 ::maglev::MagLevString id = ::hx::TCast<  ::maglev::MagLevString >::cast(args->get(0));
+HXLINE(  99)			 ::maglev::MagLevArray myargs = ::maglev::MagLevArray_obj::create();
+HXLINE( 100)			myargs->push(::maglev::MagLevString_obj::fromString(HX_("EnglishAuction.Auction",c8,f3,cc,ba)));
+HXLINE( 101)			myargs->push(::maglev::MagLevString_obj::fromString(HX_("FindById",8b,c2,68,6d)));
+HXLINE( 102)			 ::maglev::MagLevArray myarr = ::maglev::MagLevArray_obj::create();
+HXLINE( 103)			myarr->push(id);
+HXLINE( 104)			myargs->push(myarr);
+HXLINE( 105)			 ::maglev::MagLevResult res = bus->call(HX_("Persistence.Get",c7,c3,56,12),myargs);
+HXLINE( 106)			if (res->isError()) {
+HXLINE( 106)				return res;
             			}
-HXLINE( 101)			 ::maglev::MagLevObject resobj = ( ( ::maglev::MagLevObject)(res->getResult()) );
-HXLINE( 102)			Float start = ( (Float)(0) );
-HXLINE( 103)			if (::Std_obj::isOfType(resobj->get(HX_("start",62,74,0b,84)),( ( ::Dynamic)(::hx::ClassOf< ::maglev::MagLevString >()) ))) {
-HXLINE( 104)				 ::maglev::MagLevString y = ::hx::TCast<  ::maglev::MagLevString >::cast(resobj->get(HX_("start",62,74,0b,84)));
-HXLINE( 105)				start = ::Date_obj::fromString(y->getString())->getTime();
+HXLINE( 107)			 ::maglev::MagLevObject resobj = ( ( ::maglev::MagLevObject)(res->getResult()) );
+HXLINE( 108)			Float start = ( (Float)(0) );
+HXLINE( 109)			if (::Std_obj::isOfType(resobj->get(HX_("start",62,74,0b,84)),( ( ::Dynamic)(::hx::ClassOf< ::maglev::MagLevString >()) ))) {
+HXLINE( 110)				 ::maglev::MagLevString y = ::hx::TCast<  ::maglev::MagLevString >::cast(resobj->get(HX_("start",62,74,0b,84)));
+HXLINE( 111)				start = ::Date_obj::fromString(y->getString())->getTime();
             			}
             			else {
-HXLINE( 106)				if (::Std_obj::isOfType(resobj->get(HX_("start",62,74,0b,84)),( ( ::Dynamic)(::hx::ClassOf< ::maglev::MagLevNumber >()) ))) {
-HXLINE( 107)					 ::maglev::MagLevNumber y = ::hx::TCast<  ::maglev::MagLevNumber >::cast(resobj->get(HX_("start",62,74,0b,84)));
-HXLINE( 108)					start = y->getFloat();
+HXLINE( 112)				if (::Std_obj::isOfType(resobj->get(HX_("start",62,74,0b,84)),( ( ::Dynamic)(::hx::ClassOf< ::maglev::MagLevNumber >()) ))) {
+HXLINE( 113)					 ::maglev::MagLevNumber y = ::hx::TCast<  ::maglev::MagLevNumber >::cast(resobj->get(HX_("start",62,74,0b,84)));
+HXLINE( 114)					start = y->getFloat();
             				}
             				else {
-HXLINE( 110)					 ::maglev::MagLevError error = ::maglev::MagLevError_obj::create(0,HX_("persistence getter did not return object with start as number or string",a0,2c,5d,68),::maglev::MagLevNull_obj::create());
-HXLINE( 111)					return ::maglev::MagLevResult_obj::fromError(error);
+HXLINE( 116)					 ::maglev::MagLevError error = ::maglev::MagLevError_obj::create(0,HX_("persistence getter did not return object with start as number or string",a0,2c,5d,68),::maglev::MagLevNull_obj::create());
+HXLINE( 117)					return ::maglev::MagLevResult_obj::fromError(error);
             				}
             			}
-HXLINE( 113)			Float now = ::Date_obj::now()->getTime();
-HXLINE( 114)			bool result = (start <= now);
-HXLINE( 115)			return ::maglev::MagLevResult_obj::fromResult(::maglev::MagLevBoolean_obj::fromBool(result));
+HXLINE( 119)			Float now = ::Date_obj::now()->getTime();
+HXLINE( 120)			bool result = (start <= now);
+HXLINE( 121)			return ::maglev::MagLevResult_obj::fromResult(::maglev::MagLevBoolean_obj::fromBool(result));
             		}
             		HX_END_LOCAL_FUNC1(return)
 
             		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_4, ::maglev::MagLev,bus) HXARGC(1)
             		 ::maglev::MagLevResult _hx_run( ::maglev::MagLevArray args){
-            			HX_STACKFRAME(&_hx_pos_f704f8914f7b4676_117_registerMyMethods)
-HXLINE( 118)			 ::maglev::MagLevString id = ::hx::TCast<  ::maglev::MagLevString >::cast(args->get(0));
-HXLINE( 119)			 ::maglev::MagLevArray myargs = ::maglev::MagLevArray_obj::create();
-HXLINE( 120)			myargs->push(::maglev::MagLevString_obj::fromString(HX_("EnglishAuction.Auction",c8,f3,cc,ba)));
-HXLINE( 121)			myargs->push(::maglev::MagLevString_obj::fromString(HX_("FindById",8b,c2,68,6d)));
-HXLINE( 122)			myargs->push(id);
-HXLINE( 123)			 ::maglev::MagLevResult res = bus->call(HX_("Persistence.Get",c7,c3,56,12),myargs);
-HXLINE( 124)			if (res->isError()) {
-HXLINE( 124)				return res;
+            			HX_STACKFRAME(&_hx_pos_f704f8914f7b4676_123_registerMyMethods)
+HXLINE( 124)			 ::maglev::MagLevString id = ::hx::TCast<  ::maglev::MagLevString >::cast(args->get(0));
+HXLINE( 125)			 ::maglev::MagLevArray myargs = ::maglev::MagLevArray_obj::create();
+HXLINE( 126)			myargs->push(::maglev::MagLevString_obj::fromString(HX_("EnglishAuction.Auction",c8,f3,cc,ba)));
+HXLINE( 127)			myargs->push(::maglev::MagLevString_obj::fromString(HX_("FindById",8b,c2,68,6d)));
+HXLINE( 128)			 ::maglev::MagLevArray myarr = ::maglev::MagLevArray_obj::create();
+HXLINE( 129)			myarr->push(id);
+HXLINE( 130)			myargs->push(myarr);
+HXLINE( 131)			 ::maglev::MagLevResult res = bus->call(HX_("Persistence.Get",c7,c3,56,12),myargs);
+HXLINE( 132)			if (res->isError()) {
+HXLINE( 132)				return res;
             			}
-HXLINE( 125)			 ::maglev::MagLevObject resobj = ( ( ::maglev::MagLevObject)(res->getResult()) );
-HXLINE( 126)			Float end = ( (Float)(0) );
-HXLINE( 127)			if (::Std_obj::isOfType(resobj->get(HX_("end",db,03,4d,00)),( ( ::Dynamic)(::hx::ClassOf< ::maglev::MagLevString >()) ))) {
-HXLINE( 128)				 ::maglev::MagLevString y = ::hx::TCast<  ::maglev::MagLevString >::cast(resobj->get(HX_("end",db,03,4d,00)));
-HXLINE( 129)				end = ::Date_obj::fromString(y->getString())->getTime();
+HXLINE( 133)			 ::maglev::MagLevObject resobj = ( ( ::maglev::MagLevObject)(res->getResult()) );
+HXLINE( 134)			Float end = ( (Float)(0) );
+HXLINE( 135)			if (::Std_obj::isOfType(resobj->get(HX_("end",db,03,4d,00)),( ( ::Dynamic)(::hx::ClassOf< ::maglev::MagLevString >()) ))) {
+HXLINE( 136)				 ::maglev::MagLevString y = ::hx::TCast<  ::maglev::MagLevString >::cast(resobj->get(HX_("end",db,03,4d,00)));
+HXLINE( 137)				end = ::Date_obj::fromString(y->getString())->getTime();
             			}
             			else {
-HXLINE( 130)				if (::Std_obj::isOfType(resobj->get(HX_("end",db,03,4d,00)),( ( ::Dynamic)(::hx::ClassOf< ::maglev::MagLevNumber >()) ))) {
-HXLINE( 131)					 ::maglev::MagLevNumber y = ::hx::TCast<  ::maglev::MagLevNumber >::cast(resobj->get(HX_("end",db,03,4d,00)));
-HXLINE( 132)					end = y->getFloat();
+HXLINE( 138)				if (::Std_obj::isOfType(resobj->get(HX_("end",db,03,4d,00)),( ( ::Dynamic)(::hx::ClassOf< ::maglev::MagLevNumber >()) ))) {
+HXLINE( 139)					 ::maglev::MagLevNumber y = ::hx::TCast<  ::maglev::MagLevNumber >::cast(resobj->get(HX_("end",db,03,4d,00)));
+HXLINE( 140)					end = y->getFloat();
             				}
             				else {
-HXLINE( 134)					 ::maglev::MagLevError error = ::maglev::MagLevError_obj::create(0,HX_("persistence getter did not return object with end as number or string",59,36,24,34),::maglev::MagLevNull_obj::create());
-HXLINE( 135)					return ::maglev::MagLevResult_obj::fromError(error);
+HXLINE( 142)					 ::maglev::MagLevError error = ::maglev::MagLevError_obj::create(0,HX_("persistence getter did not return object with end as number or string",59,36,24,34),::maglev::MagLevNull_obj::create());
+HXLINE( 143)					return ::maglev::MagLevResult_obj::fromError(error);
             				}
             			}
-HXLINE( 137)			Float now = ::Date_obj::now()->getTime();
-HXLINE( 138)			bool result = (now > end);
-HXLINE( 139)			return ::maglev::MagLevResult_obj::fromResult(::maglev::MagLevBoolean_obj::fromBool(result));
+HXLINE( 145)			Float now = ::Date_obj::now()->getTime();
+HXLINE( 146)			bool result = (now > end);
+HXLINE( 147)			return ::maglev::MagLevResult_obj::fromResult(::maglev::MagLevBoolean_obj::fromBool(result));
             		}
             		HX_END_LOCAL_FUNC1(return)
 
             		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_5, ::maglev::MagLev,bus) HXARGC(1)
             		 ::maglev::MagLevResult _hx_run( ::maglev::MagLevArray args){
-            			HX_STACKFRAME(&_hx_pos_f704f8914f7b4676_141_registerMyMethods)
-HXLINE( 142)			 ::maglev::MagLevString auctionId = ::hx::TCast<  ::maglev::MagLevString >::cast(args->get(0));
-HXLINE( 143)			 ::maglev::MagLevString userId = ::hx::TCast<  ::maglev::MagLevString >::cast(args->get(1));
-HXLINE( 144)			 ::maglev::MagLevNumber price = ::hx::TCast<  ::maglev::MagLevNumber >::cast(args->get(2));
-HXLINE( 145)			 ::maglev::MagLevObject data = ::maglev::MagLevObject_obj::create();
-HXLINE( 146)			data->set(HX_("auctionId",fe,08,7f,46),auctionId);
-HXLINE( 147)			data->set(HX_("userId",06,3b,ef,41),userId);
-HXLINE( 148)			data->set(HX_("price",89,4e,8b,c8),price);
-HXLINE( 149)			 ::maglev::MagLevArray args1 = ::maglev::MagLevArray_obj::create();
-HXLINE( 150)			args1->push(::maglev::MagLevString_obj::fromString(HX_("EnglishAuction.Bid",c2,d3,e1,19)));
-HXLINE( 151)			args1->push(::maglev::MagLevString_obj::fromString(HX_("New",40,88,3b,00)));
-HXLINE( 152)			args1->push(data);
-HXLINE( 153)			bus->call(HX_("Persistence.Mutate",f5,04,66,8c),args1);
-HXLINE( 154)			return ::maglev::MagLevResult_obj::fromResult(::maglev::MagLevBoolean_obj::fromBool(true));
+            			HX_STACKFRAME(&_hx_pos_f704f8914f7b4676_149_registerMyMethods)
+HXLINE( 150)			 ::maglev::MagLevString auctionId = ::hx::TCast<  ::maglev::MagLevString >::cast(args->get(0));
+HXLINE( 151)			 ::maglev::MagLevString userId = ::hx::TCast<  ::maglev::MagLevString >::cast(args->get(1));
+HXLINE( 152)			 ::maglev::MagLevNumber price = ::hx::TCast<  ::maglev::MagLevNumber >::cast(args->get(2));
+HXLINE( 153)			 ::maglev::MagLevObject data = ::maglev::MagLevObject_obj::create();
+HXLINE( 154)			data->set(HX_("auctionId",fe,08,7f,46),auctionId);
+HXLINE( 155)			data->set(HX_("userId",06,3b,ef,41),userId);
+HXLINE( 156)			data->set(HX_("price",89,4e,8b,c8),price);
+HXLINE( 157)			 ::maglev::MagLevArray args1 = ::maglev::MagLevArray_obj::create();
+HXLINE( 158)			args1->push(::maglev::MagLevString_obj::fromString(HX_("EnglishAuction.Bid",c2,d3,e1,19)));
+HXLINE( 159)			args1->push(::maglev::MagLevString_obj::fromString(HX_("New",40,88,3b,00)));
+HXLINE( 160)			 ::maglev::MagLevArray arr = ::maglev::MagLevArray_obj::create();
+HXLINE( 161)			arr->push(data);
+HXLINE( 162)			args1->push(arr);
+HXLINE( 163)			bus->call(HX_("Persistence.Mutate",f5,04,66,8c),args1);
+HXLINE( 164)			return ::maglev::MagLevResult_obj::fromResult(::maglev::MagLevBoolean_obj::fromBool(true));
             		}
             		HX_END_LOCAL_FUNC1(return)
 
             		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_6, ::maglev::MagLev,bus) HXARGC(1)
             		 ::maglev::MagLevResult _hx_run( ::maglev::MagLevArray args){
-            			HX_STACKFRAME(&_hx_pos_f704f8914f7b4676_156_registerMyMethods)
-HXLINE( 157)			 ::maglev::MagLevString auctionId = ::hx::TCast<  ::maglev::MagLevString >::cast(args->get(0));
-HXLINE( 158)			 ::maglev::MagLevArray myargs = ::maglev::MagLevArray_obj::create();
-HXLINE( 159)			myargs->push(auctionId);
-HXLINE( 160)			myargs->push(::maglev::MagLevNumber_obj::fromInt(1));
-HXLINE( 161)			 ::maglev::MagLevArray myargs2 = ::maglev::MagLevArray_obj::create();
-HXLINE( 162)			myargs2->push(::maglev::MagLevString_obj::fromString(HX_("EnglishAuction.Bid",c2,d3,e1,19)));
-HXLINE( 163)			myargs2->push(::maglev::MagLevString_obj::fromString(HX_("FindByHighestPriceForAuction",0f,c3,2f,00)));
-HXLINE( 164)			myargs2->push(myargs);
-HXLINE( 165)			 ::maglev::MagLevResult ret = bus->call(HX_("Persistence.Get",c7,c3,56,12),myargs2);
-HXLINE( 166)			if (ret->isError()) {
-HXLINE( 166)				return ret;
+            			HX_STACKFRAME(&_hx_pos_f704f8914f7b4676_166_registerMyMethods)
+HXLINE( 167)			 ::maglev::MagLevString auctionId = ::hx::TCast<  ::maglev::MagLevString >::cast(args->get(0));
+HXLINE( 168)			 ::maglev::MagLevArray myargs = ::maglev::MagLevArray_obj::create();
+HXLINE( 169)			myargs->push(auctionId);
+HXLINE( 170)			myargs->push(::maglev::MagLevNumber_obj::fromInt(1));
+HXLINE( 171)			 ::maglev::MagLevArray myargs2 = ::maglev::MagLevArray_obj::create();
+HXLINE( 172)			myargs2->push(::maglev::MagLevString_obj::fromString(HX_("EnglishAuction.Bid",c2,d3,e1,19)));
+HXLINE( 173)			myargs2->push(::maglev::MagLevString_obj::fromString(HX_("FindByHighestPriceForAuction",0f,c3,2f,00)));
+HXLINE( 174)			myargs2->push(myargs);
+HXLINE( 175)			 ::maglev::MagLevResult ret = bus->call(HX_("Persistence.Get",c7,c3,56,12),myargs2);
+HXLINE( 176)			if (ret->isError()) {
+HXLINE( 176)				return ret;
             			}
-HXLINE( 167)			 ::maglev::MagLevAny res = ret->getResult();
-HXLINE( 168)			if (::Std_obj::isOfType(res,( ( ::Dynamic)(::hx::ClassOf< ::maglev::MagLevArray >()) ))) {
-HXLINE( 169)				 ::maglev::MagLevArray resarr = ::hx::TCast<  ::maglev::MagLevArray >::cast(res);
-HXLINE( 170)				if ((resarr->size() > 0)) {
-HXLINE( 171)					 ::maglev::MagLevObject row = ( ( ::maglev::MagLevObject)(resarr->get(0)) );
-HXLINE( 172)					 ::maglev::MagLevObject row2 = ::maglev::MagLevObject_obj::create();
-HXLINE( 173)					row2->set(HX_("userId",06,3b,ef,41),row->get(HX_("userId",06,3b,ef,41)));
-HXLINE( 174)					row2->set(HX_("price",89,4e,8b,c8),row->get(HX_("price",89,4e,8b,c8)));
-HXLINE( 175)					return ::maglev::MagLevResult_obj::fromResult(row2);
+HXLINE( 177)			 ::maglev::MagLevAny res = ret->getResult();
+HXLINE( 178)			if (::Std_obj::isOfType(res,( ( ::Dynamic)(::hx::ClassOf< ::maglev::MagLevArray >()) ))) {
+HXLINE( 179)				 ::maglev::MagLevArray resarr = ::hx::TCast<  ::maglev::MagLevArray >::cast(res);
+HXLINE( 180)				if ((resarr->size() > 0)) {
+HXLINE( 181)					 ::maglev::MagLevObject row = ( ( ::maglev::MagLevObject)(resarr->get(0)) );
+HXLINE( 182)					 ::maglev::MagLevObject row2 = ::maglev::MagLevObject_obj::create();
+HXLINE( 183)					row2->set(HX_("userId",06,3b,ef,41),row->get(HX_("userId",06,3b,ef,41)));
+HXLINE( 184)					row2->set(HX_("price",89,4e,8b,c8),row->get(HX_("price",89,4e,8b,c8)));
+HXLINE( 185)					return ::maglev::MagLevResult_obj::fromResult(row2);
             				}
             				else {
-HXLINE( 177)					return ::maglev::MagLevResult_obj::fromResult(::maglev::MagLevNull_obj::create());
+HXLINE( 187)					return ::maglev::MagLevResult_obj::fromResult(::maglev::MagLevNull_obj::create());
             				}
             			}
             			else {
-HXLINE( 181)				 ::maglev::MagLevError error = ::maglev::MagLevError_obj::create(0,HX_("persistence getter did not return array",4b,24,e2,1e),::maglev::MagLevNull_obj::create());
-HXLINE( 182)				return ::maglev::MagLevResult_obj::fromError(error);
+HXLINE( 191)				 ::maglev::MagLevError error = ::maglev::MagLevError_obj::create(0,HX_("persistence getter did not return array",4b,24,e2,1e),::maglev::MagLevNull_obj::create());
+HXLINE( 192)				return ::maglev::MagLevResult_obj::fromError(error);
             			}
-HXLINE( 168)			return null();
+HXLINE( 178)			return null();
             		}
             		HX_END_LOCAL_FUNC1(return)
 
             		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_7, ::maglev::MagLev,bus) HXARGC(1)
             		 ::maglev::MagLevResult _hx_run( ::maglev::MagLevArray args){
-            			HX_STACKFRAME(&_hx_pos_f704f8914f7b4676_185_registerMyMethods)
-HXLINE( 186)			 ::maglev::MagLevString auctionId = ::hx::TCast<  ::maglev::MagLevString >::cast(args->get(0));
-HXLINE( 187)			 ::maglev::MagLevNumber numBids = ::hx::TCast<  ::maglev::MagLevNumber >::cast(args->get(1));
-HXLINE( 188)			 ::maglev::MagLevArray myargs = ::maglev::MagLevArray_obj::create();
-HXLINE( 189)			myargs->push(auctionId);
-HXLINE( 190)			myargs->push(numBids);
-HXLINE( 191)			 ::maglev::MagLevArray myargs2 = ::maglev::MagLevArray_obj::create();
-HXLINE( 192)			myargs2->push(::maglev::MagLevString_obj::fromString(HX_("EnglishAuction.Bid",c2,d3,e1,19)));
-HXLINE( 193)			myargs2->push(::maglev::MagLevString_obj::fromString(HX_("FindByHighestPriceForAuction",0f,c3,2f,00)));
-HXLINE( 194)			myargs2->push(myargs);
-HXLINE( 195)			 ::maglev::MagLevResult ret = bus->call(HX_("Persistence.Get",c7,c3,56,12),myargs2);
-HXLINE( 196)			if (ret->isError()) {
-HXLINE( 196)				return ret;
+            			HX_STACKFRAME(&_hx_pos_f704f8914f7b4676_195_registerMyMethods)
+HXLINE( 196)			 ::maglev::MagLevString auctionId = ::hx::TCast<  ::maglev::MagLevString >::cast(args->get(0));
+HXLINE( 197)			 ::maglev::MagLevNumber numBids = ::hx::TCast<  ::maglev::MagLevNumber >::cast(args->get(1));
+HXLINE( 198)			 ::maglev::MagLevArray myargs = ::maglev::MagLevArray_obj::create();
+HXLINE( 199)			myargs->push(auctionId);
+HXLINE( 200)			myargs->push(numBids);
+HXLINE( 201)			 ::maglev::MagLevArray myargs2 = ::maglev::MagLevArray_obj::create();
+HXLINE( 202)			myargs2->push(::maglev::MagLevString_obj::fromString(HX_("EnglishAuction.Bid",c2,d3,e1,19)));
+HXLINE( 203)			myargs2->push(::maglev::MagLevString_obj::fromString(HX_("FindByHighestPriceForAuction",0f,c3,2f,00)));
+HXLINE( 204)			myargs2->push(myargs);
+HXLINE( 205)			 ::maglev::MagLevResult ret = bus->call(HX_("Persistence.Get",c7,c3,56,12),myargs2);
+HXLINE( 206)			if (ret->isError()) {
+HXLINE( 206)				return ret;
             			}
-HXLINE( 197)			 ::maglev::MagLevAny res = ret->getResult();
-HXLINE( 198)			 ::maglev::MagLevArray bids = ::maglev::MagLevArray_obj::create();
-HXLINE( 199)			if (::Std_obj::isOfType(res,( ( ::Dynamic)(::hx::ClassOf< ::maglev::MagLevArray >()) ))) {
-HXLINE( 200)				 ::maglev::MagLevArray resarr = ::hx::TCast<  ::maglev::MagLevArray >::cast(res);
-HXLINE( 201)				int i = 0;
-HXLINE( 202)				while((i < resarr->size())){
-HXLINE( 203)					 ::maglev::MagLevObject row = ( ( ::maglev::MagLevObject)(resarr->get(i)) );
-HXLINE( 204)					 ::maglev::MagLevObject row2 = ::maglev::MagLevObject_obj::create();
-HXLINE( 205)					row2->set(HX_("userId",06,3b,ef,41),row->get(HX_("userId",06,3b,ef,41)));
-HXLINE( 206)					row2->set(HX_("price",89,4e,8b,c8),row->get(HX_("price",89,4e,8b,c8)));
-HXLINE( 207)					bids->push(row2);
-HXLINE( 208)					i = (i + 1);
+HXLINE( 207)			 ::maglev::MagLevAny res = ret->getResult();
+HXLINE( 208)			 ::maglev::MagLevArray bids = ::maglev::MagLevArray_obj::create();
+HXLINE( 209)			if (::Std_obj::isOfType(res,( ( ::Dynamic)(::hx::ClassOf< ::maglev::MagLevArray >()) ))) {
+HXLINE( 210)				 ::maglev::MagLevArray resarr = ::hx::TCast<  ::maglev::MagLevArray >::cast(res);
+HXLINE( 211)				int i = 0;
+HXLINE( 212)				while((i < resarr->size())){
+HXLINE( 213)					 ::maglev::MagLevObject row = ( ( ::maglev::MagLevObject)(resarr->get(i)) );
+HXLINE( 214)					 ::maglev::MagLevObject row2 = ::maglev::MagLevObject_obj::create();
+HXLINE( 215)					row2->set(HX_("userId",06,3b,ef,41),row->get(HX_("userId",06,3b,ef,41)));
+HXLINE( 216)					row2->set(HX_("price",89,4e,8b,c8),row->get(HX_("price",89,4e,8b,c8)));
+HXLINE( 217)					bids->push(row2);
+HXLINE( 218)					i = (i + 1);
             				}
-HXLINE( 210)				return ::maglev::MagLevResult_obj::fromResult(bids);
+HXLINE( 220)				return ::maglev::MagLevResult_obj::fromResult(bids);
             			}
             			else {
-HXLINE( 213)				 ::maglev::MagLevError error = ::maglev::MagLevError_obj::create(0,HX_("persistence getter did not return array",4b,24,e2,1e),::maglev::MagLevNull_obj::create());
-HXLINE( 214)				return ::maglev::MagLevResult_obj::fromError(error);
+HXLINE( 223)				 ::maglev::MagLevError error = ::maglev::MagLevError_obj::create(0,HX_("persistence getter did not return array",4b,24,e2,1e),::maglev::MagLevNull_obj::create());
+HXLINE( 224)				return ::maglev::MagLevResult_obj::fromError(error);
             			}
-HXLINE( 199)			return null();
+HXLINE( 209)			return null();
             		}
             		HX_END_LOCAL_FUNC1(return)
 
             		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_8, ::englishauction::EnglishAuction,_gthis) HXARGC(1)
             		 ::maglev::MagLevResult _hx_run( ::maglev::MagLevArray args){
-            			HX_STACKFRAME(&_hx_pos_f704f8914f7b4676_217_registerMyMethods)
-HXLINE( 218)			::String auctionId = ::hx::TCast<  ::maglev::MagLevString >::cast(args->get(0))->getString();
-HXLINE( 219)			int numBids = _gthis->bidRepo->GetNumberOfBids(auctionId);
-HXLINE( 220)			return ::maglev::MagLevResult_obj::fromResult(::maglev::MagLevNumber_obj::fromInt(numBids));
+            			HX_STACKFRAME(&_hx_pos_f704f8914f7b4676_227_registerMyMethods)
+HXLINE( 228)			::String auctionId = ::hx::TCast<  ::maglev::MagLevString >::cast(args->get(0))->getString();
+HXLINE( 229)			int numBids = _gthis->bidRepo->GetNumberOfBids(auctionId);
+HXLINE( 230)			return ::maglev::MagLevResult_obj::fromResult(::maglev::MagLevNumber_obj::fromInt(numBids));
             		}
             		HX_END_LOCAL_FUNC1(return)
 
             		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_9, ::englishauction::EnglishAuction,_gthis) HXARGC(1)
             		 ::maglev::MagLevResult _hx_run( ::maglev::MagLevArray args){
-            			HX_STACKFRAME(&_hx_pos_f704f8914f7b4676_222_registerMyMethods)
-HXLINE( 223)			::String auctionId = ::hx::TCast<  ::maglev::MagLevString >::cast(args->get(0))->getString();
-HXLINE( 224)			 ::englishauction::AuctionModel auction = _gthis->auctionRepo->FindById(auctionId);
-HXLINE( 225)			if (::hx::IsNull( auction )) {
-HXLINE( 226)				 ::maglev::MagLevError error = ::maglev::MagLevError_obj::create(0,HX_("auction not found",58,f7,69,1a),::maglev::MagLevNull_obj::create());
-HXLINE( 227)				return ::maglev::MagLevResult_obj::fromError(error);
+            			HX_STACKFRAME(&_hx_pos_f704f8914f7b4676_232_registerMyMethods)
+HXLINE( 233)			::String auctionId = ::hx::TCast<  ::maglev::MagLevString >::cast(args->get(0))->getString();
+HXLINE( 234)			 ::englishauction::AuctionModel auction = _gthis->auctionRepo->FindById(auctionId);
+HXLINE( 235)			if (::hx::IsNull( auction )) {
+HXLINE( 236)				 ::maglev::MagLevError error = ::maglev::MagLevError_obj::create(0,HX_("auction not found",58,f7,69,1a),::maglev::MagLevNull_obj::create());
+HXLINE( 237)				return ::maglev::MagLevResult_obj::fromError(error);
             			}
             			else {
-HXLINE( 229)				Float priceIncrement = auction->priceIncrement;
-HXLINE( 230)				return ::maglev::MagLevResult_obj::fromResult(::maglev::MagLevNumber_obj::fromFloat(priceIncrement));
+HXLINE( 239)				Float priceIncrement = auction->priceIncrement;
+HXLINE( 240)				return ::maglev::MagLevResult_obj::fromResult(::maglev::MagLevNumber_obj::fromFloat(priceIncrement));
             			}
-HXLINE( 225)			return null();
+HXLINE( 235)			return null();
             		}
             		HX_END_LOCAL_FUNC1(return)
 
             		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_10, ::englishauction::EnglishAuction,_gthis) HXARGC(1)
             		 ::maglev::MagLevResult _hx_run( ::maglev::MagLevArray args){
-            			HX_STACKFRAME(&_hx_pos_f704f8914f7b4676_233_registerMyMethods)
-HXLINE( 234)			::String auctionId = ::hx::TCast<  ::maglev::MagLevString >::cast(args->get(0))->getString();
-HXLINE( 235)			 ::englishauction::AuctionModel auction = _gthis->auctionRepo->FindById(auctionId);
-HXLINE( 236)			if (::hx::IsNull( auction )) {
-HXLINE( 237)				 ::maglev::MagLevError error = ::maglev::MagLevError_obj::create(0,HX_("auction not found",58,f7,69,1a),::maglev::MagLevNull_obj::create());
-HXLINE( 238)				return ::maglev::MagLevResult_obj::fromError(error);
+            			HX_STACKFRAME(&_hx_pos_f704f8914f7b4676_243_registerMyMethods)
+HXLINE( 244)			::String auctionId = ::hx::TCast<  ::maglev::MagLevString >::cast(args->get(0))->getString();
+HXLINE( 245)			 ::englishauction::AuctionModel auction = _gthis->auctionRepo->FindById(auctionId);
+HXLINE( 246)			if (::hx::IsNull( auction )) {
+HXLINE( 247)				 ::maglev::MagLevError error = ::maglev::MagLevError_obj::create(0,HX_("auction not found",58,f7,69,1a),::maglev::MagLevNull_obj::create());
+HXLINE( 248)				return ::maglev::MagLevResult_obj::fromError(error);
             			}
             			else {
-HXLINE( 240)				Float priceIncrement = auction->priceIncrement;
-HXLINE( 241)				return ::maglev::MagLevResult_obj::fromResult(::maglev::MagLevNumber_obj::fromFloat(priceIncrement));
+HXLINE( 250)				Float priceIncrement = auction->priceIncrement;
+HXLINE( 251)				return ::maglev::MagLevResult_obj::fromResult(::maglev::MagLevNumber_obj::fromFloat(priceIncrement));
             			}
-HXLINE( 236)			return null();
+HXLINE( 246)			return null();
             		}
             		HX_END_LOCAL_FUNC1(return)
 
             		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_11, ::englishauction::EnglishAuction,_gthis) HXARGC(1)
             		 ::maglev::MagLevResult _hx_run( ::maglev::MagLevArray args){
-            			HX_STACKFRAME(&_hx_pos_f704f8914f7b4676_244_registerMyMethods)
-HXLINE( 245)			::String auctionId = ::hx::TCast<  ::maglev::MagLevString >::cast(args->get(0))->getString();
-HXLINE( 246)			 ::englishauction::AuctionModel auction = _gthis->auctionRepo->FindById(auctionId);
-HXLINE( 247)			if (::hx::IsNull( auction )) {
-HXLINE( 248)				 ::maglev::MagLevError error = ::maglev::MagLevError_obj::create(0,HX_("auction not found",58,f7,69,1a),::maglev::MagLevNull_obj::create());
-HXLINE( 249)				return ::maglev::MagLevResult_obj::fromError(error);
+            			HX_STACKFRAME(&_hx_pos_f704f8914f7b4676_254_registerMyMethods)
+HXLINE( 255)			::String auctionId = ::hx::TCast<  ::maglev::MagLevString >::cast(args->get(0))->getString();
+HXLINE( 256)			 ::englishauction::AuctionModel auction = _gthis->auctionRepo->FindById(auctionId);
+HXLINE( 257)			if (::hx::IsNull( auction )) {
+HXLINE( 258)				 ::maglev::MagLevError error = ::maglev::MagLevError_obj::create(0,HX_("auction not found",58,f7,69,1a),::maglev::MagLevNull_obj::create());
+HXLINE( 259)				return ::maglev::MagLevResult_obj::fromError(error);
             			}
             			else {
-HXLINE( 251)				Float reservePrice = auction->reservePrice;
-HXLINE( 252)				return ::maglev::MagLevResult_obj::fromResult(::maglev::MagLevNumber_obj::fromFloat(reservePrice));
+HXLINE( 261)				Float reservePrice = auction->reservePrice;
+HXLINE( 262)				return ::maglev::MagLevResult_obj::fromResult(::maglev::MagLevNumber_obj::fromFloat(reservePrice));
             			}
-HXLINE( 247)			return null();
+HXLINE( 257)			return null();
             		}
             		HX_END_LOCAL_FUNC1(return)
 
             		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_12, ::englishauction::EnglishAuction,_gthis) HXARGC(1)
             		 ::maglev::MagLevResult _hx_run( ::maglev::MagLevArray args){
-            			HX_STACKFRAME(&_hx_pos_f704f8914f7b4676_255_registerMyMethods)
-HXLINE( 256)			::String auctionId = ::hx::TCast<  ::maglev::MagLevString >::cast(args->get(0))->getString();
-HXLINE( 257)			 ::englishauction::AuctionModel auction = _gthis->auctionRepo->FindById(auctionId);
-HXLINE( 258)			if (::hx::IsNull( auction )) {
-HXLINE( 259)				 ::maglev::MagLevError error = ::maglev::MagLevError_obj::create(0,HX_("auction not found",58,f7,69,1a),::maglev::MagLevNull_obj::create());
-HXLINE( 260)				return ::maglev::MagLevResult_obj::fromError(error);
+            			HX_STACKFRAME(&_hx_pos_f704f8914f7b4676_265_registerMyMethods)
+HXLINE( 266)			::String auctionId = ::hx::TCast<  ::maglev::MagLevString >::cast(args->get(0))->getString();
+HXLINE( 267)			 ::englishauction::AuctionModel auction = _gthis->auctionRepo->FindById(auctionId);
+HXLINE( 268)			if (::hx::IsNull( auction )) {
+HXLINE( 269)				 ::maglev::MagLevError error = ::maglev::MagLevError_obj::create(0,HX_("auction not found",58,f7,69,1a),::maglev::MagLevNull_obj::create());
+HXLINE( 270)				return ::maglev::MagLevResult_obj::fromError(error);
             			}
             			else {
-HXLINE( 262)				Float startingPrice = auction->startingPrice;
-HXLINE( 263)				return ::maglev::MagLevResult_obj::fromResult(::maglev::MagLevNumber_obj::fromFloat(startingPrice));
+HXLINE( 272)				Float startingPrice = auction->startingPrice;
+HXLINE( 273)				return ::maglev::MagLevResult_obj::fromResult(::maglev::MagLevNumber_obj::fromFloat(startingPrice));
             			}
-HXLINE( 258)			return null();
+HXLINE( 268)			return null();
             		}
             		HX_END_LOCAL_FUNC1(return)
 
             		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_13, ::englishauction::EnglishAuction,_gthis) HXARGC(1)
             		 ::maglev::MagLevResult _hx_run( ::maglev::MagLevArray args){
-            			HX_STACKFRAME(&_hx_pos_f704f8914f7b4676_266_registerMyMethods)
-HXLINE( 267)			::String auctionId = ::hx::TCast<  ::maglev::MagLevString >::cast(args->get(0))->getString();
-HXLINE( 268)			 ::englishauction::AuctionModel auction = _gthis->auctionRepo->FindById(auctionId);
-HXLINE( 269)			if (::hx::IsNull( auction )) {
-HXLINE( 270)				 ::maglev::MagLevError error = ::maglev::MagLevError_obj::create(0,HX_("auction not found",58,f7,69,1a),::maglev::MagLevNull_obj::create());
-HXLINE( 271)				return ::maglev::MagLevResult_obj::fromError(error);
+            			HX_STACKFRAME(&_hx_pos_f704f8914f7b4676_276_registerMyMethods)
+HXLINE( 277)			::String auctionId = ::hx::TCast<  ::maglev::MagLevString >::cast(args->get(0))->getString();
+HXLINE( 278)			 ::englishauction::AuctionModel auction = _gthis->auctionRepo->FindById(auctionId);
+HXLINE( 279)			if (::hx::IsNull( auction )) {
+HXLINE( 280)				 ::maglev::MagLevError error = ::maglev::MagLevError_obj::create(0,HX_("auction not found",58,f7,69,1a),::maglev::MagLevNull_obj::create());
+HXLINE( 281)				return ::maglev::MagLevResult_obj::fromError(error);
             			}
             			else {
-HXLINE( 273)				Float highestBid = ( (Float)(0) );
-HXLINE( 274)				::Array< ::Dynamic> bids = _gthis->bidRepo->GetHighestBids(auctionId,1);
-HXLINE( 275)				if ((bids->length > 0)) {
-HXLINE( 276)					highestBid = bids->__get(0).StaticCast<  ::englishauction::BidModel >()->amount;
+HXLINE( 283)				Float highestBid = ( (Float)(0) );
+HXLINE( 284)				::Array< ::Dynamic> bids = _gthis->bidRepo->GetHighestBids(auctionId,1);
+HXLINE( 285)				if ((bids->length > 0)) {
+HXLINE( 286)					highestBid = bids->__get(0).StaticCast<  ::englishauction::BidModel >()->amount;
             				}
-HXLINE( 279)				Float minBid = ((Float)0.00);
-HXLINE( 280)				minBid = ::Math_obj::max(minBid,(highestBid + auction->priceIncrement));
-HXLINE( 281)				minBid = ::Math_obj::max(minBid,auction->startingPrice);
-HXLINE( 283)				return ::maglev::MagLevResult_obj::fromResult(::maglev::MagLevNumber_obj::fromFloat(minBid));
+HXLINE( 289)				Float minBid = ((Float)0.00);
+HXLINE( 290)				minBid = ::Math_obj::max(minBid,(highestBid + auction->priceIncrement));
+HXLINE( 291)				minBid = ::Math_obj::max(minBid,auction->startingPrice);
+HXLINE( 293)				return ::maglev::MagLevResult_obj::fromResult(::maglev::MagLevNumber_obj::fromFloat(minBid));
             			}
-HXLINE( 269)			return null();
+HXLINE( 279)			return null();
             		}
             		HX_END_LOCAL_FUNC1(return)
 
             		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_14, ::englishauction::EnglishAuction,_gthis) HXARGC(1)
             		 ::maglev::MagLevResult _hx_run( ::maglev::MagLevArray args){
-            			HX_STACKFRAME(&_hx_pos_f704f8914f7b4676_286_registerMyMethods)
-HXLINE( 287)			::String auctionId = ::hx::TCast<  ::maglev::MagLevString >::cast(args->get(0))->getString();
-HXLINE( 288)			int now = ::Std_obj::_hx_int(::Date_obj::now()->getTime());
-HXLINE( 289)			if ((args->size() > 1)) {
-HXLINE( 290)				now = ::hx::TCast<  ::maglev::MagLevNumber >::cast(args->get(1))->getInt();
+            			HX_STACKFRAME(&_hx_pos_f704f8914f7b4676_296_registerMyMethods)
+HXLINE( 297)			::String auctionId = ::hx::TCast<  ::maglev::MagLevString >::cast(args->get(0))->getString();
+HXLINE( 298)			int now = ::Std_obj::_hx_int(::Date_obj::now()->getTime());
+HXLINE( 299)			if ((args->size() > 1)) {
+HXLINE( 300)				now = ::hx::TCast<  ::maglev::MagLevNumber >::cast(args->get(1))->getInt();
             			}
-HXLINE( 292)			 ::englishauction::AuctionModel auction = _gthis->auctionRepo->FindById(auctionId);
-HXLINE( 293)			if (::hx::IsNull( auction )) {
-HXLINE( 294)				 ::maglev::MagLevError error = ::maglev::MagLevError_obj::create(0,HX_("auction not found",58,f7,69,1a),::maglev::MagLevNull_obj::create());
-HXLINE( 295)				return ::maglev::MagLevResult_obj::fromError(error);
+HXLINE( 302)			 ::englishauction::AuctionModel auction = _gthis->auctionRepo->FindById(auctionId);
+HXLINE( 303)			if (::hx::IsNull( auction )) {
+HXLINE( 304)				 ::maglev::MagLevError error = ::maglev::MagLevError_obj::create(0,HX_("auction not found",58,f7,69,1a),::maglev::MagLevNull_obj::create());
+HXLINE( 305)				return ::maglev::MagLevResult_obj::fromError(error);
             			}
             			else {
-HXLINE( 297)				int timeRemaining = (auction->end - now);
-HXLINE( 298)				if ((timeRemaining < 0)) {
-HXLINE( 299)					timeRemaining = 0;
+HXLINE( 307)				int timeRemaining = (auction->end - now);
+HXLINE( 308)				if ((timeRemaining < 0)) {
+HXLINE( 309)					timeRemaining = 0;
             				}
-HXLINE( 301)				return ::maglev::MagLevResult_obj::fromResult(::maglev::MagLevNumber_obj::fromInt(timeRemaining));
+HXLINE( 311)				return ::maglev::MagLevResult_obj::fromResult(::maglev::MagLevNumber_obj::fromInt(timeRemaining));
             			}
-HXLINE( 293)			return null();
+HXLINE( 303)			return null();
             		}
             		HX_END_LOCAL_FUNC1(return)
 
             		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_15, ::englishauction::EnglishAuction,_gthis) HXARGC(1)
             		 ::maglev::MagLevResult _hx_run( ::maglev::MagLevArray args){
-            			HX_STACKFRAME(&_hx_pos_f704f8914f7b4676_306_registerMyMethods)
-HXLINE( 307)			int endfrom = ::hx::TCast<  ::maglev::MagLevNumber >::cast(args->get(0))->getInt();
-HXLINE( 308)			int endto = ::hx::TCast<  ::maglev::MagLevNumber >::cast(args->get(1))->getInt();
-HXLINE( 309)			int page = ::hx::TCast<  ::maglev::MagLevNumber >::cast(args->get(2))->getInt();
-HXLINE( 310)			int perpage = ::hx::TCast<  ::maglev::MagLevNumber >::cast(args->get(3))->getInt();
-HXLINE( 311)			::String sort = HX_("end",db,03,4d,00);
-HXLINE( 312)			bool asc = true;
-HXLINE( 313)			if ((args->size() > 4)) {
-HXLINE( 314)				sort = ::hx::TCast<  ::maglev::MagLevString >::cast(args->get(4))->getString();
+            			HX_STACKFRAME(&_hx_pos_f704f8914f7b4676_316_registerMyMethods)
+HXLINE( 317)			int endfrom = ::hx::TCast<  ::maglev::MagLevNumber >::cast(args->get(0))->getInt();
+HXLINE( 318)			int endto = ::hx::TCast<  ::maglev::MagLevNumber >::cast(args->get(1))->getInt();
+HXLINE( 319)			int page = ::hx::TCast<  ::maglev::MagLevNumber >::cast(args->get(2))->getInt();
+HXLINE( 320)			int perpage = ::hx::TCast<  ::maglev::MagLevNumber >::cast(args->get(3))->getInt();
+HXLINE( 321)			::String sort = HX_("end",db,03,4d,00);
+HXLINE( 322)			bool asc = true;
+HXLINE( 323)			if ((args->size() > 4)) {
+HXLINE( 324)				sort = ::hx::TCast<  ::maglev::MagLevString >::cast(args->get(4))->getString();
             			}
-HXLINE( 316)			if ((args->size() > 5)) {
-HXLINE( 317)				asc = ::hx::TCast<  ::maglev::MagLevBoolean >::cast(args->get(5))->getBool();
+HXLINE( 326)			if ((args->size() > 5)) {
+HXLINE( 327)				asc = ::hx::TCast<  ::maglev::MagLevBoolean >::cast(args->get(5))->getBool();
             			}
-HXLINE( 319)			::Array< ::Dynamic> auctions = _gthis->auctionRepo->FindAuctionsEnding(endfrom,endto,page,perpage,sort,asc);
-HXLINE( 320)			 ::maglev::MagLevArray results = ::maglev::MagLevArray_obj::create();
-HXLINE( 321)			{
-HXLINE( 321)				int _g = 0;
-HXDLIN( 321)				while((_g < auctions->length)){
-HXLINE( 321)					 ::englishauction::AuctionModel auction = auctions->__get(_g).StaticCast<  ::englishauction::AuctionModel >();
-HXDLIN( 321)					_g = (_g + 1);
-HXLINE( 322)					 ::maglev::MagLevObject result = _gthis->auctionModelToMagLevObject(auction);
-HXLINE( 323)					results->push(result);
+HXLINE( 329)			::Array< ::Dynamic> auctions = _gthis->auctionRepo->FindAuctionsEnding(endfrom,endto,page,perpage,sort,asc);
+HXLINE( 330)			 ::maglev::MagLevArray results = ::maglev::MagLevArray_obj::create();
+HXLINE( 331)			{
+HXLINE( 331)				int _g = 0;
+HXDLIN( 331)				while((_g < auctions->length)){
+HXLINE( 331)					 ::englishauction::AuctionModel auction = auctions->__get(_g).StaticCast<  ::englishauction::AuctionModel >();
+HXDLIN( 331)					_g = (_g + 1);
+HXLINE( 332)					 ::maglev::MagLevObject result = _gthis->auctionModelToMagLevObject(auction);
+HXLINE( 333)					results->push(result);
             				}
             			}
-HXLINE( 325)			return ::maglev::MagLevResult_obj::fromResult(results);
+HXLINE( 335)			return ::maglev::MagLevResult_obj::fromResult(results);
             		}
             		HX_END_LOCAL_FUNC1(return)
 
             		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_16, ::englishauction::EnglishAuction,_gthis) HXARGC(1)
             		 ::maglev::MagLevResult _hx_run( ::maglev::MagLevArray args){
-            			HX_STACKFRAME(&_hx_pos_f704f8914f7b4676_327_registerMyMethods)
-HXLINE( 328)			int endfrom = ::hx::TCast<  ::maglev::MagLevNumber >::cast(args->get(0))->getInt();
-HXLINE( 329)			int endto = ::hx::TCast<  ::maglev::MagLevNumber >::cast(args->get(1))->getInt();
-HXLINE( 330)			int page = ::hx::TCast<  ::maglev::MagLevNumber >::cast(args->get(2))->getInt();
-HXLINE( 331)			int perpage = ::hx::TCast<  ::maglev::MagLevNumber >::cast(args->get(3))->getInt();
-HXLINE( 332)			::String sort = HX_("end",db,03,4d,00);
-HXLINE( 333)			bool asc = true;
-HXLINE( 334)			if ((args->size() > 4)) {
-HXLINE( 335)				sort = ::hx::TCast<  ::maglev::MagLevString >::cast(args->get(4))->getString();
+            			HX_STACKFRAME(&_hx_pos_f704f8914f7b4676_337_registerMyMethods)
+HXLINE( 338)			int endfrom = ::hx::TCast<  ::maglev::MagLevNumber >::cast(args->get(0))->getInt();
+HXLINE( 339)			int endto = ::hx::TCast<  ::maglev::MagLevNumber >::cast(args->get(1))->getInt();
+HXLINE( 340)			int page = ::hx::TCast<  ::maglev::MagLevNumber >::cast(args->get(2))->getInt();
+HXLINE( 341)			int perpage = ::hx::TCast<  ::maglev::MagLevNumber >::cast(args->get(3))->getInt();
+HXLINE( 342)			::String sort = HX_("end",db,03,4d,00);
+HXLINE( 343)			bool asc = true;
+HXLINE( 344)			if ((args->size() > 4)) {
+HXLINE( 345)				sort = ::hx::TCast<  ::maglev::MagLevString >::cast(args->get(4))->getString();
             			}
-HXLINE( 337)			if ((args->size() > 5)) {
-HXLINE( 338)				asc = ::hx::TCast<  ::maglev::MagLevBoolean >::cast(args->get(5))->getBool();
+HXLINE( 347)			if ((args->size() > 5)) {
+HXLINE( 348)				asc = ::hx::TCast<  ::maglev::MagLevBoolean >::cast(args->get(5))->getBool();
             			}
-HXLINE( 340)			::Array< ::Dynamic> auctions = _gthis->auctionRepo->FindAuctionsStarting(endfrom,endto,page,perpage,sort,asc);
-HXLINE( 341)			 ::maglev::MagLevArray results = ::maglev::MagLevArray_obj::create();
-HXLINE( 342)			{
-HXLINE( 342)				int _g = 0;
-HXDLIN( 342)				while((_g < auctions->length)){
-HXLINE( 342)					 ::englishauction::AuctionModel auction = auctions->__get(_g).StaticCast<  ::englishauction::AuctionModel >();
-HXDLIN( 342)					_g = (_g + 1);
-HXLINE( 343)					 ::maglev::MagLevObject result = _gthis->auctionModelToMagLevObject(auction);
-HXLINE( 344)					results->push(result);
+HXLINE( 350)			::Array< ::Dynamic> auctions = _gthis->auctionRepo->FindAuctionsStarting(endfrom,endto,page,perpage,sort,asc);
+HXLINE( 351)			 ::maglev::MagLevArray results = ::maglev::MagLevArray_obj::create();
+HXLINE( 352)			{
+HXLINE( 352)				int _g = 0;
+HXDLIN( 352)				while((_g < auctions->length)){
+HXLINE( 352)					 ::englishauction::AuctionModel auction = auctions->__get(_g).StaticCast<  ::englishauction::AuctionModel >();
+HXDLIN( 352)					_g = (_g + 1);
+HXLINE( 353)					 ::maglev::MagLevObject result = _gthis->auctionModelToMagLevObject(auction);
+HXLINE( 354)					results->push(result);
             				}
             			}
-HXLINE( 346)			return ::maglev::MagLevResult_obj::fromResult(results);
+HXLINE( 356)			return ::maglev::MagLevResult_obj::fromResult(results);
             		}
             		HX_END_LOCAL_FUNC1(return)
 
             		HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_17, ::englishauction::EnglishAuction,_gthis) HXARGC(1)
             		 ::maglev::MagLevResult _hx_run( ::maglev::MagLevArray args){
-            			HX_STACKFRAME(&_hx_pos_f704f8914f7b4676_348_registerMyMethods)
-HXLINE( 349)			int page = ::hx::TCast<  ::maglev::MagLevNumber >::cast(args->get(0))->getInt();
-HXLINE( 350)			int perpage = ::hx::TCast<  ::maglev::MagLevNumber >::cast(args->get(1))->getInt();
-HXLINE( 351)			::String sort = HX_("end",db,03,4d,00);
-HXLINE( 352)			bool asc = true;
-HXLINE( 353)			if ((args->size() > 2)) {
-HXLINE( 354)				sort = ::hx::TCast<  ::maglev::MagLevString >::cast(args->get(2))->getString();
+            			HX_STACKFRAME(&_hx_pos_f704f8914f7b4676_358_registerMyMethods)
+HXLINE( 359)			int page = ::hx::TCast<  ::maglev::MagLevNumber >::cast(args->get(0))->getInt();
+HXLINE( 360)			int perpage = ::hx::TCast<  ::maglev::MagLevNumber >::cast(args->get(1))->getInt();
+HXLINE( 361)			::String sort = HX_("end",db,03,4d,00);
+HXLINE( 362)			bool asc = true;
+HXLINE( 363)			if ((args->size() > 2)) {
+HXLINE( 364)				sort = ::hx::TCast<  ::maglev::MagLevString >::cast(args->get(2))->getString();
             			}
-HXLINE( 356)			if ((args->size() > 3)) {
-HXLINE( 357)				asc = ::hx::TCast<  ::maglev::MagLevBoolean >::cast(args->get(3))->getBool();
+HXLINE( 366)			if ((args->size() > 3)) {
+HXLINE( 367)				asc = ::hx::TCast<  ::maglev::MagLevBoolean >::cast(args->get(3))->getBool();
             			}
-HXLINE( 359)			::Array< ::Dynamic> auctions = _gthis->auctionRepo->FindOpenAuctions(page,perpage,sort,asc);
-HXLINE( 360)			 ::maglev::MagLevArray results = ::maglev::MagLevArray_obj::create();
-HXLINE( 361)			{
-HXLINE( 361)				int _g = 0;
-HXDLIN( 361)				while((_g < auctions->length)){
-HXLINE( 361)					 ::englishauction::AuctionModel auction = auctions->__get(_g).StaticCast<  ::englishauction::AuctionModel >();
-HXDLIN( 361)					_g = (_g + 1);
-HXLINE( 362)					 ::maglev::MagLevObject result = _gthis->auctionModelToMagLevObject(auction);
-HXLINE( 363)					results->push(result);
+HXLINE( 369)			::Array< ::Dynamic> auctions = _gthis->auctionRepo->FindOpenAuctions(page,perpage,sort,asc);
+HXLINE( 370)			 ::maglev::MagLevArray results = ::maglev::MagLevArray_obj::create();
+HXLINE( 371)			{
+HXLINE( 371)				int _g = 0;
+HXDLIN( 371)				while((_g < auctions->length)){
+HXLINE( 371)					 ::englishauction::AuctionModel auction = auctions->__get(_g).StaticCast<  ::englishauction::AuctionModel >();
+HXDLIN( 371)					_g = (_g + 1);
+HXLINE( 372)					 ::maglev::MagLevObject result = _gthis->auctionModelToMagLevObject(auction);
+HXLINE( 373)					results->push(result);
             				}
             			}
-HXLINE( 365)			return ::maglev::MagLevResult_obj::fromResult(results);
+HXLINE( 375)			return ::maglev::MagLevResult_obj::fromResult(results);
             		}
             		HX_END_LOCAL_FUNC1(return)
 
@@ -607,190 +617,190 @@ HXLINE(  25)		 ::maglev::MagLev _hx_tmp = this->maglev;
 HXDLIN(  25)		_hx_tmp->_hx_register(HX_("EnglishAuction.Create",17,3d,e9,16),::maglev::MagLevFunction_obj::fromFunction( ::Dynamic(new _hx_Closure_0(_gthis))));
 HXLINE(  47)		 ::maglev::MagLev _hx_tmp1 = this->maglev;
 HXDLIN(  47)		_hx_tmp1->_hx_register(HX_("EnglishAuction.GetStart",c7,56,72,49),::maglev::MagLevFunction_obj::fromFunction( ::Dynamic(new _hx_Closure_1(bus))));
-HXLINE(  70)		 ::maglev::MagLev _hx_tmp2 = this->maglev;
-HXDLIN(  70)		_hx_tmp2->_hx_register(HX_("EnglishAuction.GetEnd",00,13,f6,3d),::maglev::MagLevFunction_obj::fromFunction( ::Dynamic(new _hx_Closure_2(bus))));
-HXLINE(  93)		 ::maglev::MagLev _hx_tmp3 = this->maglev;
-HXDLIN(  93)		_hx_tmp3->_hx_register(HX_("EnglishAuction.HasStarted",a2,90,1d,87),::maglev::MagLevFunction_obj::fromFunction( ::Dynamic(new _hx_Closure_3(bus))));
-HXLINE( 117)		 ::maglev::MagLev _hx_tmp4 = this->maglev;
-HXDLIN( 117)		_hx_tmp4->_hx_register(HX_("EnglishAuction.HasEnded",1b,66,62,62),::maglev::MagLevFunction_obj::fromFunction( ::Dynamic(new _hx_Closure_4(bus))));
-HXLINE( 141)		 ::maglev::MagLev _hx_tmp5 = this->maglev;
-HXDLIN( 141)		_hx_tmp5->_hx_register(HX_("EnglishAuction.Bid",c2,d3,e1,19),::maglev::MagLevFunction_obj::fromFunction( ::Dynamic(new _hx_Closure_5(bus))));
-HXLINE( 156)		 ::maglev::MagLev _hx_tmp6 = this->maglev;
-HXDLIN( 156)		_hx_tmp6->_hx_register(HX_("EnglishAuction.GetHighestBidder",dd,e5,73,16),::maglev::MagLevFunction_obj::fromFunction( ::Dynamic(new _hx_Closure_6(bus))));
-HXLINE( 185)		 ::maglev::MagLev _hx_tmp7 = this->maglev;
-HXDLIN( 185)		_hx_tmp7->_hx_register(HX_("EnglishAuction.GetHighestBids",7f,51,a8,de),::maglev::MagLevFunction_obj::fromFunction( ::Dynamic(new _hx_Closure_7(bus))));
-HXLINE( 217)		 ::maglev::MagLev _hx_tmp8 = this->maglev;
-HXDLIN( 217)		_hx_tmp8->_hx_register(HX_("EnglishAuction.GetNumberOfBids",b1,6d,7e,c5),::maglev::MagLevFunction_obj::fromFunction( ::Dynamic(new _hx_Closure_8(_gthis))));
-HXLINE( 222)		 ::maglev::MagLev _hx_tmp9 = this->maglev;
-HXDLIN( 222)		_hx_tmp9->_hx_register(HX_("EnglishAuction.GetPriceIncrement",61,27,55,b3),::maglev::MagLevFunction_obj::fromFunction( ::Dynamic(new _hx_Closure_9(_gthis))));
-HXLINE( 233)		 ::maglev::MagLev _hx_tmp10 = this->maglev;
-HXDLIN( 233)		_hx_tmp10->_hx_register(HX_("EnglishAuction.GetPriceIncrement",61,27,55,b3),::maglev::MagLevFunction_obj::fromFunction( ::Dynamic(new _hx_Closure_10(_gthis))));
-HXLINE( 244)		 ::maglev::MagLev _hx_tmp11 = this->maglev;
-HXDLIN( 244)		_hx_tmp11->_hx_register(HX_("EnglishAuction.GetReservePrice",e8,8a,d1,87),::maglev::MagLevFunction_obj::fromFunction( ::Dynamic(new _hx_Closure_11(_gthis))));
-HXLINE( 255)		 ::maglev::MagLev _hx_tmp12 = this->maglev;
-HXDLIN( 255)		_hx_tmp12->_hx_register(HX_("EnglishAuction.GetStartingPrice",0e,b4,c5,fc),::maglev::MagLevFunction_obj::fromFunction( ::Dynamic(new _hx_Closure_12(_gthis))));
-HXLINE( 266)		 ::maglev::MagLev _hx_tmp13 = this->maglev;
-HXDLIN( 266)		_hx_tmp13->_hx_register(HX_("EnglishAuction.CalcMinimumBid",9f,31,3e,2b),::maglev::MagLevFunction_obj::fromFunction( ::Dynamic(new _hx_Closure_13(_gthis))));
-HXLINE( 286)		 ::maglev::MagLev _hx_tmp14 = this->maglev;
-HXDLIN( 286)		_hx_tmp14->_hx_register(HX_("EnglishAuction.CalcTimeRemaining",19,a9,a9,bb),::maglev::MagLevFunction_obj::fromFunction( ::Dynamic(new _hx_Closure_14(_gthis))));
-HXLINE( 306)		 ::maglev::MagLev _hx_tmp15 = this->maglev;
-HXDLIN( 306)		_hx_tmp15->_hx_register(HX_("EnglishAuction.GetAuctionsEnding",d2,45,aa,35),::maglev::MagLevFunction_obj::fromFunction( ::Dynamic(new _hx_Closure_15(_gthis))));
-HXLINE( 327)		 ::maglev::MagLev _hx_tmp16 = this->maglev;
-HXDLIN( 327)		_hx_tmp16->_hx_register(HX_("EnglishAuction.GetAuctionsStarting",6b,34,ea,c2),::maglev::MagLevFunction_obj::fromFunction( ::Dynamic(new _hx_Closure_16(_gthis))));
-HXLINE( 348)		 ::maglev::MagLev _hx_tmp17 = this->maglev;
-HXDLIN( 348)		_hx_tmp17->_hx_register(HX_("EnglishAuction.GetOpenAuctions",f5,86,16,fe),::maglev::MagLevFunction_obj::fromFunction( ::Dynamic(new _hx_Closure_17(_gthis))));
+HXLINE(  72)		 ::maglev::MagLev _hx_tmp2 = this->maglev;
+HXDLIN(  72)		_hx_tmp2->_hx_register(HX_("EnglishAuction.GetEnd",00,13,f6,3d),::maglev::MagLevFunction_obj::fromFunction( ::Dynamic(new _hx_Closure_2(bus))));
+HXLINE(  97)		 ::maglev::MagLev _hx_tmp3 = this->maglev;
+HXDLIN(  97)		_hx_tmp3->_hx_register(HX_("EnglishAuction.HasStarted",a2,90,1d,87),::maglev::MagLevFunction_obj::fromFunction( ::Dynamic(new _hx_Closure_3(bus))));
+HXLINE( 123)		 ::maglev::MagLev _hx_tmp4 = this->maglev;
+HXDLIN( 123)		_hx_tmp4->_hx_register(HX_("EnglishAuction.HasEnded",1b,66,62,62),::maglev::MagLevFunction_obj::fromFunction( ::Dynamic(new _hx_Closure_4(bus))));
+HXLINE( 149)		 ::maglev::MagLev _hx_tmp5 = this->maglev;
+HXDLIN( 149)		_hx_tmp5->_hx_register(HX_("EnglishAuction.Bid",c2,d3,e1,19),::maglev::MagLevFunction_obj::fromFunction( ::Dynamic(new _hx_Closure_5(bus))));
+HXLINE( 166)		 ::maglev::MagLev _hx_tmp6 = this->maglev;
+HXDLIN( 166)		_hx_tmp6->_hx_register(HX_("EnglishAuction.GetHighestBidder",dd,e5,73,16),::maglev::MagLevFunction_obj::fromFunction( ::Dynamic(new _hx_Closure_6(bus))));
+HXLINE( 195)		 ::maglev::MagLev _hx_tmp7 = this->maglev;
+HXDLIN( 195)		_hx_tmp7->_hx_register(HX_("EnglishAuction.GetHighestBids",7f,51,a8,de),::maglev::MagLevFunction_obj::fromFunction( ::Dynamic(new _hx_Closure_7(bus))));
+HXLINE( 227)		 ::maglev::MagLev _hx_tmp8 = this->maglev;
+HXDLIN( 227)		_hx_tmp8->_hx_register(HX_("EnglishAuction.GetNumberOfBids",b1,6d,7e,c5),::maglev::MagLevFunction_obj::fromFunction( ::Dynamic(new _hx_Closure_8(_gthis))));
+HXLINE( 232)		 ::maglev::MagLev _hx_tmp9 = this->maglev;
+HXDLIN( 232)		_hx_tmp9->_hx_register(HX_("EnglishAuction.GetPriceIncrement",61,27,55,b3),::maglev::MagLevFunction_obj::fromFunction( ::Dynamic(new _hx_Closure_9(_gthis))));
+HXLINE( 243)		 ::maglev::MagLev _hx_tmp10 = this->maglev;
+HXDLIN( 243)		_hx_tmp10->_hx_register(HX_("EnglishAuction.GetPriceIncrement",61,27,55,b3),::maglev::MagLevFunction_obj::fromFunction( ::Dynamic(new _hx_Closure_10(_gthis))));
+HXLINE( 254)		 ::maglev::MagLev _hx_tmp11 = this->maglev;
+HXDLIN( 254)		_hx_tmp11->_hx_register(HX_("EnglishAuction.GetReservePrice",e8,8a,d1,87),::maglev::MagLevFunction_obj::fromFunction( ::Dynamic(new _hx_Closure_11(_gthis))));
+HXLINE( 265)		 ::maglev::MagLev _hx_tmp12 = this->maglev;
+HXDLIN( 265)		_hx_tmp12->_hx_register(HX_("EnglishAuction.GetStartingPrice",0e,b4,c5,fc),::maglev::MagLevFunction_obj::fromFunction( ::Dynamic(new _hx_Closure_12(_gthis))));
+HXLINE( 276)		 ::maglev::MagLev _hx_tmp13 = this->maglev;
+HXDLIN( 276)		_hx_tmp13->_hx_register(HX_("EnglishAuction.CalcMinimumBid",9f,31,3e,2b),::maglev::MagLevFunction_obj::fromFunction( ::Dynamic(new _hx_Closure_13(_gthis))));
+HXLINE( 296)		 ::maglev::MagLev _hx_tmp14 = this->maglev;
+HXDLIN( 296)		_hx_tmp14->_hx_register(HX_("EnglishAuction.CalcTimeRemaining",19,a9,a9,bb),::maglev::MagLevFunction_obj::fromFunction( ::Dynamic(new _hx_Closure_14(_gthis))));
+HXLINE( 316)		 ::maglev::MagLev _hx_tmp15 = this->maglev;
+HXDLIN( 316)		_hx_tmp15->_hx_register(HX_("EnglishAuction.GetAuctionsEnding",d2,45,aa,35),::maglev::MagLevFunction_obj::fromFunction( ::Dynamic(new _hx_Closure_15(_gthis))));
+HXLINE( 337)		 ::maglev::MagLev _hx_tmp16 = this->maglev;
+HXDLIN( 337)		_hx_tmp16->_hx_register(HX_("EnglishAuction.GetAuctionsStarting",6b,34,ea,c2),::maglev::MagLevFunction_obj::fromFunction( ::Dynamic(new _hx_Closure_16(_gthis))));
+HXLINE( 358)		 ::maglev::MagLev _hx_tmp17 = this->maglev;
+HXDLIN( 358)		_hx_tmp17->_hx_register(HX_("EnglishAuction.GetOpenAuctions",f5,86,16,fe),::maglev::MagLevFunction_obj::fromFunction( ::Dynamic(new _hx_Closure_17(_gthis))));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(EnglishAuction_obj,registerMyMethods,(void))
 
  ::maglev::MagLevObject EnglishAuction_obj::auctionModelToMagLevObject( ::englishauction::AuctionModel m){
-            	HX_STACKFRAME(&_hx_pos_f704f8914f7b4676_376_auctionModelToMagLevObject)
-HXLINE( 377)		 ::maglev::MagLevObject o = ::maglev::MagLevObject_obj::create();
-HXLINE( 378)		o->set(HX_("auctionId",fe,08,7f,46),::maglev::MagLevString_obj::fromString(m->id));
-HXLINE( 379)		o->set(HX_("start",62,74,0b,84),::maglev::MagLevNumber_obj::fromInt(m->start));
-HXLINE( 380)		o->set(HX_("end",db,03,4d,00),::maglev::MagLevNumber_obj::fromInt(m->end));
-HXLINE( 381)		o->set(HX_("startingPrice",a9,64,6e,09),::maglev::MagLevNumber_obj::fromFloat(m->startingPrice));
-HXLINE( 382)		o->set(HX_("reservePrice",ad,26,d1,1a),::maglev::MagLevNumber_obj::fromFloat(m->reservePrice));
-HXLINE( 383)		o->set(HX_("priceIncrement",66,fe,46,ba),::maglev::MagLevNumber_obj::fromFloat(m->priceIncrement));
-HXLINE( 384)		return o;
+            	HX_STACKFRAME(&_hx_pos_f704f8914f7b4676_386_auctionModelToMagLevObject)
+HXLINE( 387)		 ::maglev::MagLevObject o = ::maglev::MagLevObject_obj::create();
+HXLINE( 388)		o->set(HX_("auctionId",fe,08,7f,46),::maglev::MagLevString_obj::fromString(m->id));
+HXLINE( 389)		o->set(HX_("start",62,74,0b,84),::maglev::MagLevNumber_obj::fromInt(m->start));
+HXLINE( 390)		o->set(HX_("end",db,03,4d,00),::maglev::MagLevNumber_obj::fromInt(m->end));
+HXLINE( 391)		o->set(HX_("startingPrice",a9,64,6e,09),::maglev::MagLevNumber_obj::fromFloat(m->startingPrice));
+HXLINE( 392)		o->set(HX_("reservePrice",ad,26,d1,1a),::maglev::MagLevNumber_obj::fromFloat(m->reservePrice));
+HXLINE( 393)		o->set(HX_("priceIncrement",66,fe,46,ba),::maglev::MagLevNumber_obj::fromFloat(m->priceIncrement));
+HXLINE( 394)		return o;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(EnglishAuction_obj,auctionModelToMagLevObject,return )
 
  ::Dynamic EnglishAuction_obj::convertToHaxe( ::maglev::MagLevAny x){
-            	HX_GC_STACKFRAME(&_hx_pos_f704f8914f7b4676_388_convertToHaxe)
-HXDLIN( 388)		int _hx_tmp = x->getType();
-HXDLIN( 388)		if ((_hx_tmp == ::maglev::MagLevNull_obj::getStaticType())) {
-HXLINE( 389)			return null();
+            	HX_GC_STACKFRAME(&_hx_pos_f704f8914f7b4676_398_convertToHaxe)
+HXDLIN( 398)		int _hx_tmp = x->getType();
+HXDLIN( 398)		if ((_hx_tmp == ::maglev::MagLevNull_obj::getStaticType())) {
+HXLINE( 399)			return null();
             		}
             		else {
-HXLINE( 391)			int _hx_tmp = x->getType();
-HXDLIN( 391)			if ((_hx_tmp == ::maglev::MagLevBoolean_obj::getStaticType())) {
-HXLINE( 392)				 ::maglev::MagLevBoolean y = ::hx::TCast<  ::maglev::MagLevBoolean >::cast(x);
-HXLINE( 393)				return y->getBool();
+HXLINE( 401)			int _hx_tmp = x->getType();
+HXDLIN( 401)			if ((_hx_tmp == ::maglev::MagLevBoolean_obj::getStaticType())) {
+HXLINE( 402)				 ::maglev::MagLevBoolean y = ::hx::TCast<  ::maglev::MagLevBoolean >::cast(x);
+HXLINE( 403)				return y->getBool();
             			}
             			else {
-HXLINE( 395)				int _hx_tmp = x->getType();
-HXDLIN( 395)				if ((_hx_tmp == ::maglev::MagLevString_obj::getStaticType())) {
-HXLINE( 396)					 ::maglev::MagLevString y = ::hx::TCast<  ::maglev::MagLevString >::cast(x);
-HXLINE( 397)					return y->getString();
+HXLINE( 405)				int _hx_tmp = x->getType();
+HXDLIN( 405)				if ((_hx_tmp == ::maglev::MagLevString_obj::getStaticType())) {
+HXLINE( 406)					 ::maglev::MagLevString y = ::hx::TCast<  ::maglev::MagLevString >::cast(x);
+HXLINE( 407)					return y->getString();
             				}
             				else {
-HXLINE( 399)					int _hx_tmp = x->getType();
-HXDLIN( 399)					if ((_hx_tmp == ::maglev::MagLevNumber_obj::getStaticType())) {
-HXLINE( 400)						 ::maglev::MagLevNumber y = ::hx::TCast<  ::maglev::MagLevNumber >::cast(x);
-HXLINE( 401)						return y->getFloat();
+HXLINE( 409)					int _hx_tmp = x->getType();
+HXDLIN( 409)					if ((_hx_tmp == ::maglev::MagLevNumber_obj::getStaticType())) {
+HXLINE( 410)						 ::maglev::MagLevNumber y = ::hx::TCast<  ::maglev::MagLevNumber >::cast(x);
+HXLINE( 411)						return y->getFloat();
             					}
             					else {
-HXLINE( 403)						int _hx_tmp = x->getType();
-HXDLIN( 403)						if ((_hx_tmp == ::maglev::MagLevArray_obj::getStaticType())) {
-HXLINE( 404)							 ::maglev::MagLevArray y = ::hx::TCast<  ::maglev::MagLevArray >::cast(x);
-HXLINE( 405)							::cpp::VirtualArray arr = ::cpp::VirtualArray_obj::__new();
-HXLINE( 406)							int i = 0;
-HXLINE( 407)							while((i < y->size())){
-HXLINE( 408)								arr->push(this->convertToHaxe(y->get(i)));
+HXLINE( 413)						int _hx_tmp = x->getType();
+HXDLIN( 413)						if ((_hx_tmp == ::maglev::MagLevArray_obj::getStaticType())) {
+HXLINE( 414)							 ::maglev::MagLevArray y = ::hx::TCast<  ::maglev::MagLevArray >::cast(x);
+HXLINE( 415)							::cpp::VirtualArray arr = ::cpp::VirtualArray_obj::__new();
+HXLINE( 416)							int i = 0;
+HXLINE( 417)							while((i < y->size())){
+HXLINE( 418)								arr->push(this->convertToHaxe(y->get(i)));
             							}
-HXLINE( 410)							return arr;
+HXLINE( 420)							return arr;
             						}
             						else {
-HXLINE( 412)							int _hx_tmp = x->getType();
-HXDLIN( 412)							if ((_hx_tmp == ::maglev::MagLevObject_obj::getStaticType())) {
-HXLINE( 413)								 ::maglev::MagLevObject y = ::hx::TCast<  ::maglev::MagLevObject >::cast(x);
-HXLINE( 414)								 ::haxe::ds::StringMap map =  ::haxe::ds::StringMap_obj::__alloc( HX_CTX );
-HXLINE( 415)								 ::maglev::MagLevArray keys = y->keys();
-HXLINE( 416)								int i = 0;
-HXLINE( 417)								while((i < keys->size())){
-HXLINE( 418)									::String key = ::hx::TCast<  ::maglev::MagLevString >::cast(keys->get(i))->getString();
-HXLINE( 419)									map->set(key,this->convertToHaxe(y->get(key)));
+HXLINE( 422)							int _hx_tmp = x->getType();
+HXDLIN( 422)							if ((_hx_tmp == ::maglev::MagLevObject_obj::getStaticType())) {
+HXLINE( 423)								 ::maglev::MagLevObject y = ::hx::TCast<  ::maglev::MagLevObject >::cast(x);
+HXLINE( 424)								 ::haxe::ds::StringMap map =  ::haxe::ds::StringMap_obj::__alloc( HX_CTX );
+HXLINE( 425)								 ::maglev::MagLevArray keys = y->keys();
+HXLINE( 426)								int i = 0;
+HXLINE( 427)								while((i < keys->size())){
+HXLINE( 428)									::String key = ::hx::TCast<  ::maglev::MagLevString >::cast(keys->get(i))->getString();
+HXLINE( 429)									map->set(key,this->convertToHaxe(y->get(key)));
             								}
-HXLINE( 421)								return map;
+HXLINE( 431)								return map;
             							}
             							else {
-HXLINE( 424)								HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(HX_("convertToHaxe: unknown type",4a,83,07,f2)));
+HXLINE( 434)								HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(HX_("convertToHaxe: unknown type",4a,83,07,f2)));
             							}
             						}
             					}
             				}
             			}
             		}
-HXLINE( 388)		return null();
+HXLINE( 398)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(EnglishAuction_obj,convertToHaxe,return )
 
  ::maglev::MagLevAny EnglishAuction_obj::convertToMagLev( ::Dynamic x){
-            	HX_STACKFRAME(&_hx_pos_f704f8914f7b4676_429_convertToMagLev)
-HXDLIN( 429)		if (::hx::IsNull( x )) {
-HXLINE( 430)			return ::maglev::MagLevNull_obj::create();
+            	HX_STACKFRAME(&_hx_pos_f704f8914f7b4676_439_convertToMagLev)
+HXDLIN( 439)		if (::hx::IsNull( x )) {
+HXLINE( 440)			return ::maglev::MagLevNull_obj::create();
             		}
             		else {
-HXLINE( 432)			if (::Std_obj::isOfType(x,( ( ::Dynamic)(::hx::ClassOf< bool >()) ))) {
-HXLINE( 433)				return ::maglev::MagLevBoolean_obj::fromBool(::hx::TCast< bool >::cast(x));
+HXLINE( 442)			if (::Std_obj::isOfType(x,( ( ::Dynamic)(::hx::ClassOf< bool >()) ))) {
+HXLINE( 443)				return ::maglev::MagLevBoolean_obj::fromBool(::hx::TCast< bool >::cast(x));
             			}
             			else {
-HXLINE( 435)				if (::Std_obj::isOfType(x,( ( ::Dynamic)(::hx::ClassOf< ::String >()) ))) {
-HXLINE( 436)					return ::maglev::MagLevString_obj::fromString(::hx::TCast< ::String >::cast(x));
+HXLINE( 445)				if (::Std_obj::isOfType(x,( ( ::Dynamic)(::hx::ClassOf< ::String >()) ))) {
+HXLINE( 446)					return ::maglev::MagLevString_obj::fromString(::hx::TCast< ::String >::cast(x));
             				}
             				else {
-HXLINE( 438)					if (::Std_obj::isOfType(x,( ( ::Dynamic)(::hx::ClassOf< int >()) ))) {
-HXLINE( 439)						return ::maglev::MagLevNumber_obj::fromInt(::hx::TCast< int >::cast(x));
+HXLINE( 448)					if (::Std_obj::isOfType(x,( ( ::Dynamic)(::hx::ClassOf< int >()) ))) {
+HXLINE( 449)						return ::maglev::MagLevNumber_obj::fromInt(::hx::TCast< int >::cast(x));
             					}
             					else {
-HXLINE( 441)						if (::Std_obj::isOfType(x,( ( ::Dynamic)(::hx::ClassOf< ::Float >()) ))) {
-HXLINE( 442)							return ::maglev::MagLevNumber_obj::fromFloat(( (Float)(x) ));
+HXLINE( 451)						if (::Std_obj::isOfType(x,( ( ::Dynamic)(::hx::ClassOf< ::Float >()) ))) {
+HXLINE( 452)							return ::maglev::MagLevNumber_obj::fromFloat(( (Float)(x) ));
             						}
             						else {
-HXLINE( 444)							if (::Std_obj::isOfType(x,( ( ::Dynamic)(::hx::ArrayBase::__mClass) ))) {
-HXLINE( 445)								 ::maglev::MagLevArray arr = ::maglev::MagLevArray_obj::create();
-HXLINE( 446)								::cpp::VirtualArray y = ( (::cpp::VirtualArray)(x) );
-HXLINE( 447)								{
-HXLINE( 447)									int _g = 0;
-HXDLIN( 447)									while((_g < y->get_length())){
-HXLINE( 447)										 ::Dynamic item = y->__get(_g);
-HXDLIN( 447)										_g = (_g + 1);
-HXLINE( 448)										arr->push(this->convertToMagLev(item));
+HXLINE( 454)							if (::Std_obj::isOfType(x,( ( ::Dynamic)(::hx::ArrayBase::__mClass) ))) {
+HXLINE( 455)								 ::maglev::MagLevArray arr = ::maglev::MagLevArray_obj::create();
+HXLINE( 456)								::cpp::VirtualArray y = ( (::cpp::VirtualArray)(x) );
+HXLINE( 457)								{
+HXLINE( 457)									int _g = 0;
+HXDLIN( 457)									while((_g < y->get_length())){
+HXLINE( 457)										 ::Dynamic item = y->__get(_g);
+HXDLIN( 457)										_g = (_g + 1);
+HXLINE( 458)										arr->push(this->convertToMagLev(item));
             									}
             								}
-HXLINE( 450)								return arr;
+HXLINE( 460)								return arr;
             							}
             							else {
-HXLINE( 452)								if (::Std_obj::isOfType(x,( ( ::Dynamic)(::hx::ClassOf< ::haxe::ds::StringMap >()) ))) {
-HXLINE( 453)									 ::haxe::ds::StringMap map = ( ( ::haxe::ds::StringMap)(x) );
-HXLINE( 454)									 ::maglev::MagLevObject obj = ::maglev::MagLevObject_obj::create();
-HXLINE( 455)									{
-HXLINE( 455)										 ::Dynamic key = map->keys();
-HXDLIN( 455)										while(( (bool)(key->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
-HXLINE( 455)											::String key1 = ( (::String)(key->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
-HXLINE( 456)											obj->set(key1,this->convertToMagLev(map->get(key1)));
+HXLINE( 462)								if (::Std_obj::isOfType(x,( ( ::Dynamic)(::hx::ClassOf< ::haxe::ds::StringMap >()) ))) {
+HXLINE( 463)									 ::haxe::ds::StringMap map = ( ( ::haxe::ds::StringMap)(x) );
+HXLINE( 464)									 ::maglev::MagLevObject obj = ::maglev::MagLevObject_obj::create();
+HXLINE( 465)									{
+HXLINE( 465)										 ::Dynamic key = map->keys();
+HXDLIN( 465)										while(( (bool)(key->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
+HXLINE( 465)											::String key1 = ( (::String)(key->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
+HXLINE( 466)											obj->set(key1,this->convertToMagLev(map->get(key1)));
             										}
             									}
-HXLINE( 458)									return obj;
+HXLINE( 468)									return obj;
             								}
             								else {
-HXLINE( 460)									if (::Reflect_obj::isObject(x)) {
-HXLINE( 461)										 ::maglev::MagLevObject obj = ::maglev::MagLevObject_obj::create();
-HXLINE( 462)										{
-HXLINE( 462)											int _g = 0;
-HXDLIN( 462)											::Array< ::String > _g1 = ::Reflect_obj::fields(x);
-HXDLIN( 462)											while((_g < _g1->length)){
-HXLINE( 462)												::String field = _g1->__get(_g);
-HXDLIN( 462)												_g = (_g + 1);
-HXLINE( 463)												 ::Dynamic val = ::Reflect_obj::getProperty(x,field);
-HXLINE( 464)												obj->set(field,this->convertToMagLev(val));
+HXLINE( 470)									if (::Reflect_obj::isObject(x)) {
+HXLINE( 471)										 ::maglev::MagLevObject obj = ::maglev::MagLevObject_obj::create();
+HXLINE( 472)										{
+HXLINE( 472)											int _g = 0;
+HXDLIN( 472)											::Array< ::String > _g1 = ::Reflect_obj::fields(x);
+HXDLIN( 472)											while((_g < _g1->length)){
+HXLINE( 472)												::String field = _g1->__get(_g);
+HXDLIN( 472)												_g = (_g + 1);
+HXLINE( 473)												 ::Dynamic val = ::Reflect_obj::getProperty(x,field);
+HXLINE( 474)												obj->set(field,this->convertToMagLev(val));
             											}
             										}
-HXLINE( 466)										return obj;
+HXLINE( 476)										return obj;
             									}
             									else {
-HXLINE( 468)										if (::Reflect_obj::isFunction(x)) {
-HXLINE( 469)											 ::Dynamic f = x;
-HXLINE( 470)											return ::maglev::MagLevFunction_obj::fromFunction(f);
+HXLINE( 478)										if (::Reflect_obj::isFunction(x)) {
+HXLINE( 479)											 ::Dynamic f = x;
+HXLINE( 480)											return ::maglev::MagLevFunction_obj::fromFunction(f);
             										}
             										else {
-HXLINE( 473)											HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(HX_("convertToMagLev: unknown type",ae,84,a9,64)));
+HXLINE( 483)											HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(HX_("convertToMagLev: unknown type",ae,84,a9,64)));
             										}
             									}
             								}
@@ -800,7 +810,7 @@ HXLINE( 473)											HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(HX_("conv
             				}
             			}
             		}
-HXLINE( 429)		return null();
+HXLINE( 439)		return null();
             	}
 
 
