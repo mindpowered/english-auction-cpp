@@ -49,25 +49,25 @@ class HXCPP_CLASS_ATTRIBUTES AuctionRepository_obj : public ::hx::Object
 		::String __ToString() const { return HX_("AuctionRepository",8d,c7,61,36); }
 
 		 ::maglev::MagLev bus;
-		void Add( ::englishauction::AuctionModel auction);
+		void Add( ::englishauction::AuctionModel auction, ::Dynamic callback);
 		::Dynamic Add_dyn();
 
-		void Edit( ::englishauction::AuctionModel auction);
+		void Edit( ::englishauction::AuctionModel auction, ::Dynamic callback);
 		::Dynamic Edit_dyn();
 
-		void Remove(::String auctionId);
+		void Remove(::String auctionId, ::Dynamic callback);
 		::Dynamic Remove_dyn();
 
-		 ::englishauction::AuctionModel FindById(::String auctionId);
+		void FindById(::String auctionId, ::Dynamic callback);
 		::Dynamic FindById_dyn();
 
-		::Array< ::Dynamic> FindAuctionsEnding(int endfrom,int endto,int page,int perpage,::String sort,bool asc);
+		void FindAuctionsEnding(int endfrom,int endto,int page,int perpage,::String sort,bool asc, ::Dynamic callback);
 		::Dynamic FindAuctionsEnding_dyn();
 
-		::Array< ::Dynamic> FindAuctionsStarting(int startfrom,int startto,int page,int perpage,::String sort,bool asc);
+		void FindAuctionsStarting(int startfrom,int startto,int page,int perpage,::String sort,bool asc, ::Dynamic callback);
 		::Dynamic FindAuctionsStarting_dyn();
 
-		::Array< ::Dynamic> FindOpenAuctions(int page,int perpage,::String sort,bool asc);
+		void FindOpenAuctions(int page,int perpage,::String sort,bool asc, ::Dynamic callback);
 		::Dynamic FindOpenAuctions_dyn();
 
 };

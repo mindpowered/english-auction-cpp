@@ -32,7 +32,7 @@ Reference in BUILD ...
 
 
 # Configuration
-You must configure the storage and retrieval of auctions and bids.
+You must configure the storage and retrieval of auctions and bids. Before we can make use of englishauction's functions, we have to create Callback functions for englishauction to use whenever it needs to use any persistent data regarding auctions and bids. A common way of storing persistent data is using SQL. Each setup function bridges the gap between your auction data and the englishauction package's functionality.
 
 # Usage
 You are using C++
