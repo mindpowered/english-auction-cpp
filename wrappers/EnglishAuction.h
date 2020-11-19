@@ -27,14 +27,12 @@ public:
 	 * @param priceIncrement price increments for bids in the auction
 	 * @return {string} auctionId
 	*/
-	std::string Create(std::string start, std::string end, double startingPrice, double reservePrice, double priceIncrement) {
+	std::string Create(double start, double end, double startingPrice, double reservePrice, double priceIncrement) {
 		::maglev::MagLevCpp bus = ::maglev::MagLevCpp::getInstance("englishauction");
 		std::vector<::maglev::CppAny> myargs;
-		::maglev::CppAny param0;
-		param0.setStdString(start);
+		//????
 		myargs.push_back(param0);
-		::maglev::CppAny param1;
-		param1.setStdString(end);
+		//????
 		myargs.push_back(param1);
 		//????
 		myargs.push_back(param2);
@@ -80,7 +78,7 @@ public:
 	/*!
 	 * Check if an auction has started yet
 	 * @param auctionId auction id
-	 * @return {bool} true if auction started, false otherwise
+	 * @return {bool} true if auction has started, false otherwise
 	*/
 	bool HasStarted(std::string auctionId) {
 		::maglev::MagLevCpp bus = ::maglev::MagLevCpp::getInstance("englishauction");
@@ -89,6 +87,21 @@ public:
 		param0.setStdString(auctionId);
 		myargs.push_back(param0);
 		::maglev::CppAny ret = bus->call("EnglishAuction.HasStarted", myargs);
+		return ret;
+	}
+
+	/*!
+	 * Check if an auction has ended yet
+	 * @param auctionId auction id
+	 * @return {bool} true if auction has ended, false otherwise
+	*/
+	bool HasEnded(std::string auctionId) {
+		::maglev::MagLevCpp bus = ::maglev::MagLevCpp::getInstance("englishauction");
+		std::vector<::maglev::CppAny> myargs;
+		::maglev::CppAny param0;
+		param0.setStdString(auctionId);
+		myargs.push_back(param0);
+		::maglev::CppAny ret = bus->call("EnglishAuction.HasEnded", myargs);
 		return ret;
 	}
 
