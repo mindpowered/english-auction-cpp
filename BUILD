@@ -3,6 +3,7 @@ cc_library(
   visibility = ['//visibility:public'],
   deps = [
     '@haxecpp//:haxecpp',
+    '@persistence//:persistence',
     '@maglev//:maglev',
     ':libenglishauction_a',
   ],
