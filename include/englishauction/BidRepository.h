@@ -49,7 +49,7 @@ class HXCPP_CLASS_ATTRIBUTES BidRepository_obj : public ::hx::Object
 		::String __ToString() const { return HX_("BidRepository",87,3a,1e,e6); }
 
 		 ::maglev::MagLev bus;
-		void Add( ::englishauction::BidModel bid);
+		void Add( ::englishauction::BidModel bid, ::Dynamic callback);
 		::Dynamic Add_dyn();
 
 		void Edit( ::englishauction::BidModel bid);
@@ -61,10 +61,10 @@ class HXCPP_CLASS_ATTRIBUTES BidRepository_obj : public ::hx::Object
 		 ::englishauction::BidModel FindById(::String bidId);
 		::Dynamic FindById_dyn();
 
-		int GetNumberOfBids(::String auctionId);
+		void GetNumberOfBids(::String auctionId, ::Dynamic callback);
 		::Dynamic GetNumberOfBids_dyn();
 
-		::Array< ::Dynamic> GetHighestBids(::String auctionId,int numBids);
+		void GetHighestBids(::String auctionId,int numBids, ::Dynamic callback);
 		::Dynamic GetHighestBids_dyn();
 
 };

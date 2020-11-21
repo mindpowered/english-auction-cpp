@@ -38,7 +38,7 @@ void BidModel_obj::__Mark(HX_MARK_PARAMS)
 	HX_MARK_MEMBER_NAME(id,"id");
 	HX_MARK_MEMBER_NAME(auctionId,"auctionId");
 	HX_MARK_MEMBER_NAME(userId,"userId");
-	HX_MARK_MEMBER_NAME(amount,"amount");
+	HX_MARK_MEMBER_NAME(price,"price");
 	HX_MARK_END_CLASS();
 }
 
@@ -47,7 +47,7 @@ void BidModel_obj::__Visit(HX_VISIT_PARAMS)
 	HX_VISIT_MEMBER_NAME(id,"id");
 	HX_VISIT_MEMBER_NAME(auctionId,"auctionId");
 	HX_VISIT_MEMBER_NAME(userId,"userId");
-	HX_VISIT_MEMBER_NAME(amount,"amount");
+	HX_VISIT_MEMBER_NAME(price,"price");
 }
 
 ::hx::Val BidModel_obj::__Field(const ::String &inName,::hx::PropertyAccess inCallProp)
@@ -56,9 +56,11 @@ void BidModel_obj::__Visit(HX_VISIT_PARAMS)
 	case 2:
 		if (HX_FIELD_EQ(inName,"id") ) { return ::hx::Val( id ); }
 		break;
+	case 5:
+		if (HX_FIELD_EQ(inName,"price") ) { return ::hx::Val( price ); }
+		break;
 	case 6:
 		if (HX_FIELD_EQ(inName,"userId") ) { return ::hx::Val( userId ); }
-		if (HX_FIELD_EQ(inName,"amount") ) { return ::hx::Val( amount ); }
 		break;
 	case 9:
 		if (HX_FIELD_EQ(inName,"auctionId") ) { return ::hx::Val( auctionId ); }
@@ -72,9 +74,11 @@ void BidModel_obj::__Visit(HX_VISIT_PARAMS)
 	case 2:
 		if (HX_FIELD_EQ(inName,"id") ) { id=inValue.Cast< ::String >(); return inValue; }
 		break;
+	case 5:
+		if (HX_FIELD_EQ(inName,"price") ) { price=inValue.Cast< Float >(); return inValue; }
+		break;
 	case 6:
 		if (HX_FIELD_EQ(inName,"userId") ) { userId=inValue.Cast< ::String >(); return inValue; }
-		if (HX_FIELD_EQ(inName,"amount") ) { amount=inValue.Cast< Float >(); return inValue; }
 		break;
 	case 9:
 		if (HX_FIELD_EQ(inName,"auctionId") ) { auctionId=inValue.Cast< ::String >(); return inValue; }
@@ -87,7 +91,7 @@ void BidModel_obj::__GetFields(Array< ::String> &outFields)
 	outFields->push(HX_("id",db,5b,00,00));
 	outFields->push(HX_("auctionId",fe,08,7f,46));
 	outFields->push(HX_("userId",06,3b,ef,41));
-	outFields->push(HX_("amount",d8,11,03,d5));
+	outFields->push(HX_("price",89,4e,8b,c8));
 	super::__GetFields(outFields);
 };
 
@@ -96,7 +100,7 @@ static ::hx::StorageInfo BidModel_obj_sMemberStorageInfo[] = {
 	{::hx::fsString,(int)offsetof(BidModel_obj,id),HX_("id",db,5b,00,00)},
 	{::hx::fsString,(int)offsetof(BidModel_obj,auctionId),HX_("auctionId",fe,08,7f,46)},
 	{::hx::fsString,(int)offsetof(BidModel_obj,userId),HX_("userId",06,3b,ef,41)},
-	{::hx::fsFloat,(int)offsetof(BidModel_obj,amount),HX_("amount",d8,11,03,d5)},
+	{::hx::fsFloat,(int)offsetof(BidModel_obj,price),HX_("price",89,4e,8b,c8)},
 	{ ::hx::fsUnknown, 0, null()}
 };
 static ::hx::StaticInfo *BidModel_obj_sStaticStorageInfo = 0;
@@ -106,7 +110,7 @@ static ::String BidModel_obj_sMemberFields[] = {
 	HX_("id",db,5b,00,00),
 	HX_("auctionId",fe,08,7f,46),
 	HX_("userId",06,3b,ef,41),
-	HX_("amount",d8,11,03,d5),
+	HX_("price",89,4e,8b,c8),
 	::String(null()) };
 
 ::hx::Class BidModel_obj::__mClass;

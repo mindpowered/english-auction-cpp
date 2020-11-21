@@ -62,7 +62,7 @@ class HXCPP_CLASS_ATTRIBUTES BidModel_obj : public ::hx::Object
 		::String id;
 		::String auctionId;
 		::String userId;
-		Float amount;
+		Float price;
 };
 
 } // end namespace englishauction

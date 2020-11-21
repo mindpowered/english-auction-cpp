@@ -18,6 +18,7 @@
   <file name="src/englishauction/BidRepository.cpp">
    <depend name="include/englishauction/BidModel.h" />
    <depend name="include/englishauction/BidRepository.h" />
+   <depend name="include/haxe/Exception.h" />
   </file>
   <file name="src/englishauction/BidModel.cpp">
    <depend name="include/englishauction/BidModel.h" />
