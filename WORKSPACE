@@ -1,12 +1,6 @@
 # due to limitations of Bazel,
 # you must add these rules to your WORKSPACE file
 
-git_repository(
-	name = 'persistence',
-	remote = 'https://github.com/mindpowered/persistence-cpp.git',
-	branch = 'master',
-)
-
 # deps placeholder
 
 git_repository(
