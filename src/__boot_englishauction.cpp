@@ -107,6 +107,11 @@
 
 void __boot_englishauction()
 {
+//only boot once
+static bool already_called = false;
+if (already_called) return;
+already_called = true;
+
 ::haxe::StackItem_obj::__register();
 ::ValueType_obj::__register();
 ::englishauction::EnglishAuction_obj::__register();

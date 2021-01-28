@@ -1,52 +1,88 @@
 
 englishauction
 ==============
+Online auctions with ascending price and time limit
+
+![Build Status](https://mindpowered.dev/assets/images/github-badges/build-passing.svg)
 
 Contents
 ========
 
-* [About](#about)
+* [Source Code and Documentation](#source-code-and-documentation)
+* [Licensing](#licensing)
 * [Requirements](#requirements)
 * [Installation](#installation)
-* [Configuration](#configuration)
 * [Usage](#usage)
-* [Licensing](#licensing)
 * [Support](#support)
 
-# About
-A Timed Auction library starting at a low price and increasing until the auction ends.
+# Source Code and Documentation
+- Source Code: [https://github.com/mindpowered/english-auction-cpp](https://github.com/mindpowered/english-auction-cpp)
+- Documentation: [https://mindpowered.github.io/english-auction-cpp](https://mindpowered.github.io/english-auction-cpp)
+
+# Licensing
+To obtain a version of this package under the MIT License, follow the instructions to [get a license][purchase]. The MIT License has no restrictions on commercial use and permits reuse within proprietary software.
 
 # Requirements
-Bazel - https://www.bazel.build/
-Haxe 4.1.1
-Neko
-hxcpp - https://lib.haxe.org/p/hxcpp/
-g++
+- Bazel - https://www.bazel.build/
+- Haxe 4.1.1
+- Neko
+- hxcpp - https://lib.haxe.org/p/hxcpp/
+- g++
 
 
 Third-party dependencies may have additional requirements.
 
 # Installation
-Add to WORKSPACE ...
-Reference in BUILD ...
+Add rules to WORKSPACE file ...
 
+```
+load("@bazel_tools//tools/build_defs/repo:git.bzl", "git_repository")
 
-# Configuration
-You must configure the storage and retrieval of auctions and bids. Before we can make use of englishauction's functions, we have to create Callback functions for englishauction to use whenever it needs to use any persistent data regarding auctions and bids. A common way of storing persistent data is using SQL. Each setup function bridges the gap between your auction data and the englishauction package's functionality.
+git_repository(
+  name = 'maglev',
+  remote = 'https://github.com/mindpowered/maglev-cpp.git',
+  branch = 'master',
+)
+git_repository(
+  name = 'haxecpp',
+  remote = 'https://github.com/mindpowered/haxecpp-cpp.git',
+  branch = 'master',
+)
+git_repository(
+  name = 'englishauction',
+  remote = 'https://github.com/mindpowered/english-auction-cpp.git',
+  branch = 'master',
+)
+```
+
+Reference dependency in BUILD file ...
+
+```
+    deps = [
+        ...
+        "@englishauction//:englishauction"
+        ...
+    ],
+```
+
 
 # Usage
-You are using C++
+```cpp
+#include <mindpowered/englishauction/EnglishAuction.h>
 
+{
+    auto ea = new EnglishAuction();
+    ea->GetOpenAuctions(0, 10, "start", true);
+    delete ea;
+}
 
-More examples to come
+```
 
-# Licensing
-Additional [licensing options][licensing] are available.
 
 # Support
-For bug fixes, please raise an issue in the [Issue Tracker][bugs].
+We are here to support using this package. If it doesn't do what you're looking for, isn't working, or you just need help, please [Contact us][contact].
 
-For feature requests, and general support, please [Contact us][contact].
+There is also a public [Issue Tracker][bugs] available for this package.
 
 
 
@@ -54,3 +90,4 @@ For feature requests, and general support, please [Contact us][contact].
 [contact]: https://mindpowered.dev/support.html?ref=english-auction-cpp/
 [docs]: https://mindpowered.github.io/english-auction-cpp/
 [licensing]: https://mindpowered.dev/?ref=english-auction-cpp
+[purchase]: https://mindpowered.dev/purchase/
